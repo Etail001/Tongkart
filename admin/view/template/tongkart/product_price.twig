@@ -1,0 +1,687 @@
+{{ header }}{{ column_left }}
+
+<div id="content">
+  <div class="sl-mfp-bg" style="display: none;"></div>
+<div style="display: none; position: fixed; opacity: 1; z-index: 2147483647; left: 50%; margin-left: -400px; top: 50.15px;" data-em="modal1" id="sl_customer_popup_button">
+   <div data-em="modal-html">
+      <div data-em="modal-container" style="min-height: 206px;">
+          <div id="clicklayeridconfirm" class="click-layer close-alert" style="">
+              <div class="click-close-title">
+                  <div class="col-md-12 text-left" style="padding-left:12px;text-align: center;">
+                      {% if enquiry_status %}
+                          <strong style="font-size:18px;color:#333333;">Update Price</strong>
+                      {% else %}
+                      <strong style="font-size:18px;color:#333333;"><!-- Title -->Update Price</strong>
+                      {% endif %}
+                      <span class="close-exit-popup" style="position:absolute;right:15px;">
+                          <svg xmlns="https://www.w3.org/2000/svg" style="display:none;">
+                              <defs class="close-link">
+                                  <g id="close-btn">
+                                      <path id="svg_1" d="m10,0a10,10 0 1 0 10,10a10,10 0 0 0 -10,-10zm0,18.3a8.3,8.3 0 0 1 -8.3,-8.3a8.3,8.3 0 0 1 8.3,-8.3a8.3,8.3 0 0 1 8.3,8.3a8.3,8.3 0 0 1 -8.3,8.3zm1.2,-8.3l2.3,-2.3a0.8,0.8 0 0 0 -1.2,-1.2l-2.3,2.3l-2.3,-2.3a0.8,0.8 0 0 0 -1.2,1.2l2.3,2.3l-2.3,2.3a0.8,0.8 0 0 0 0,1.2c0.2,0.2 0.3,0.2 0.7,0.2s0.5,0 0.7,-0.2l2.1,-2.3l2.3,2.3c0.2,0.2 0.3,0.2 0.7,0.2s0.5,0 0.7,-0.2a0.8,0.8 0 0 0 0,-1.2l-2.5,-2.3z"></path>
+                                  </g>
+                              </defs>
+                          </svg>
+                          <svg id="VdialogClose" class="close-btn">
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close-btn"></use>
+                          </svg>
+                      </span>
+                  </div>
+              </div>
+              {% if enquiry_status %}
+                  <div class="col-md-12 text-center">
+                  <table class="col-md-12">
+                      <tbody>
+                          <tr style="height:36px;">
+                              <td class="text-left">Add Your Comment:</td>
+                          </tr>
+                          <tr>
+                              <td class="text-left">
+                                  <input type="hidden" id="enquiry_id" value = "{{ enquiry_id }}">
+                                  <textarea id="reason" name="reason" cols="" rows="4"></textarea>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <div class="text-left fontred" id="msgsuccess" style="padding: 0% 0% 1% 2%;"></div>
+                    <div class="text-left fontred" id="msgTip" style="padding: 0% 0% 1% 2%;"></div>
+                    <div class="row">
+                        <div class="clear20"></div>
+                        <div class="col-md-12">
+                            <div class="col-md-4">
+                                <button id="botton_Confirm" class="common-btn2 btn-color1" onclick="sl_customer_popup()" style="text-align:center;color:#fff;"><span>Submit</span> </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="refund-alert-con scroll-y">
+                  <div class="status-box">
+                      <ul class="status-list" id="disputecontent">
+                          {% for details in enquiry_details %}
+                              <li class="latest">
+                              <div class="status-day">{{ details.date }}
+                                  <p>{{ details.time }}</p>
+                              </div>
+                              <div class="status-content">
+                                  <span class="status-name-latest">{{ details.user }}</span>
+                                  <p>{{ details.description }}</p>
+                              </div>
+                          </li>
+                          {% endfor %}    
+                           
+                      </ul>
+                  </div>
+                  </div>
+              </div>
+              {% else %}
+              <div class="col-md-12 text-center">
+                          <div class="tab-content">
+                          <div class="form-group col-md-12">
+                              <label class="col-sm-6 control-label" for="input-meta-title">Current Tongkart Price: </label>
+                              <div class="col-sm-4" id="current_price">
+                              </div>
+                          </div>
+                          <div class="form-group col-md-12"> 
+                                <label class="col-sm-6 control-label" for="input-meta-title">New Tongkart Price = Current Tongkart Price + </label>
+                                <div class="col-sm-4">
+                                  <input type="text" name="sp" id="sp">
+                                </div>
+                          </div>
+              </div>
+              </div>
+              <div class="text-left fontred" id="msgsuccess" style="padding: 0% 0% 1% 2%;"></div>
+              <div class="text-left fontred" id="msgTip" style="padding: 0% 0% 1% 2%;"></div>
+              <div class="row">
+                  <div class="clear20"></div>
+                  <div class="col-md-12">
+                      <div class="col-md-12">
+                          <button id="botton_Confirm" class="common-btn2 btn-color1" onclick="sl_customer_popup()" style="text-align:center;color:#fff;"><span style="cursor: pointer;">Submit</span> </button>
+                      </div>
+                  </div>
+              </div>
+              {% endif %}
+              
+          </div>
+          <div id="registered"></div>
+      </div>
+   </div>
+   <div class="popup_error_msg" style="display:none;"></div>
+   <div class="popup_success_msg" style="color: green;float: left;"></div>
+
+</div>
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="pull-right">
+      </div>
+      <h1>{{ heading_title }}</h1>
+      <ul class="breadcrumb">
+        {% for breadcrumb in breadcrumbs %}
+        <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div id="filter-product">
+      <div class="panel panel-default">
+        
+        <div class="panel-body">
+          <div class="well">
+          <div class="row">
+            <div class="col-sm-2">
+            <div class="form-group">
+              <label class="control-label" for="input-name">{{ entry_name }}</label>
+              <input type="text" name="filter_name" value="{{ filter_name }}" placeholder="{{ entry_name }}" id="input-name" class="form-control" />
+            </div>
+            </div>
+            <div class="col-sm-2">
+            <div class="form-group">
+              <label class="control-label" for="input-model">SKU</label>
+              <input type="text" name="filter_model" value="{{ filter_model }}" placeholder="SKU" id="input-model" class="form-control" />
+            </div>
+            </div>
+            <div class="col-sm-1">      
+            <div class="form-group" style="margin-top: 23px;">
+              <button type="button" id="button-filter" class="btn btn-default"><i class="fa fa-filter"></i> {{ button_filter }}</button>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">{% if error_warning %}
+    <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+    </div>
+    {% endif %}
+    {% if success %}
+    <div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> {{ success }}
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+    </div>
+    {% endif %}
+    <div class="row">
+      <div class="col-md-pull-3">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title"><i class="fa fa-list"></i> Product Price Update</h3>
+          </div>
+          <div class="panel-body">
+              <div class="table-responsive">
+                <div class="col-sm-2">
+                <div class="form-group">
+                <label class="control-label" for="input-order-sites">Customer</label>
+                <select name="filter_order_sites" id="input-order-sites" class="form-control">
+                  <option value="0">All</option>
+                  {% for customers in all_customers %}
+                  {% if customers.customer_id == filter_order_sites %}
+
+                  <option value="{{ customers.customer_id }}" selected="selected">{{ customers.name }}</option>
+
+                  {% else %}
+
+                  <option value="{{ customers.customer_id }}">{{ customers.name }}</option>
+
+                  {% endif %}
+                  {% endfor %}
+
+                </select>
+              </div>
+                </div>
+                <table class="table table-bordered table-hover">
+                  <thead>
+                    <tr>
+                      <td class="text-center">{{ column_image }}</td>
+                      <td class="text-left">{% if sort == 'pd.name' %} <a href="{{ sort_name }}" class="{{ order|lower }}">{{ column_name }}</a> {% else %} <a href="{{ sort_name }}">{{ column_name }}</a> {% endif %}</td>
+                      <td class="text-left">{% if sort == 'p.model' %} <a href="{{ sort_model }}" class="{{ order|lower }}">{{ column_model }}</a> {% else %} <a href="{{ sort_model }}">{{ column_model }}</a> {% endif %}</td>
+                      <td class="text-right">{% if sort == 'p.price' %} <a href="{{ sort_price }}" class="{{ order|lower }}">{{ column_price }}</a> {% else %} <a href="{{ sort_price }}">{{ column_price }}</a> {% endif %}</td>
+			 <!--<td class="text-right">Listing Price</td>-->
+                      <td class="text-right">{% if sort == 'p.quantity' %} <a href="{{ sort_quantity }}" class="{{ order|lower }}">{{ column_quantity }}</a> {% else %} <a href="{{ sort_quantity }}">{{ column_quantity }}</a> {% endif %}</td>
+                      <td class="text-right">{{ column_action }}</td>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                  
+                  {% if products %}
+                  {% for product in products %}
+                  <tr>
+                    <td class="text-center">{% if product.image %} <img src="{{ product.image }}" alt="{{ product.name }}" class="img-thumbnail" style="width:100px;"/> {% else %} <span class="img-thumbnail list"><i class="fa fa-camera fa-2x"></i></span> {% endif %}</td>
+                    <td class="text-left"><a href="{{ product.href }}" target="_blank">{{ product.name }}</a></td>
+                    <td class="text-left">{{ product.model }}</td>
+                    <td class="text-right">{% if product.special %} <span style="text-decoration: line-through;">{{ product.price }}</span><br/>
+                      <div class="text-danger">{{ product.special }}</div>
+                      {% else %}
+                      {{ product.price }}
+                      {% endif %}</td>
+			<!--<td class="text-right">{{ product.listing_price }}</td>-->
+                    <td class="text-right">{% if product.quantity <= 0 %} <span class="label label-warning">{{ product.quantity }}</span> {% elseif product.quantity <= 5 %} <span class="label label-danger">{{ product.quantity }}</span> {% else %} <span class="label label-success">{{ product.quantity }}</span> {% endif %}</td>
+                    <td><button style="margin-left: 15px;" data ="{{ product.product_id }}" price="{{ product.price }}" price_value="{{ product.price_value }}" class="btn btn-success change-status">Update Price</button></td>
+                  </tr>
+                  {% endfor %}
+                  {% else %}
+                  <tr>
+                    <td class="text-center" colspan="8">{{ text_no_results }}</td>
+                  </tr>
+                  {% endif %}
+                    </tbody>
+                  
+                </table>
+              </div>
+            <div class="row">
+              <div class="col-sm-6 text-left">{{ pagination }}</div>
+              <div class="col-sm-6 text-right">{{ results }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript"><!--
+$('#button-filter').on('click', function() {
+	var url = '';
+
+	var filter_name = $('input[name=\'filter_name\']').val();
+
+	if (filter_name) {
+		url += '&filter_name=' + encodeURIComponent(filter_name);
+	}
+
+	var filter_model = $('input[name=\'filter_model\']').val();
+
+	if (filter_model) {
+		url += '&filter_model=' + encodeURIComponent(filter_model);
+	}
+
+	var filter_price = $('input[name=\'filter_price\']').val();
+
+	if (filter_price) {
+		url += '&filter_price=' + encodeURIComponent(filter_price);
+	}
+
+	var filter_quantity = $('input[name=\'filter_quantity\']').val();
+
+	if (filter_quantity) {
+		url += '&filter_quantity=' + encodeURIComponent(filter_quantity);
+	}
+
+	var filter_status = $('select[name=\'filter_status\']').val();
+
+	if (filter_status !== '') {
+		url += '&filter_status=' + encodeURIComponent(filter_status);
+	}
+
+	location = 'index.php?route=tongkart/product_price&user_token={{ user_token }}' + url;
+});
+$('#button-export').on('click', function() {
+	var url = '';
+
+	var filter_name = $('input[name=\'filter_name\']').val();
+
+	if (filter_name) {
+		url += '&filter_name=' + encodeURIComponent(filter_name);
+	}
+
+	var filter_model = $('input[name=\'filter_model\']').val();
+
+	if (filter_model) {
+		url += '&filter_model=' + encodeURIComponent(filter_model);
+	}
+
+	var filter_price = $('input[name=\'filter_price\']').val();
+
+	if (filter_price) {
+		url += '&filter_price=' + encodeURIComponent(filter_price);
+	}
+
+	var filter_quantity = $('input[name=\'filter_quantity\']').val();
+
+	if (filter_quantity) {
+		url += '&filter_quantity=' + encodeURIComponent(filter_quantity);
+	}
+
+	var filter_status = $('select[name=\'filter_status\']').val();
+
+	if (filter_status !== '') {
+		url += '&filter_status=' + encodeURIComponent(filter_status);
+	}
+
+	location = 'index.php?route=tongkart/catalog_new/export&user_token={{ user_token }}' + url;
+});
+//--></script> 
+  <script type="text/javascript"><!--
+// IE and Edge fix!
+$('button[form=\'form-product\']').on('click', function(e) {
+	$('#form-product').attr('action', $(this).attr('formaction'));
+});
+  
+$('input[name=\'filter_name\']').autocomplete({
+	'source': function(request, response) {
+		$.ajax({
+			url: 'index.php?route=catalog/product/autocomplete&user_token={{ user_token }}&filter_name=' +  encodeURIComponent(request),
+			dataType: 'json',
+			success: function(json) {
+				response($.map(json, function(item) {
+					return {
+						label: item['name'],
+						value: item['product_id']
+					}
+				}));
+			}
+		});
+	},
+	'select': function(item) {
+		$('input[name=\'filter_name\']').val(item['label']);
+	}
+});
+
+$('input[name=\'filter_model\']').autocomplete({
+	'source': function(request, response) {
+		$.ajax({
+			url: 'index.php?route=catalog/product/autocomplete&user_token={{ user_token }}&filter_model=' +  encodeURIComponent(request),
+			dataType: 'json',
+			success: function(json) {
+				response($.map(json, function(item) {
+					return {
+						label: item['model'],
+						value: item['product_id']
+					}
+				}));
+			}
+		});
+	},
+	'select': function(item) {
+		$('input[name=\'filter_model\']').val(item['label']);
+	}
+});
+$('.change-status').bind('click',function(){
+        
+        $("#sl_customer_popup_button").css('display', 'block');
+        $(".sl-mfp-bg").css('display', 'block');
+        var id = $('.change-status').attr('data');
+        var cus_id = $('#input-order-sites').val();
+        $.ajax({
+                url: "index.php?route=tongkart/product_price/getPrice",
+                data: 'customer_id='+cus_id+'&product_id='+id+'&user_token={{ user_token }}',
+                success: function (data) {
+                   $('#current_price').html(data);
+                   $('.change-status').attr("price_value", data);
+
+                }
+            });
+        
+        
+        
+        
+    });
+    function sl_customer_popup(){
+        var id = $('.change-status').attr('data');
+        var cus_id = $('#input-order-sites').val();
+        var price = $('.change-status').attr('price_value');
+        var up_price = $('#sp').val();
+        $.ajax({
+                url: "index.php?route=tongkart/product_price/update",
+                data: 'customer_id='+cus_id+'&product_id='+id+'&cur_price='+price+'&up_price='+up_price+'&user_token={{ user_token }}',
+                success: function (data) {
+                   if(data == 'sent'){
+                       $('#msgsuccess').text('Submited Succesfully');
+                       setTimeout(
+                         function() 
+                         {
+                           $("#sl_customer_popup_button").css('display', 'none');
+                           $(".sl-mfp-bg").css('display', 'none');
+                           window.location.replace("index.php?route=tongkart/product_price&user_token={{ user_token }}");
+                         }, 3000);
+
+                   } else {
+                       $('#msgTip').text('Error.');
+                   }
+
+                }
+            });
+    }
+    $('.close-exit-popup').bind('click', function(){
+                $("#sl_customer_popup_button").css('display', 'none');
+                $(".sl-mfp-bg").css('display', 'none');
+	});
+//--></script></div>
+{{ footer }} 
+<style>
+@media (min-width: 1590px) {
+    #content.acwidth {
+        width: 100%;
+    }
+}
+.orders-details-right .myorder-line {
+    height: 7px;
+    border-top: 2px solid #7b999e;
+    width: 98%;
+    position: absolute;
+    bottom: 10px;
+}
+.myorder-step, .myorder-step-current {
+    width: 32px;
+    height: 32px;
+    display: block;
+    border-radius: 32px;
+    margin: 0 auto;
+}
+.current-bg {
+    fill: #54bbeb;
+}
+.myorder-step {
+    display: block;
+    border: 1px solid #7b999e;
+    background: #fff;
+    line-height: 29px;
+}
+.common-btn, .common-btn2, .common-btn3, .common-btn4 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    -webkit-transition: background-color .2s ease-in-out;
+    -o-transition: background-color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+    background-color: #54bbeb;
+    padding: 9px 14px;
+}
+</style>
+<style>
+    .sl-mfp-bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1042;
+    overflow: hidden;
+    position: fixed;
+    background: #0b0b0b;
+    opacity: 0.6;
+    filter: alpha(opacity=80);
+}
+#msgTip{
+    color: red;
+}
+#msgsuccess{
+    color: green;
+}
+select {
+    text-transform: none;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #d2dce8;
+    font-size: 14px;
+    padding: 6px 10px;
+    line-height: 20px;
+    background: #fff calc(100% - 4px) 50%;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+textarea {
+    border: 1px solid #d2dce8;
+    padding: 5px 13px;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    color: inherit;
+}
+.close-exit-popup{
+    position: absolute !important;
+    z-index: 999999999999999 !important;
+    top: -1px !important;
+    right: -281px !important;
+    cursor: pointer !important;
+}
+[data-em=modal-close] {
+    position: absolute !important;
+    z-index: 999999999999999 !important;
+    top: -21px !important;
+    right: -22px !important;
+    cursor: pointer !important;
+}
+[data-em=modal-container] {
+    width: 800px;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: white;
+    text-align: center;
+    font-family: Helvetica Nueue, Helvetica, Arial, Times, sans-serif;
+}
+[data-em=modal-container] {
+    width: 800px !important;
+    overflow: hidden !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+[data-em=modal-container] [data-em=text-line-1] {
+    color: white;
+    font-size: 40px;
+    line-height: 65px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 5%;
+}
+[data-em=modal-container] [data-em=text-line-2] {
+    color: white;
+    font-size: 45px;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 15px 0 25px 0;
+    font-weight: bold;
+    margin-top: 4%;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 5%;
+}
+[data-em=modal-container] [data-em=text-line-3] {
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 15px 0 25px 0;
+    font-weight: bold;
+    margin-top: 4%;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 5%;
+}
+.input_background_popup {
+    padding: 15px 0;
+}
+[data-em=modal-container] [data-em=button] {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    font-size: 27px;
+    font-weight: bold;
+    width: 260px;
+    display: block;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    height: 60px;
+    border: 1px solid black;
+}
+.popup_error_msg {
+    position: absolute;
+    color: white;
+    margin-bottom: 5px;
+    float: left;
+    margin-top: 33px;
+    display: block;
+    top: 57%;
+    left: 24%;
+    width: 430px;
+    text-align: center;
+    line-height: 12px;
+    background: rgba(255, 39, 0, 0.74);
+    padding: 5px;
+}
+.popup_success_msg{
+    position: absolute;
+    color: white;
+    margin-bottom: 5px;
+    float: left;
+    margin-top: 33px;
+    display: block;
+    top: 57%;
+    left: 15%;
+    width: 560px;
+    text-align: center;
+    line-height: 12px;
+    padding: 5px;
+    font-size: 23px;
+}
+
+
+.refund-alert-con {
+    width: 100%;
+    height: 246px;
+    margin-top: 30px;
+    float: left;
+    overflow-y: auto;
+}
+.refund-alert-con .status-box {
+    padding: 0 80px;
+}
+.status-box {
+    position: relative;
+}
+.refund-alert-con .status-box .status-list {
+    margin: 0 0 0 90px;
+}
+.status-box .status-list li {
+    padding-bottom: 20px;
+    border-left: 2px solid #7b999e;
+    text-align: left;
+    position: relative;
+}
+.refund-alert-con .status-box .status-list li .status-day {
+    left: -125px;
+    text-align: right;
+}
+.status-box .status-list li .status-day {
+    position: absolute;
+    left: -76px;
+    top: -3px;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+.refund-alert-con .status-content {
+    margin-left: 40px;
+}
+.refund-alert-con .status-box .status-list li span {
+    margin: 0;
+    font-size: 16px;
+}
+.status-box .status-list li span {
+    display: inline-flex;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+ol, ul, li {
+    list-style: none;
+}
+.status-name-latest {
+    width: 205px;
+    text-align: left;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.refund-alert-con .status-box .status-list li .status-day p {
+    font-size: 14px;
+    font-weight: normal;
+}
+.status-box .status-list li:before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    margin-left: -4px;
+    margin-right: 10px;
+    position: absolute;
+    top: 8px;
+    background-color: #7b999e;
+}
+</style>

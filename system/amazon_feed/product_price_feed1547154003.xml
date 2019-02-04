@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+            <AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+            <Header>
+            <DocumentVersion>1.01</DocumentVersion>
+            <MerchantIdentifier>A1LTO87O7AHC09</MerchantIdentifier>
+            </Header>
+            <MessageType>Price</MessageType><Message>
+                <MessageID>1</MessageID>
+                <Price>
+                <SKU>QS_G9867GY-M</SKU> 
+                <StandardPrice currency="INR">1947.12</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1442.31</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">3504.81</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>2</MessageID>
+                <Price>
+                <SKU>QS_G9867R-L</SKU> 
+                <StandardPrice currency="INR">1953.16</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1446.79</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">3515.69</MaximumSellerAllowedPrice>
+                </Price>
+                </Message></AmazonEnvelope>

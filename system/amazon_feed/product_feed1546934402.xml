@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<AmazonEnvelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+	<Header>
+		<DocumentVersion>1.01</DocumentVersion><MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier></Header>
+	<MessageType>Product</MessageType>
+	<PurgeAndReplace>false</PurgeAndReplace><Message>
+		<MessageID>1</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_H18422BL</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096722</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-08T08:00:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Sample New LED Lighting Light Glowing Luminous Hand Finger Tri Spinner Fidget Toy Stress Reducer Anxiety Relieves Focus Helper EDC Pocket Desktoy Gift for ADHD Children Adults</Title>
+				<Brand>Zenuss</Brand> 
+				<Description>This is a totally revolutionary and and new fidget i-spinner toy that not only removes anxiety and helps you to focus, but also has 3 LED lights that glow with different colors while you spin it! 
+
+Features:
+Revolutionary design, with 3 LED lights that glow with different colors while you spin it, pretty cool and funny.
+Fast and stable spinning will ing you much satisfaction and pleasure.
+Little gadget but can effectively help you relieve sess, anxiety and boredom.
+Simple toy but also helpful in sedation and increasing focus.
+Perfect pocket-d toy, suitable for every day carry.
+Great for fidgety hands, ADHD suffers.
+
+Specifications:
+Material: ABS
+Bearing type: Steel 
+Battery: 3 * CR1220 (3V, 40mAh) button battery (inlcuded)
+Times of use: About 200 thousand times
+ Black, white, yellow, blue (optional)
+Item : Approx. 7.5 * 7.5cm / 2.95 * 2.95in
+Item weight: Approx. 27g / 0.95oz
+Package : Approx. 7.5 * 7.5 * 1cm / 2.95 * 2.95 * 0.39in
+Package weight: 33g / 1.2oz
+
+Note: Press its load-bearing to turn on/off and change the LED light.
+
+Package list:
+1 * Fidget spinner</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Revolutionary design, with 3 LED lights that glow with different colors while you spin it, pretty cool and funny.Fast and stable spinning will ing you much satisfaction and pleasure.Little gadget but can effectively help you relieve sess, anxiety and boredom.Simple toy but also helpful in sedation and increasing focus.Perfect pocket-d toy, suitable for every day carry.Great for fidgety hands, ADHD suffers.</BulletPoint><BulletPoint> ABS</BulletPoint><BulletPoint>1 * Fidget spinner</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">28.8</Length> 
+	 <Width unitOfMeasure="CM">11.7</Width> 
+	 <Height unitOfMeasure="CM">12.2</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>QS_H18422BL</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>QS_H18422BL</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>2454176031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>blue</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message></AmazonEnvelope>

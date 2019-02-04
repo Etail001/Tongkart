@@ -1,0 +1,456 @@
+<?xml version="1.0" ?>
+<AmazonEnvelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+	<Header>
+		<DocumentVersion>1.01</DocumentVersion><MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier></Header>
+	<MessageType>Product</MessageType>
+	<PurgeAndReplace>false</PurgeAndReplace><Message>
+		<MessageID>1</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_132565301</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096852</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:25:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore LEAP PQ9907S Digital Chess Clock I-go Count Up Down Timer</Title>
+				<Brand>Zenuss</Brand> 
+				<Description>Main FeaturesProfessional LEAP PQ9907S Digital Chess ClockAvailable for Chinese Chess, International Chess and I-GOIt is a presettable count up / countdown timer, maximum up to 10 hoursWith alarm when the match is over, you can open or close the alarmYou can set up two different base time on both sidesIt will store the last setting when it power onMade of electronic components + ABS shell, environmentally friendly and durablePowered by 1 x AA battery ( not included )Operation:a. Bonus periodWhen the countdown time on right side was set, press start / pause / setting shortly to switch into bonus sctting.b. Delay periodWhen the right side bonus time was set, press start / pause / setting shortly to switch into delay setting display.          Model: LEAP PQ9907S              Type: Entertainment,Novelty,Practical              For: All              Occasion: Home,Office,Outdoor,School              Functions: Multi-functions              Material: ABS,Electronic Components              Color: Wine red                     0.261             Package weight: 0.310 kg              Product size (L x W x H): 13.00 x 9.00 x 4.00 cm / 5.12 x 3.54 x 1.57 inches              Package size (L x W x H): 17.00 x 11.00 x 6.00 cm / 6.69 x 4.33 x 2.36 inches                    Package Contents: 1 x LEAP PQ9907S Digital Chess Clock Wei Chi Count Up Down Timer, 1 x Bilingual User Manual in English and Chinese</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>FeaturesProfessional LEAP PQ9907S Digital Chess ClockAvailable </BulletPoint><BulletPoint>Material: ABS</BulletPoint><BulletPoint>Package Contents: 1 x LEAP PQ9907S Digital Chess Clock Wei Chi Count Up Down Timer, 1 x Bilingual User Manual in English and Chinese</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">17</Length> 
+	 <Width unitOfMeasure="CM">11</Width> 
+	 <Height unitOfMeasure="CM">6</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>CB_132565301</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>CB_132565301</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>2454176031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>WINE RED</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>2</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_184147701</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096890</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:25:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore 100pcs Baby Colorful Water Pool Ocean Wave Ball Outdoor Sports Toy</Title>
+				<Brand>Backgammon</Brand> 
+				<Description>Main Features:  - Bright in color, appealing to your kids- Made of high-quality plastic, harmless to your kids- Quantity: 100pcs- 3 sizes optional: 5.5cm, 7cm and 8cm Age Range:  1 year old    Features: Soft,Sports    Material: Plastic    Type: Softball  0.355   Package weight: 0.431 kg    Package Size(L x W x H): 30.00 x 30.00 x 28.00 cm / 11.81 x 11.81 x 11.02 inches  Package Contents: 100 x Ball      Product Safety Disclaimer: We do not accept any responsibility or liability for misuse of this or any other product.  All our products are extensively tested to comply with rigorous and strict QC standards.  For certain products (e.g. toys, knives, etc.), we recommend proper supervision as we cannot be held liable for misuse or accidents.     Small Parts Disclaimer: These toys contain small parts, not for children under 3 years in case of swallowing or choking . We do not accept any responsibility or liability for misuse of this or any other product.</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Feature: Soft</BulletPoint><BulletPoint>Material: plastic</BulletPoint><BulletPoint>Package contents: 100 x Ball</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">30</Length> 
+	 <Width unitOfMeasure="CM">30</Width> 
+	 <Height unitOfMeasure="CM">28</Height></ItemDimensions><Manufacturer>Backgammon</Manufacturer>
+                            <MfrPartNumber>CB_184147701</MfrPartNumber>
+				<SearchTerms>Backgammon</SearchTerms>
+				<SearchTerms>CB_184147701</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1350381031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <Toys>
+                        <ProductType>
+				<ToysAndGames>
+				<Color>COLORMIX</Color>
+				</ToysAndGames>
+                        </ProductType>
+			   <AgeRecommendation>
+          			<MinimumManufacturerAgeRecommended unitOfMeasure="years">15</MinimumManufacturerAgeRecommended>
+         		   </AgeRecommendation>
+                        </Toys>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>3</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_202761201</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096838</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:25:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Jutek Original Xiaomi Mi LYEJ02LM Bluetooth Headset Built-in Mic Multifunctional On-cord Control</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Original Xiaomi Mi LYEJ02LM Bluetooth Headset, Updated Configuration, Updated ExperienceMain Features:Multifunctional on-cord control: support volume adjustment, song switch, calls controlBluetooth 4.1 technology: provides the quick and stable sound transmissionLightweight: only 6.5g, just like wearing nothingBuilt-in mic for hands-free callsCVC noise canceling for high-definition calls and musicSupport connect with two devices simultaneouslyCome with 3 pairs earbud tips, meets different people's needs 
+            Brand: Xiaomi              Color: Black,White              Function: Answering Phone,Bluetooth,Microphone,Multi connection function,Song Switching,Voice control              Material: ABS              Model: LYEJ02LM              Type: In-Ear              Wearing type: In-Ear                         Charging Time.: 2 hours              Compatible with: Mobile phone              Connecting interface: Micro USB              Connectivity: Wireless              Frequency response: 20Hz - 40KHz              Driver type: Dynamic              Impedance: 32ohms              Music Time: 3 hours              Sensitivity: 98 dB (S.P.L at 1KHz)              Standby time: 70 - 100 hours              Talk time: 3 hours                         Bluetooth chip: CSR8610              Bluetooth distance: W/O obstacles 10m              Bluetooth mode: Hands free              Bluetooth protocol: A2DP,AVRCP,HFP,HSP              Bluetooth Version: V4.1                         Battery Capacity(mAh): 50mAh Li-ion battery                         Package size (L x W x H): 10.00 x 9.50 x 4.00 cm / 3.94 x 3.74 x 1.57 inches              Package weight: 0.068 kg              Product size (L x W x H): 5.60 x 1.00 x 0.80 cm / 2.2 x 0.39 x 0.31 inches              Product weight: 0.043 kg                         Package Contents: 1 x Xiaomi Mi LYEJ02LM Bluetooth Headset, 1 x USB Charge Cable, 3 x Pair of Earbud Tips, 1 x Chinese User Manual</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Material: ABS</BulletPoint><BulletPoint>Package content: 1 x Xiaomi Mi LYEJ02LM Bluetooth Headset, 1 x USB Charge Cable, 3 x Pair of Earbud Tips, 1 x Chinese User Manual</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">10</Length> 
+	 <Width unitOfMeasure="CM">9.5</Width> 
+	 <Height unitOfMeasure="CM">4</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>CB_202761201</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>CB_202761201</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1388867031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <CE>
+                        <ProductType>
+				<ConsumerElectronics>
+					<Color>BLACK</Color>
+				</ConsumerElectronics>
+                        </ProductType>
+			   <MfgWarrantyDescriptionLabor>Provided by Manufacturer</MfgWarrantyDescriptionLabor>
+                        </CE>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>4</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_208126701</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096845</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:25:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Jutek Xiaomi Aqara Wall Switch Smart Light Control ZigBee Version</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Description:Do you ever think about how many times you turn on / off the lighting controls? Do you ever feel that how convenient it will be if we are able to turn on / off the switch of the single or multiple groups of lights through one click on the cellphone? The Aqara smart light control is not only able to provide multiple control on the lighting system, but also comes with a remote lighting control. The ZiGBee version is the upgraded version of the traditional wall switch. Equipped with the ZigBee wireless telecommunication technology, there is no need of making a change on the old circuit or on the lighting devices. The only thing you have to do will be just replaced the old switch.Main Features:Xiaomi Aqara wall switch ZiGBee version Single key controlWireless connection: ZigBeeCan connect to Aqara smart device or other ZigBee deviceInput: single firewire 220V, 50HzLoad range: no more than 800W / each, minimum: 3W energy saving lamps / 5W LED lights / 16W fluorescent lampsWorking humidity: 5 - 95pct Please download the Mi Home APP in Google Play or Apple StoreBrand: Xiaomi  Type ( Access Control ): Access Control Switch Working Temp.(℃): 0 - 40 Deg.C  0.172 Package weight: 0.204 kg  Product size (L x W x H): 8.60 x 8.60 x 1.51 cm / 3.39 x 3.39 x 0.59 inches  Package size (L x W x H): 9.80 x 9.80 x 5.10 cm / 3.86 x 3.86 x 2.01 inches Package Contents: 1 x Xiaomi Aqara Wall Switch ZiGBee Version</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Feature:Xiaomi Aqara wall switch ZiGBee version Single key Control</BulletPoint><BulletPoint>Package content: 1 x Xiaomi Aqara Wall Switch ZiGBee Version</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">9.8</Length> 
+	 <Width unitOfMeasure="CM">9.8</Width> 
+	 <Height unitOfMeasure="CM">5.1</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>CB_208126701</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>CB_208126701</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1388867031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <CE>
+                        <ProductType>
+				<ConsumerElectronics>
+					<Color>WHITE</Color>
+				</ConsumerElectronics>
+                        </ProductType>
+			   <MfgWarrantyDescriptionLabor>Provided by Manufacturer</MfgWarrantyDescriptionLabor>
+                        </CE>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>5</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_212232501</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096869</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:25:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Jutek Aqara Smart Window Door Sensor Intelligent Home Security Equipment with ZigBee Wireless Connection</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Description:   The Aqara smart windows door sensor can detect the opening and closing of door and windows and send a notification to your phone via the APP. With the ability of matching with other Xiaomi smart devices such as gateway remote control, smart bulb, air cleaner, etc. this sensor is able to help you create a smart home. The windows door sensor consists of a sensor subject and a magnet. It detect the opening and closing of door and windows by sensing the near and separation of the sensor subject and magnet.Main Features:• Original Aqara smart door and windows sensor for daily security• ZigBee wireless connection• Trigger and alarm: it will light and ring when someone open the door, the light will automatically turn on when someone push the door• Away from home mode: If someone broke into, the bell will ring and the IP camera ( not included ) will take video• Intelligent sensors: open the window let fresh air into room• Small size, easy to install• Max. sensing distance: 22mm• Working temperature: -10 - 50 Deg.C• Working humidity: 0 - 95pct RH• Built-in 1pc CR1632 cell battery• Please download APP Mi Home from Apple Store or Google PlayPlease Note: This item must match the multifunctional gateway to use.         Brand: Aqara                       Material: Plastic              Color: Milk White                      0.033             Package weight: 0.057 kg              Package size (L x W x H): 11.00 x 7.70 x 2.70 cm / 4.33 x 3.03 x 1.06 inches                      Package Contents: 1 x Aqara Window Door Sensor Set, 1 x Chinese User Manual</Description><BulletPoint>100% Brand New and Premium Quality </BulletPoint><BulletPoint>Features:• Original Aqara smart door and windows sensor </BulletPoint><BulletPoint>Material: Plastic</BulletPoint><BulletPoint>Package content: 1 x Aqara Window Door Sensor Set, 1 x Chinese User Manual</BulletPoint><BulletPoint>Tested and Verified By Experts</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">11</Length> 
+	 <Width unitOfMeasure="CM">7.7</Width> 
+	 <Height unitOfMeasure="CM">2.7</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>CB_212232501</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>CB_212232501</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1388867031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <CE>
+                        <ProductType>
+				<ConsumerElectronics>
+					<Color>MILK WHITE</Color>
+				</ConsumerElectronics>
+                        </ProductType>
+			   <MfgWarrantyDescriptionLabor>Provided by Manufacturer</MfgWarrantyDescriptionLabor>
+                        </CE>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>6</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_H18542</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096876</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:25:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Genssis EDC Tri Fidget Hand Spinner Focus ADHD Autism Finger Toy Gyro New Desk Pocket Toy Colorful Zinc Alloy</Title>
+				<Brand>Zenuss</Brand> 
+				<Description>Colorful fidget spinner, great for fidgety hands, ADD And ADHD sufferers, helping relieve sess.
+
+Features:
+Spins very smooth, fast and stable.
+Spins with colorful metal luster, and ings your fidget hours some fresh color and fun. 
+Exquisite look, smooth and ight surface, excellent hand feel, fit snugly with your finger.
+Perfect  suitable for both adults and kids.
+You can spin it anyway anyhow you like, just don;t stop spinning it.
+
+Specifications:
+Material: Zinc alloy
+Bearing: Steel type (608)
+Item : 7 * 7 * 1cm / 2.7 * 2.7 * 0.4in
+Item weight: 110g / 3.88oz
+Package weight: 112g / 3.95oz
+Package : 11 * 7 * 2cm / 4.3 * 2.7 * 0.8in
+
+Package list:
+1 * Spinner</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Spins very smooth, fast and stable.Spins with colorful metal luster, and ings your fidget hours some fresh color and fun. Exquisite look, smooth and ight surface, excellent hand feel, fit snugly with your finger.Perfect  suitable for both adults and kids.You can spin it anyway anyhow you like, just don;t stop spinning it.</BulletPoint><BulletPoint> Zinc alloy</BulletPoint><BulletPoint>1 * Spinner</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">11</Length> 
+	 <Width unitOfMeasure="CM">7</Width> 
+	 <Height unitOfMeasure="CM">2</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>QS_H18542</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>QS_H18542</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>2454176031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>As On Image</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>7</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_K6793-H7</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096906</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:25:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore 2Pcs Car LED Headlight Bulbs LED Driving Lamp All-in-one Conversion Kit H7 36W 6000LM</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Features:
+This LED headlight bulbs are made of anodized aluminum body, PA66+30% GF Shroud, aluminum PCB, COB, Built-in Turbo Cooling Fan. Smarter and superior performance.
+6000K white light at 6000LM/Set (3000LM/each bulb) per LED bulb without dark spots. Super ight and energy saving.
+All-in-One and simple design LED light bulbs,Supports Plug and Play for smooth installation.
+9V to 36V wide-range voltage is suitable for all Off-road vehicles, ATV, uck, and engineering vehicles, etc.
+
+Specifications:
+Material: aluminum
+Bulb socket: H1/H3/H4/H7/H11/9005/9006(optional)
+Light source: COB
+Wattage: 36W/set, 18W/each
+Color temperature: 6000K/each
+Luminous flux: 6000LM/set, 3000LM/each
+Operating voltage: 9V-36V
+Waterproof rate: IP68
+Cooling principle: fan cooling
+Beam angle: 360°  
+Package : 11.5 * 9 * 5.5cm / 4.5 * 3.5 * 2in  
+Package weight: 150g / 5.5oz  
+
+Package List:
+1 * Pair of Car LED Headlights
+ </Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>This LED headlight bulbs are made of anodized aluminum body, PA66+30% GF Shroud, aluminum PCB, COB, Built-in Turbo Cooling Fan. Smarter and superior performance.6000K white light at 6000LM/Set (3000LM/each bulb) per LED bulb without dark spots. Super ight and energy saving.All-in-One and simple design LED light bulbs,Supports Plug and Play for smooth installation.9V to 36V wide-range voltage is suitable for all Off-road vehicles, ATV, uck, and engineering vehicles, etc.</BulletPoint><BulletPoint> aluminumBulb socket: H1/H3/H4/H7/H11/9005/9006(optional)Light source: COBWattage: 36W/set</BulletPoint><BulletPoint>1 * Pair of Car LED Headlights </BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">11.5</Length> 
+	 <Width unitOfMeasure="CM">9</Width> 
+	 <Height unitOfMeasure="CM">5.5</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>QS_K6793-H7</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>QS_K6793-H7</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1389226031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <AutoAccessory>
+                        <ProductType>
+				<AutoPart>
+				</AutoPart>
+                        </ProductType>
+                        </AutoAccessory>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>8</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_Y6858-1</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096821</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:25:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore Electric Muscle Stimulator Abdominal Stimulation Muscle Exerciser Training Body Slimming Machine Fat Burning Fitness Massage</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Do you want to exercise your muscle in a easy way? This muscle exerciser can achieve it. All you should do is to fit the pads to your body and it can work automatically. With super light and wearable advantages, you can sengthen your body muscles anywhere anytime.
+
+Features: 
+and new and useful to shape your body.
+Help to tone, tighten and sengthen your body muscles.
+Very easy to use, just fit the pads to your body and let them exercise your muscles.  
+6 modes optional and sength adjustable to help fat burning and muscle growing.
+Super light, wearable and convenient for you to ing anywhere.
+
+Specifications:
+Type: 1, 2, 3 (optional)
+ black
+Conoller material: polyurethane (PU)
+Sticker material: silica gel  
+Power supply: 2 * AAA batteries (per conoller) (not included)
+Working time: 12 minutes (per aining time)
+Input voltage: 3V
+Output: max.9.8mA
+Frequency: 1-100Hz
+Using mode: A-F (6 modes)
+Fit for: unisex
+Conoller : 7.8 * 6 * 2.1cm / 3.07 * 2.36 * 0.83in
+Conoller weight: 58g / 2.04oz
+Package : 23 * 21 * 4.5cm / 9.05 * 8.27 * 1.77in (type 1)
+                      23 * 12 * 5cm / 9.05 * 4.72 * 1.97in (type 2)
+                      23 * 8 * 5cm / 9.05 * 3.15 * 1.97in (type 3)
+Package weight: 450g / 15.87oz (type 1)
+                           223g / 7.87oz (type 2)
+                           115g / 4.06oz (type 3)                       
+
+Note:
+1.Please read the insuctions before use.
+2.The batteries are not included in the package.
+
+Package List:
+3 * Conollers
+1 * Abdominal Muscle Sticker
+2 * Arm Stickers
+1 * User Manual</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint> and new and useful to shape your body.Help to tone, tighten and sengthen your body muscles.Very easy to use, just fit the pads to your body and let them exercise your muscles.  6 modes optional and sength adjustable to help fat burning and muscle growing.Super light, wearable and convenient for you to ing anywhere.</BulletPoint><BulletPoint> silica gel  Power supply: 2 * AAA batteries (per conoller) (not included)Working time: 12 minutes (per aining time)Input voltage: 3V</BulletPoint><BulletPoint>3 * Conollers1 * Abdominal Muscle Sticker2 * Arm Stickers1 * User Manual</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">23</Length> 
+	 <Width unitOfMeasure="CM">21</Width> 
+	 <Height unitOfMeasure="CM">4.5</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>QS_Y6858-1</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>QS_Y6858-1</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1984444031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <Sports>
+                        <ProductType>SportingGoods</ProductType>
+			   <ItemTypeName>Sports</ItemTypeName>
+                        </Sports>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>9</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_L2073WW</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096883</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:25:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Genssis 1M 30LEDs Sensitive PIR Motion Sensor Cabinet Strip Light with Remote</Title>
+				<Brand>Zenuss</Brand> 
+				<Description>Do you want to make your closet more gorgeous? Are you a fan of smart life? This kind of PIR motion sensor control LED light strip will be your ideal choice! In order to make your home more beautiful and attractive, come and buy at once!
+ 
+Features:
+ON/OFF button on the top and the Man/Auto switch on the side. When in Auto position it is controlled by sensitive PIR motion sensor, but in Man” it works with the ON/OFF.  
+Wide range of induction distance is 3-5 meters and its sensing angle is 120°.
+30pcs SMD2835 superb quality LED beads, long lifespan, flicker-free and anti-glare light without strobes and radiation, it can keep your eyes away from exhaustion.
+IP65 Water resistance for providing you a better experience.
+Equipped with strong adhesive both on the back of remote control and LED strip allow you to quickly mount it wherever you need. It can also be cut to the length you needed by cutting on the yellow mark line.
+Be widely used at closet, cabinet, wardrobe, cupboard etc.
+ 
+Specifications:
+Working voltage: DC6v
+Power: 2.4w
+LED type: SMD2835
+LED quantity: 30pcs
+Light Angle: 120°
+Luminous flux: 180±10%lm
+Lifespan of LED: 35,000 hours
+CRI: ＞80ra
+Light color: Warm white (3000k) / white (6000k) (optional)
+Length of light strip: 1meter
+Water resistance of light strip: IP65
+Sensing distance: 3-5 meters/ 9.8-16.4ft
+Sensing angle: 120°
+Delay time: 15s
+Battery: 4 * AAA battery (not included)
+Operation Temperature: -20℃~+35℃
+Storage Temperature: -25℃~+55℃ (25℃ is best-fit)
+Material: ABS
+Item color: White
+Remote size: 13.6 * 3 * 2cm/ 5.4 * 1.2 * 0.8in (L * W * H)
+Item weight: 67g/ 2.4oz
+Package size: 22 * 17 * 2.5cm/ 8.9 * 6.7 * 1in (L * W * H)
+Package weight: 116g/ 4.1oz
+ 
+Notes:
+1. The batteries are not provided.
+2. The remote control is non-waterproof, please use it carefully.
+
+Package list:
+1 * Remote
+1 * Light strip</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>ON/OFF button on the top and the Man/Auto switch on the side. When in Auto position it is controlled by sensitive PIR motion sensor, but in Man” it works with the ON/OFF.  Wide range of induction distance is 3-5 meters and its sensing angle is 120°.30pcs SMD2835 superb quality LED beads, long lifespan, flicker-free and anti-glare light without strobes and radiation, it can keep your eyes away from exhaustion.IP65 Water resistance for providing you a better experience.Equipped with strong adh</BulletPoint><BulletPoint> ABS
+</BulletPoint><BulletPoint>
+1 * Remote
+1 * Light strip</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">22</Length> 
+	 <Width unitOfMeasure="CM">17</Width> 
+	 <Height unitOfMeasure="CM">2.5</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>QS_L2073WW</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>QS_L2073WW</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>2454176031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>warm white</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message></AmazonEnvelope>

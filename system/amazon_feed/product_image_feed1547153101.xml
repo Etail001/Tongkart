@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+<Header>
+<DocumentVersion>1.01</DocumentVersion>
+<MerchantIdentifier>A1LTO87O7AHC09</MerchantIdentifier>
+</Header>
+<MessageType>ProductImage</MessageType><Message>
+        <MessageID>1</MessageID>
+        <OperationType>Update</OperationType>
+        <ProductImage>
+        <SKU>QS_G9867GY-M</SKU>
+        <ImageType>Main</ImageType><ImageLocation>fx.quarkscm.com/product/xy/2000/2000/p/gu1/G/L/G9867GY-L/G9867GY-L-1-e2de-X4fl.jpg</ImageLocation></ProductImage>
+        </Message><Message>
+                <MessageID>2</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>QS_G9867GY-M</SKU>
+                <ImageType>PT1</ImageType><ImageLocation>fx.quarkscm.com/product/xy/2000/2000/p/gu1/G/L/G9867GY-L/G9867GY-L-1-e2de-ORNT.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>3</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>QS_G9867GY-M</SKU>
+                <ImageType>PT2</ImageType><ImageLocation>fx.quarkscm.com/product/xy/2000/2000/p/gu1/G/L/G9867GY-L/G9867GY-L-1-e2de-zFwc.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>4</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>QS_G9867GY-M</SKU>
+                <ImageType>PT3</ImageType><ImageLocation>fx.quarkscm.com/product/xy/2000/2000/p/gu1/G/L/G9867GY-L/G9867GY-L-1-e2de-L4m1.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>5</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>QS_G9867GY-M</SKU>
+                <ImageType>PT4</ImageType><ImageLocation>fx.quarkscm.com/product/xy/2000/2000/p/gu1/G/L/G9867GY-L/G9867GY-L-1-e2de-cGOg.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>6</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>QS_G9867GY-M</SKU>
+                <ImageType>PT5</ImageType><ImageLocation>fx.quarkscm.com/product/xy/2000/2000/p/gu1/G/L/G9867GY-L/G9867GY-L-1-e2de-1XhY.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>7</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>QS_G9867GY-M</SKU>
+                <ImageType>PT6</ImageType><ImageLocation>fx.quarkscm.com/product/xy/2000/2000/p/gu1/G/L/G9867GY-L/G9867GY-L-1-e2de-CdVJ.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>8</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>QS_G9867GY-M</SKU>
+                <ImageType>PT7</ImageType><ImageLocation>fx.quarkscm.com/product/xy/2000/2000/p/gu1/G/L/G9867GY-L/G9867GY-L-1-e2de-z9LX.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>9</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>QS_G9867GY-M</SKU>
+                <ImageType>PT8</ImageType><ImageLocation>fx.quarkscm.com/product/xy/2000/2000/p/gu1/G/L/G9867GY-L/G9867GY-L-1-e2de-dNLL.jpg</ImageLocation></ProductImage>
+                </Message></AmazonEnvelope>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+            <AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+            <Header>
+            <DocumentVersion>1.01</DocumentVersion>
+            <MerchantIdentifier>A1LTO87O7AHC09</MerchantIdentifier>
+            </Header>
+	     <MessageType>Inventory</MessageType><Message>
+                    <MessageID>1</MessageID>
+                    <OperationType>Update</OperationType>
+                    <Inventory>
+                    <SKU>QS_G9867GY-M</SKU>
+                    <Quantity>0</Quantity>
+                    <FulfillmentLatency>15</FulfillmentLatency>
+                    </Inventory>
+                    </Message><Message>
+                    <MessageID>2</MessageID>
+                    <OperationType>Update</OperationType>
+                    <Inventory>
+                    <SKU>QS_G9867R-L</SKU>
+                    <Quantity>0</Quantity>
+                    <FulfillmentLatency>15</FulfillmentLatency>
+                    </Inventory>
+                    </Message><Message>
+                    <MessageID>3</MessageID>
+                    <OperationType>Update</OperationType>
+                    <Inventory>
+                    <SKU>QS_G9867GY-XL</SKU>
+                    <Quantity>0</Quantity>
+                    <FulfillmentLatency>15</FulfillmentLatency>
+                    </Inventory>
+                    </Message></AmazonEnvelope>

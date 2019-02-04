@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<AmazonEnvelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+	<Header>
+		<DocumentVersion>1.01</DocumentVersion><MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier></Header>
+	<MessageType>Product</MessageType>
+	<PurgeAndReplace>false</PurgeAndReplace><Message>
+		<MessageID>1</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_H18658</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value></Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-12T00:45:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Genssis Fidget Spinner with Premium Stainless Steel Bearing Spin 4 Arms Hand Finger Toys for Autism Adult ADHD Stress Anxiety Relief Adult Children Metal</Title>
+				<Brand>Zenuss</Brand> 
+				<Description>If you always want to bite nails and cuticles or align and organize  And  reorganize your desk at work for you can not stop fidgeting or don And #39;t have anything to play with, you really should get this one for rescue. This toy is awesome for fidgeting, for you can simply flick and spin it for hours with one or two hands to keep your minds busy and relieve you from fidget.Features:Simply flick and spin for hours with one or two hands!Providing an easy way for fidgety people to relieve their stress or anxiety without distracting anyone or drawing extra attention.Ergonomic curved button cover for hand comfort and long term usage.A good choice for killing time, helping relieve stress.4 wings which can easily gain momentum from only a light strike.Gorgeous look, in gold color, exquisite enough to show your unique and good taste.Great for fidgety hands, ADHD sufferers.It And #39;s fun and interesting, also effective for focus and deep thought.Mini enough to put in your pocket, have fun anytime.Perfect fidget toy to keep your hands busy or to just to play with. Specifications:Material: Zinc alloyBearing: SteelItem size: 6.5 * 6.5 * 1cm / 2.56 * 2.56 * 0.39inItem weight: 75g / 2.6ozPackage weight: 80g / 2.8oz Package size: 12 * 5 * 2cm / 4.7 * 2.0 * 0.8inPackage list:1 * Fidget Spinner</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Simply flick and spin for hours with one or two hands!Providing an easy way for fidgety people to relieve their stress or anxiety without distracting anyone or drawing extra attention.Ergonomic curved button cover for hand comfort and long term usage.A good choice for killing time, helping relieve stress.4 wings which can easily gain momentum from only a light strike.Gorgeous look, in gold color, exquisite enough to show your unique and good taste.Great for fidgety hands, ADHD sufferers.It's fun</BulletPoint><BulletPoint>Material: Zinc alloy</BulletPoint><BulletPoint>Package Contents:1 * Fidget Spinner</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">12</Length> 
+	 <Width unitOfMeasure="CM">5</Width> 
+	 <Height unitOfMeasure="CM">2</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>QS_H18658</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>QS_H18658</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>2454176031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>As On Image</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message></AmazonEnvelope>

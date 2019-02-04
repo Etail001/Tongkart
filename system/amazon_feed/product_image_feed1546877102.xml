@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+<Header>
+<DocumentVersion>1.01</DocumentVersion>
+<MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier>
+</Header>
+<MessageType>ProductImage</MessageType><Message>
+        <MessageID>1</MessageID>
+        <OperationType>Update</OperationType>
+        <ProductImage>
+        <SKU>CB_107394502</SKU>
+        <ImageType>Main</ImageType><ImageLocation>http://tngimages.s3.amazonaws.com/1534804577.jpg</ImageLocation></ProductImage>
+        </Message><Message>
+                <MessageID>2</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>CB_107394502</SKU>
+                <ImageType>PT1</ImageType><ImageLocation>http://tngimages.s3.amazonaws.com/1534804578.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>3</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>CB_107394502</SKU>
+                <ImageType>PT2</ImageType><ImageLocation>http://tngimages.s3.amazonaws.com/1534804579.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>4</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>CB_107394502</SKU>
+                <ImageType>PT3</ImageType><ImageLocation>http://tngimages.s3.amazonaws.com/1534804580.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>5</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>CB_107394502</SKU>
+                <ImageType>PT4</ImageType><ImageLocation>http://tngimages.s3.amazonaws.com/1534804581.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>6</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>CB_107394502</SKU>
+                <ImageType>PT5</ImageType><ImageLocation>http://tngimages.s3.amazonaws.com/1534804582.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>7</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>CB_107394502</SKU>
+                <ImageType>PT6</ImageType><ImageLocation>http://tngimages.s3.amazonaws.com/1534804583.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>8</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>CB_107394502</SKU>
+                <ImageType>PT7</ImageType><ImageLocation>http://tngimages.s3.amazonaws.com/1534804584.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>9</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>CB_107394502</SKU>
+                <ImageType>PT8</ImageType><ImageLocation>http://tngimages.s3.amazonaws.com/1534804585.jpg</ImageLocation></ProductImage>
+                </Message></AmazonEnvelope>

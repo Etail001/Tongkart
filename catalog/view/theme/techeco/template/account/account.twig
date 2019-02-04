@@ -1,0 +1,31 @@
+{{ header }}
+<div id="account-account" class="container acpage">
+ 
+  {% if success %}
+  <div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> {{ success }} <button type="button" class="close" data-dismiss="alert">&times;</button></div>
+  {% endif %}
+  <div class="row">
+    
+    <div id="content" class="{{ class }} acwidth">
+       <ul class="breadcrumb">
+    {% for breadcrumb in breadcrumbs %}
+    <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+    {% endfor %}
+  </ul>
+  <div class="acco">
+      <h2 class="achead">{{ text_my_account }}</h2>
+      <ul class="list-unstyled accolor">
+        <li><a href="{{ edit }}">{{ text_edit }}</a></li>
+        <li><a href="{{ password }}">{{ text_password }}</a></li>
+      </ul>
+      </div></div>
+    </div>
+</div>
+      
+<style>
+@media (min-width: 1590px) {
+    #content.acwidth {
+        width: 100%;
+    }
+}
+</style>

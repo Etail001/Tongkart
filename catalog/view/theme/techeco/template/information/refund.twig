@@ -1,0 +1,72 @@
+{{ header }}
+<div id="information-contact" class="container">
+  
+  <div class="row">
+    <div id="content" class="{{ class }}">{{ content_top }}
+      <ul class="breadcrumb">
+    {% for breadcrumb in breadcrumbs %}
+    <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+    {% endfor %}
+  </ul>
+      <h2 style="text-align: center;">{{ cheading_title }}</h2>
+      <div class="row" style="margin: 4% 12% 0px 12%;">
+          <div class="col-sm-12 col-xs-12">
+            
+          <div class="col-sm-12 col-lg-12 col-xs-12">
+              <p>We do not accept returns from you or from your buyer. All items shipped out are considered sold to you and if your buyer changes his mind or dislikes the item (or its quality), then it depends on your own store policy whether to accept returns from them or not. This is between you and your buyer only. Please do not use our warehouse address as the return address. </p>
+          </div>
+          <div class="col-sm-12 col-lg-12 col-xs-12">
+              <p>The only exception is in the case of RTO (Return to Origin) by the courier. This could be due to undeliverable address or refusal of package. The package must be unopened and with its original address label. We will refund you 100% if we receive the physical package or if the courier's online tracking information indicates that it has been returned to us.</p>
+          </div>
+          <div class="col-sm-12 col-lg-12 col-xs-12">
+              <p>Refund Policy Although we do not accept returns, but we will refund you 100% if your buyer can provide enough proof for the following situations: </p>
+          </div>
+          <div class="col-sm-12 col-lg-12 col-xs-12">
+              <ul style ="margin: 0% 0% 0% 5%;font-weight: 600;" >
+                  <li>Damaged upon receipt.</li>
+                  <li>Defective item. </li>
+                  <li>Shipped wrong item, wrong color, or wrong size, etc.</li>
+                  <li>Lost or very late delivery (exceeding 20 days).</li>
+              </ul>
+          </div>
+          <div class="col-sm-10 col-lg-11 col-xs-10">
+              <p>We will partial refund you or reship for the following situations: </p>
+          </div>
+          <div class="col-sm-10 col-lg-11 col-xs-10">
+              <ul style ="margin: 0% 0% 0% 5%;font-weight: 600;" >
+                  <li>Shipped wrong quantity. </li>
+                  <li>Missing item in order. Please note that sometimes we may split an order into multiple packages and we need to verify that all packages are delivered before concluding that an item is missing. </li>
+                  
+              </ul>
+          </div>
+          <div class="col-sm-10 col-lg-11 col-xs-10">
+              <p>The courier's tracking information is our only proof that a package is delivered or not. We will refund you 100% if it indicates failure of delivery or RTO. On the other hand, we will not refund you at all if it indicates successful delivery, even if your buyer says that he has not received it. </p>
+          </div>
+          <div class="col-sm-10 col-lg-11 col-xs-10">
+              <p>We process refund by crediting to your TongKart E-Wallet. </p>
+          </div>
+          <div class="col-sm-12 col-lg-12 col-xs-12">
+              <strong>Cancellation Policy</strong>
+          </div>
+          <div class="col-sm-12 col-lg-12 col-xs-12">
+              <p>We process orders very quickly and it may not always be possible to intercept an order for cancellation. If we can intercept it, then we will cancel the order and refund you 100%. Otherwise, we will deny the cancellation and proceed with shipping and no refund. However, a workaround is to ask your buyer to refuse the package at the time of delivery and we will refund you 100% if there is proof of "RTO Delivered".</p>
+          </div>
+          <div class="col-sm-12 col-lg-12 col-xs-12">
+              <strong>Cancel Membership</strong>
+          </div>
+          <div class="col-sm-12 col-lg-12 col-xs-12">
+              <p>You may downgrade to the free "Starter Plan" at any time and we will not charge you subsequently. We do not provide partial refund for unused portion of the Monthly Plan. The balance in your E-Wallet can be returned to you after settlement of all orders.</p>
+          </div>
+          
+          
+          
+      </div>
+    </div>
+</div>
+<style>
+@media (min-width: 1590px) {
+    #content {
+        width: 100%;
+    }
+}
+</style>

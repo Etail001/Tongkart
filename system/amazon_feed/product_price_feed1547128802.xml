@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+            <AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+            <Header>
+            <DocumentVersion>1.01</DocumentVersion>
+            <MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier>
+            </Header>
+            <MessageType>Price</MessageType><Message>
+                <MessageID>1</MessageID>
+                <Price>
+                <SKU>CB_113427603</SKU> 
+                <StandardPrice currency="INR">2544.02</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">2312.75</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">3052.83</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>2</MessageID>
+                <Price>
+                <SKU>CB_126364701</SKU> 
+                <StandardPrice currency="INR">583.88</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">530.8</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">700.65</MaximumSellerAllowedPrice>
+                </Price>
+                </Message></AmazonEnvelope>

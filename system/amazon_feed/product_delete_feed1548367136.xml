@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<AmazonEnvelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+	<Header>
+		<DocumentVersion>1.01</DocumentVersion><MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier></Header>
+	<MessageType>Product</MessageType>
+	<PurgeAndReplace>false</PurgeAndReplace><Message>
+		<MessageID>1</MessageID>
+		<OperationType>Delete</OperationType>
+		<Product>
+			<SKU>QS_K6435</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608097200</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-24T21:58:56</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore Full Automatic Car Battery Charger 110V/220V To 12V 6A/10A Smart Fast Power Charging</Title>
+				<Brand>Jutek</Brand> 
+				<Description>
+This is a automatically car battery charger which can charing the battery based on battery's condition! It uses the MCU controller for save  And  fast charging service for your battery!
+
+
+
+Constant current mode:
+
+When the voltage of the battery is lower than the value set by the charger, the charger will work under the constant current mode and supply the constant current for the battery.
+
+
+
+Constant voltage mode:
+
+Using the pulse width modulation(PWM) tech to control the charging current and output voltage of the charger which ensures the battery is fully charged and avoids over charging.
+
+Floating charge mode:
+
+When the voltage of the battery is approaching the value of the constant voltage mode, and the current will cut down to the given current gradually, that means the battery power is full, then the pilot lamp will turn green and the fan will stop working. The charger will turn the mode into floating charge mode automatically. At this moment, the battery can be stopped charging or keep on floating charge for half an hour.
+ 
+
+Description:
+
+Evaporation function
+
+Automatic Trickle function
+
+Anti-anti-charging function
+
+Anti overvoltage overcharge function
+
+Power and energy
+
+Short circuit protection
+
+Short start function overcharge
+
+Wide voltage range
+
+LCD Display
+
+EU plug or US plug (for optional)
+
+Charger Mode: Three-phase (PWM charging mode)
+
+Includes constant current charging phase, constant voltage charging 
+
+
+
+phase,floating charging phase
+ 
+
+
+
+Specification:
+
+Materials: Plastic + Metal
+
+Battery Type: Storage battery AC input
+
+Applicable Battery: 12Ah-100Ah
+
+Charger Current: 6A
+
+Input Voltage: 110V-240V
+
+Output Voltage: 12V
+
+Rated Frequency: 47-63HZ
+
+Full Load Efficiency: ≥ 87%
+
+Working Temperature: -40~+95 ℃
+
+Size: 21*6.5*12cm
+
+Package weight:230g
+ 
+
+
+
+Fitmnet:
+
+Suitable for car motorcycle
+ 
+
+
+
+
+
+Package Included:
+
+1 X Battery Charger
+
+1 X User Manual
+
+</Description><BulletPoint>100% Brand New Premium Quality</BulletPoint><BulletPoint>This is a automatically car battery charger which can charing the battery based on battery And #39;s condition! It uses the MCU controller for save  And  fast charging service for your battery!Constant current mode:When the voltage of the battery is lower than the value set by the charger, the charger will work under the constant current mode and supply the constant current for the battery.Constant voltage mode:Using the pulse width modulation(PWM) tech to control the charging current and output</BulletPoint><BulletPoint>Material: Plastic</BulletPoint><BulletPoint>Package Contents:1 X Battery Charger1 X User Manual</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">21</Length> 
+	 <Width unitOfMeasure="CM">12</Width> 
+	 <Height unitOfMeasure="CM">6.5</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>QS_K6435</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>QS_K6435</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1389226031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <AutoAccessory>
+                        <ProductType>
+				<AutoPart>
+				</AutoPart>
+                        </ProductType>
+                        </AutoAccessory>
+                        </ProductData>
+		</Product>
+	</Message></AmazonEnvelope>

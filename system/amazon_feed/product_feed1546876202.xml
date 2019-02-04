@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<AmazonEnvelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+	<Header>
+		<DocumentVersion>1.01</DocumentVersion><MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier></Header>
+	<MessageType>Product</MessageType>
+	<PurgeAndReplace>false</PurgeAndReplace><Message>
+		<MessageID>1</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_107394502</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096623</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-07T15:50:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Sample Bluedio H+ Bluetooth 4.1 Headphone Support TF Card Volume Control</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Description: After massive research and 3 years of R And D, Bluedio had made a customized headphone with unrivaled timbre, multiple use, and high cost-effective. This is Hurricane series BT headphones. Thus, H+, the upgraded version of the H+, now can enjoy music from Micro SD card (up to 32GB), and automatically switch among Bluetooth Mode, FM Mode and SD Card Mode. H+ is compatible with iOS, Android, and Windows, merely 40ms audio latency breakthrough defects of sound and picture are not synchronized while watching movie via Bluetooth.      Main Features: ● Iconic powerful bass resonance of Bluedio: 57mm ultra-large dynamic drivers, with the iconic Bluedio surging low-frequency shock, let you feel the bass resonate deep in the chest, enjoying the best sound quality. Clear and transparent bass, mids and treble, fully exposed to all the details of song, you can hear what the artists really want you to hear, Coldplay or Linkin Park concert played in your ear● Ultra-long operation and carefree calling from Bluetooth 4.1: With robust high speed CPU of Bluetooth 4.1 operating system, comes with ultra-long using of 40 hours music, 45 hours talk and 1625 hours (approximately 67 days) standby time, the same battery, decrease up to 40% power consumption compare to Bluetooth 4.0. Acoustic echo cancellation and noise reduction effectively reduce ambient noise while talking, make far-end listener cannot hear what you said become history, just like talking face to face● Micro SD card music supported:  Support Micro SD / TF card up to 32GB● Customized function: Audio Sharing allows you to connect to another H headphone via an audio cable, share music feast with your friends instantly (recommended to use headphones with impedance of 32Ω or higher) Simultaneously connect two Bluetooth devices, connects with your phone and tablet seamlessly, listen to music or enjoy foreign blockbusters, do as you think about it● Comfortable wearing: Custom fit supra-aural soft earmuffs,</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Features: ● Iconic powerful bass resonance of Bluedio: 57mm ultra-large dynamic drivers, with the iconic Bluedio surging low-frequency shock, let you feel the bass resonate deep in the chest, enjoying the best sound quality. Clear and transparent bass, mids and treble, fully exposed to all the details of song, you can hear what the artists really want you to hear, Coldplay or Linkin Park concert played in your ear● Ultra-long operation and carefree calling from Bluetooth 4.1: With robust hig</BulletPoint><BulletPoint>Package Contents: 1 x Earphone, 1 x Audio Cable, 1 x USB Cable, 1 x Bilingual User Manual in English and Chinese</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">21.5</Length> 
+	 <Width unitOfMeasure="CM">20.3</Width> 
+	 <Height unitOfMeasure="CM">9</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>CB_107394502</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>CB_107394502</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1388867031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <CE>
+                        <ProductType>
+				<ConsumerElectronics>
+					<Color>WHITE</Color>
+				</ConsumerElectronics>
+                        </ProductType>
+			   <MfgWarrantyDescriptionLabor>Provided by Manufacturer</MfgWarrantyDescriptionLabor>
+                        </CE>
+                        </ProductData>
+		</Product>
+	</Message></AmazonEnvelope>

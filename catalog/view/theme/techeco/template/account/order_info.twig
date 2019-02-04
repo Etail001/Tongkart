@@ -1,0 +1,720 @@
+{{ header }}
+<div class="sl-mfp-bg" style="display: none;"></div>
+<div style="display: none; position: fixed; opacity: 1; z-index: 2147483647; left: 50%; margin-left: -400px; top: 50.15px;" data-em="modal1" id="sl_customer_popup_button">
+   <div data-em="modal-html">
+      <div data-em="modal-container" style="min-height: 365px;">
+          <div id="clicklayeridconfirm" class="click-layer close-alert" style="">
+              <div class="click-close-title">
+                  <div class="col-md-12 text-left" style="padding-left:12px;text-align: center;">
+                      {% if enquiry_status %}
+                          <strong style="font-size:18px;color:#333333;">{{ enquiry_title }}</strong>
+                      {% else %}
+                      <strong style="font-size:18px;color:#333333;"><!-- Title -->Report a problem</strong>
+                      {% endif %}
+                      <span class="close-exit-popup" style="position:absolute;right:15px;">
+                          <svg xmlns="https://www.w3.org/2000/svg" style="display:none;">
+                              <defs class="close-link">
+                                  <g id="close-btn">
+                                      <path id="svg_1" d="m10,0a10,10 0 1 0 10,10a10,10 0 0 0 -10,-10zm0,18.3a8.3,8.3 0 0 1 -8.3,-8.3a8.3,8.3 0 0 1 8.3,-8.3a8.3,8.3 0 0 1 8.3,8.3a8.3,8.3 0 0 1 -8.3,8.3zm1.2,-8.3l2.3,-2.3a0.8,0.8 0 0 0 -1.2,-1.2l-2.3,2.3l-2.3,-2.3a0.8,0.8 0 0 0 -1.2,1.2l2.3,2.3l-2.3,2.3a0.8,0.8 0 0 0 0,1.2c0.2,0.2 0.3,0.2 0.7,0.2s0.5,0 0.7,-0.2l2.1,-2.3l2.3,2.3c0.2,0.2 0.3,0.2 0.7,0.2s0.5,0 0.7,-0.2a0.8,0.8 0 0 0 0,-1.2l-2.5,-2.3z"></path>
+                                  </g>
+                              </defs>
+                          </svg>
+                          <svg id="VdialogClose" class="close-btn">
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close-btn"></use>
+                          </svg>
+                      </span>
+                  </div>
+              </div>
+              {% if enquiry_status %}
+                  <div class="col-md-12 text-center">
+                  <table class="col-md-12">
+                      <tbody>
+                          <tr style="height:36px;">
+                              <td class="text-left">Add Your Comment:</td>
+                          </tr>
+                          <tr>
+                              <td class="text-left">
+                                  <input type="hidden" id="enquiry_id" value = "{{ enquiry_id }}">
+                                  <textarea id="reason" name="reason" cols="" rows="4"></textarea>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <div class="text-left fontred" id="msgsuccess" style="padding: 0% 0% 1% 2%;"></div>
+                    <div class="text-left fontred" id="msgTip" style="padding: 0% 0% 1% 2%;"></div>
+                    <div class="row">
+                        <div class="clear20"></div>
+                        <div class="col-md-12">
+                            <div class="col-md-4">
+                                <button id="botton_Confirm" class="common-btn2 btn-color1" onclick="sl_customer_popup()" style="text-align:center;color:#fff;"><span>Submit</span> </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="refund-alert-con scroll-y">
+                  <div class="status-box">
+                      <ul class="status-list" id="disputecontent">
+                          {% for details in enquiry_details %}
+                              <li class="latest">
+                              <div class="status-day">{{ details.date }}
+                                  <p>{{ details.time }}</p>
+                              </div>
+                              <div class="status-content">
+                                  <span class="status-name-latest">{{ details.user }}</span>
+                                  <p>{{ details.description }}</p>
+                              </div>
+                          </li>
+                          {% endfor %}    
+                           
+                      </ul>
+                  </div>
+                  </div>
+              </div>
+              {% else %}
+              <div class="col-md-12 text-center">
+                  <table class="col-md-12">
+                      <tbody>
+                          <tr style="height:36px;">
+                              <td class="text-left">I am having an issue with:</td>
+                          </tr>
+                          <tr>
+                              <td class="text-left">
+                                  <select name="disputeHead" id="disputeHead">
+                                      <option value="The tracking code seems to be invalid">The tracking code seems to be invalid</option>
+                                      <option value="The customer  didn't receive the order">The customer didn't receive the order</option>
+                                      <option value="The wrong item was received in terms of color, size, or model ">The wrong item was received in terms of color, size, or model </option>
+                                      <option value="The package has arrived in a damaged condition ">The package has arrived in a damaged condition </option>
+                                      <option value="The item arrived in extremely poor quality ">The item arrived in extremely poor quality </option>
+                                      <option value="The estimated delivery time has expired">The estimated delivery time has expired</option>
+                                      <option value="others">others</option>
+                                  </select>
+                              </td>
+                          </tr>
+                          <tr style="height:36px;">
+                              <td class="text-left">Describe your issues:</td>
+                          </tr>
+                          <tr>
+                              <td class="text-left">
+                                  <input type="hidden" id="enquiry_id" value = "">
+                                  <textarea id="reason" name="reason" cols="" rows="7"></textarea>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+              <div class="text-left fontred" id="msgsuccess" style="padding: 0% 0% 1% 2%;"></div>
+              <div class="text-left fontred" id="msgTip" style="padding: 0% 0% 1% 2%;"></div>
+              <div class="row">
+                  <div class="clear20"></div>
+                  <div class="col-md-12">
+                      <div class="col-md-4">
+                          <button id="botton_Confirm" class="common-btn2 btn-color1" onclick="sl_customer_popup()" style="text-align:center;color:#fff;"><span>Submit</span> </button>
+                      </div>
+                  </div>
+              </div>
+              {% endif %}
+              
+          </div>
+          <div id="registered"></div>
+      </div>
+   </div>
+   <div class="popup_error_msg" style="display:none;"></div>
+   <div class="popup_success_msg" style="color: green;float: left;"></div>
+
+</div>
+<div id="account-order" class="container acpage">
+  {% if success %}
+  <div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> {{ success }}
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+  </div>
+  {% endif %}
+  {% if error_warning %}
+  <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+  </div>
+  {% endif %}
+  <div class="row">
+    <div id="content" class="{{ class }} acwidth">{{ content_top }}
+      <ul class="breadcrumb">
+    {% for breadcrumb in breadcrumbs %}
+    <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+    {% endfor %}
+  </ul>
+      <div class="col-md-12 orders-details-right" style="margin-bottom: 50px;">
+        <div class="col-md-12 logistics-info">
+          <div class="col-md-12 text-center myorder-height clearfix three-w33">
+            <div class="col-md-4"><strong>Ordered</strong><p>{{ order_date }}</p></div>
+            <div class="col-md-4"><strong>Paid</strong><p>{{ paid_date }}</p></div>
+            <div class="col-md-4"><strong>Shipped</strong><p>{{ shipping_date }}</p></div>
+          </div>
+          <div class="col-md-12 text-center myorder-step-number clearfix three-w33">
+            <div class="myorder-line"></div>
+            <div class="col-md-4 step-current">
+              <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+                <defs>
+                  <g id="myorder-step-current">
+                    <circle id="svg_1" r="16" cy="16" cx="16" class="current-bg"></circle>
+                    <path id="svg_2" d="m23.70707,10.4a1,1 0 0 0 -1.4,0l-9.2,9.2l-3.5,-3.6a1,1 0 0 0 -1.4,1.4l4.2,4.2a1,1 0 0 0 1.4,0l9.9,-9.8a1,1 0 0 0 0,-1.4z" class="current-dg"></path>
+                  </g>
+                </defs>
+              </svg>
+              <span class="myorder-step-current"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#myorder-step-current"></use></svg></span>
+            </div>
+            <div class="col-md-4"> 
+                {% if paid_status %}
+                <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+                <defs>
+                  <g id="myorder-step-current">
+                    <circle id="svg_1" r="16" cy="16" cx="16" class="current-bg"></circle>
+                    <path id="svg_2" d="m23.70707,10.4a1,1 0 0 0 -1.4,0l-9.2,9.2l-3.5,-3.6a1,1 0 0 0 -1.4,1.4l4.2,4.2a1,1 0 0 0 1.4,0l9.9,-9.8a1,1 0 0 0 0,-1.4z" class="current-dg"></path>
+                  </g>
+                </defs>
+                
+              </svg>
+              <span class="myorder-step-current"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#myorder-step-current"></use></svg></span>
+              {% else %}
+              <span class="myorder-step"></span>
+              {% endif %}
+            </div>
+            <div class="col-md-4">
+                {% if ship_status %}
+                <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+                <defs>
+                  <g id="myorder-step-current">
+                    <circle id="svg_1" r="16" cy="16" cx="16" class="current-bg"></circle>
+                    <path id="svg_2" d="m23.70707,10.4a1,1 0 0 0 -1.4,0l-9.2,9.2l-3.5,-3.6a1,1 0 0 0 -1.4,1.4l4.2,4.2a1,1 0 0 0 1.4,0l9.9,-9.8a1,1 0 0 0 0,-1.4z" class="current-dg"></path>
+                  </g>
+                </defs>
+                
+              </svg>
+              <span class="myorder-step-current"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#myorder-step-current"></use></svg></span>
+              {% else %}
+              <span class="myorder-step"></span>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      <table class="table table-bordered table-hover">
+        <thead>
+          <tr>
+            <td class="text-left" colspan="2">{{ text_order_detail }}</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-left" style="width: 50%;">{% if invoice_no %} <b>{{ text_invoice_no }}</b> {{ invoice_no }}<br />
+              {% endif %} <b>Order Id:</b>{{ temp_id }}<br />
+              <b>{{ text_date_added }}</b> {{ date_added }}</td>
+            <td class="text-left" style="width: 50%;"> <b>Shipping Method: </b> {{ shipping_name }}<br />
+              <b>Tracking Number :</b> {{ tracking_number }} </td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="table table-bordered table-hover">
+        <thead>
+          <tr>
+            <td class="text-left" style="width: 50%; vertical-align: top;">{{ text_payment_address }}</td>
+            {% if shipping_address %}
+            <td class="text-left" style="width: 50%; vertical-align: top;">{{ text_shipping_address }}</td>
+            {% endif %} </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-left">{{ payment_address }}</td>
+            {% if shipping_address %}
+            <td class="text-left">{{ shipping_address }}</td>
+            {% endif %} </tr>
+        </tbody>
+      </table>
+      <div class="table-responsive" style="padding: 1% 4% 2% 20%;">
+            {% if enquiry_status %}
+                <a class="common-btn btn-color3" onclick="showDisputeDialog()">View Ticket</a>
+            {% else %}
+                <a class="common-btn btn-color3" onclick="showDisputeDialog()">Open a ticket</a>
+            {% endif %}
+      </div>
+      <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr>
+              <td class="text-left">{{ column_name }}</td>
+              <td class="text-left">{{ column_model }}</td>
+              <td class="text-right">{{ column_quantity }}</td>
+              <td class="text-right">Marketplace Price</td>
+              <td class="text-right">Marketplace Total</td>
+              <td class="text-right">Tongkart Price</td>
+              <td class="text-right">Tongkart Total</td>
+              {% if products %}
+              <td style="width: 20px;"></td>
+              {% endif %} </tr>
+          </thead>
+          <tbody>
+          
+          {% for product in products %}
+          <tr>
+              <td class="text-left"><a href = '{{ product.link }}' target="_blank" style="color: blue;">{{ product.name }}</a>
+              {% for option in product.option %} <br />
+              &nbsp;<small> - {{ option.name }}: {{ option.value }}</small> {% endfor %}</td>
+            <td class="text-left">{{ product.model }}</td>
+            <td class="text-right">{{ product.quantity }}</td>
+            <td class="text-right">{{ product.price }}</td>
+            <td class="text-right">{{ product.total }}</td>
+            <td class="text-right">{{ product.tongkart_price }}</td>
+            <td class="text-right">{{ product.tongkart_total }}</td>
+          </tr>
+          {% endfor %}
+          {% for voucher in vouchers %}
+          <tr>
+            <td class="text-left">{{ voucher.description }}</td>
+            <td class="text-left"></td>
+            <td class="text-right">1</td>
+            <td class="text-right">{{ voucher.amount }}</td>
+            <td class="text-right">{{ voucher.amount }}</td>
+            {% if products %}
+            <td></td>
+            {% endif %} </tr>
+          {% endfor %}
+            </tbody>
+          
+          <tfoot>
+          <tr>
+            <td colspan="5"></td>
+            <td class="text-right"><b>Tongkart Subtotal</b></td>
+            <td class="text-right">{{ tongkart_total }}</td>
+            {% if products %}
+            <td></td>
+            {% endif %} 
+          </tr>
+          <tr>
+            <td colspan="5"></td>
+            <td class="text-right"><b>Shipping</b></td>
+            <td class="text-right">{{ shipping_price }}</td>
+            {% if products %}
+            <td></td>
+            {% endif %} 
+          </tr>
+          <tr>
+            <td colspan="5"></td>
+            <td class="text-right"><b>Tongkart Total</b></td>
+            <td class="text-right">{{ total_tongkart }}</td>
+            {% if products %}
+            <td></td>
+            {% endif %} 
+          </tr>
+          <!--{% for total in totals %}
+          <tr>
+            <td colspan="3"></td>
+            <td class="text-right"><b>{{ total.title }}</b></td>
+            <td class="text-right">{{ total.text }}</td>
+            {% if products %}
+            <td></td>
+            {% endif %} </tr>
+          {% endfor %}-->
+            </tfoot>
+          
+        </table>
+      </div>
+      {% if comment %}
+      <table class="table table-bordered table-hover">
+        <thead>
+          <tr>
+            <td class="text-left">{{ text_comment }}</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-left">{{ comment }}</td>
+          </tr>
+        </tbody>
+      </table>
+      {% endif %}
+      {% if histories %}
+      <h3>{{ text_history }}</h3>
+      <table class="table table-bordered table-hover">
+        <thead>
+          <tr>
+            <td class="text-left">{{ column_date_added }}</td>
+            <td class="text-left">{{ column_status }}</td>
+            <td class="text-left">{{ column_comment }}</td>
+          </tr>
+        </thead>
+        <tbody>
+        
+        {% if histories %}
+        {% for history in histories %}
+        <tr>
+          <td class="text-left">{{ history.date_added }}</td>
+          <td class="text-left">{{ history.status }}</td>
+          <td class="text-left">{{ history.comment }}</td>
+        </tr>
+        {% endfor %}
+        {% else %}
+        <tr>
+          <td colspan="3" class="text-center">{{ text_no_results }}</td>
+        </tr>
+        {% endif %}
+          </tbody>
+        
+      </table>
+      {% endif %}
+      
+      </div>
+    </div>
+</div>
+<style>
+@media (min-width: 1590px) {
+    #content.acwidth {
+        width: 100%;
+    }
+}
+.orders-details-right .myorder-line {
+    height: 7px;
+    border-top: 2px solid #7b999e;
+    width: 98%;
+    position: absolute;
+    bottom: 10px;
+}
+.myorder-step, .myorder-step-current {
+    width: 32px;
+    height: 32px;
+    display: block;
+    border-radius: 32px;
+    margin: 0 auto;
+}
+.current-bg {
+    fill: #54bbeb;
+}
+.myorder-step {
+    display: block;
+    border: 1px solid #7b999e;
+    background: #fff;
+    line-height: 29px;
+}
+.common-btn, .common-btn2, .common-btn3, .common-btn4 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    -webkit-transition: background-color .2s ease-in-out;
+    -o-transition: background-color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+    background-color: #54bbeb;
+    padding: 9px 14px;
+}
+</style>
+      <script type="text/javascript">
+          function showDisputeDialog(){
+              $("#sl_customer_popup_button").css('display', 'block');
+              $(".sl-mfp-bg").css('display', 'block');
+
+           }
+           function sl_customer_popup(){
+            var enquiry_id = $('#enquiry_id').val();
+            var desc = $("#reason").val();
+            
+            var reason = $("#disputeHead").val();
+            var order_id = '{{ order_id }}';
+            if(enquiry_id ==''){
+                enquiry_id = 0;
+            }
+            if(!reason){
+                reason = '';
+            }
+            console.log(enquiry_id);
+            $('#msgTip').text('');
+            $('#msgsuccess').text('');
+            if(desc !=''){
+                $.ajax({
+                       url: "index.php?route=account/order/enquiry",
+                       data: 'enquiry_id='+enquiry_id+'&desc='+desc+'&reason='+reason+'&order_id='+order_id,
+                       success: function (data) {
+                          if(data == 'sent'){
+                              $('#msgsuccess').text('Submited Succesfully');
+                              setTimeout(
+                                function() 
+                                {
+                                  $("#sl_customer_popup_button").css('display', 'none');
+                                  $(".sl-mfp-bg").css('display', 'none');
+                                  window.location.replace("index.php?route=account/order/info&order_id="+{{ order_id }});
+                                }, 3000);
+                              
+                          } else {
+                              $('#msgTip').text('Error.');
+                          }
+
+                       }
+                   });
+
+           } else{
+               $('#msgTip').text('Description is required');
+           }
+        }
+           $('.close-exit-popup').bind('click', function(){
+                $("#sl_customer_popup_button").css('display', 'none');
+                $(".sl-mfp-bg").css('display', 'none');
+	});
+      </script>
+      <style>
+    .sl-mfp-bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1042;
+    overflow: hidden;
+    position: fixed;
+    background: #0b0b0b;
+    opacity: 0.6;
+    filter: alpha(opacity=80);
+}
+#msgTip{
+    color: red;
+}
+#msgsuccess{
+    color: green;
+}
+select {
+    text-transform: none;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #d2dce8;
+    font-size: 14px;
+    padding: 6px 10px;
+    line-height: 20px;
+    background: #fff calc(100% - 4px) 50%;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+textarea {
+    border: 1px solid #d2dce8;
+    padding: 5px 13px;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    color: inherit;
+}
+.close-exit-popup{
+    position: absolute !important;
+    z-index: 999999999999999 !important;
+    top: -1px !important;
+    right: -281px !important;
+    cursor: pointer !important;
+}
+[data-em=modal-close] {
+    position: absolute !important;
+    z-index: 999999999999999 !important;
+    top: -21px !important;
+    right: -22px !important;
+    cursor: pointer !important;
+}
+[data-em=modal-container] {
+    width: 800px;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: white;
+    text-align: center;
+    font-family: Helvetica Nueue, Helvetica, Arial, Times, sans-serif;
+}
+[data-em=modal-container] {
+    width: 800px !important;
+    overflow: hidden !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+[data-em=modal-container] [data-em=text-line-1] {
+    color: white;
+    font-size: 40px;
+    line-height: 65px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 5%;
+}
+[data-em=modal-container] [data-em=text-line-2] {
+    color: white;
+    font-size: 45px;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 15px 0 25px 0;
+    font-weight: bold;
+    margin-top: 4%;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 5%;
+}
+[data-em=modal-container] [data-em=text-line-3] {
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 15px 0 25px 0;
+    font-weight: bold;
+    margin-top: 4%;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 5%;
+}
+.input_background_popup {
+    padding: 15px 0;
+}
+[data-em=modal-container] input {
+    width: 445px;
+    height: 60px;
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 5% !important;
+}
+[data-em=modal-container] input {
+    display: block;
+    text-align: center;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 3px;
+    padding: 6px 15px;
+    font-size: 18px;
+    color: #333;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0 auto;
+    margin-right: 15px;
+}
+[data-em=modal-container] [data-em=button] {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    font-size: 27px;
+    font-weight: bold;
+    width: 260px;
+    display: block;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    height: 60px;
+    border: 1px solid black;
+}
+.popup_error_msg {
+    position: absolute;
+    color: white;
+    margin-bottom: 5px;
+    float: left;
+    margin-top: 33px;
+    display: block;
+    top: 57%;
+    left: 24%;
+    width: 430px;
+    text-align: center;
+    line-height: 12px;
+    background: rgba(255, 39, 0, 0.74);
+    padding: 5px;
+}
+.popup_success_msg{
+    position: absolute;
+    color: white;
+    margin-bottom: 5px;
+    float: left;
+    margin-top: 33px;
+    display: block;
+    top: 57%;
+    left: 15%;
+    width: 560px;
+    text-align: center;
+    line-height: 12px;
+    padding: 5px;
+    font-size: 23px;
+}
+
+
+.refund-alert-con {
+    width: 100%;
+    height: 246px;
+    margin-top: 30px;
+    float: left;
+    overflow-y: auto;
+}
+.refund-alert-con .status-box {
+    padding: 0 80px;
+}
+.status-box {
+    position: relative;
+}
+.refund-alert-con .status-box .status-list {
+    margin: 0 0 0 90px;
+}
+.status-box .status-list li {
+    padding-bottom: 20px;
+    border-left: 2px solid #7b999e;
+    text-align: left;
+    position: relative;
+}
+.refund-alert-con .status-box .status-list li .status-day {
+    left: -125px;
+    text-align: right;
+}
+.status-box .status-list li .status-day {
+    position: absolute;
+    left: -76px;
+    top: -3px;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+.refund-alert-con .status-content {
+    margin-left: 40px;
+}
+.refund-alert-con .status-box .status-list li span {
+    margin: 0;
+    font-size: 16px;
+}
+.status-box .status-list li span {
+    display: inline-flex;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+ol, ul, li {
+    list-style: none;
+}
+.status-name-latest {
+    width: 205px;
+    text-align: left;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.refund-alert-con .status-box .status-list li .status-day p {
+    font-size: 14px;
+    font-weight: normal;
+}
+.status-box .status-list li:before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    margin-left: -4px;
+    margin-right: 10px;
+    position: absolute;
+    top: 8px;
+    background-color: #7b999e;
+}
+</style>

@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<AmazonEnvelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+	<Header>
+		<DocumentVersion>1.01</DocumentVersion><MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier></Header>
+	<MessageType>Product</MessageType>
+	<PurgeAndReplace>false</PurgeAndReplace><Message>
+		<MessageID>1</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_OS0775-3</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096692</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-07T23:05:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Sample Scratch World Map Travel Edition Original 42 * 30cm</Title>
+				<Brand>Zenuss</Brand> 
+				<Description>Printed with fine paper with a gloss coating for luxury and works exactly like a scratch card, once the gold scratch is removed it reveals the mapping underneath.
+
+Features:
+Not only are counies featured on the map, there are also cities shown on the top layer and the world map underneath, allowing for more detailed scratching.
+Great gift for avel lover.
+Printed with fine paper with a gloss coating for luxury and works exactly like a scratch card.
+Black and copper foil cover make it look more stylish on any wall.
+
+Specifications:
+Type: big  with cylinder packing, small  with cylinder packing, small  without cylinder packing, city version, luminous version, adventure version, black gold log, scratch globe (optional)
+Material: copper foil
+Item : 42 * 30cm / 16.5 * 11.8in
+Package : 32 * 5.5 * 5.5cm / 12.6 * 2.2 * 2.2in
+Package weight: 90g / 3.2oz
+
+Package list:
+1 * Map</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Not only are counies d on the map, there are also cities shown on the top layer and the world map underneath, allowing for more detailed scratching.Great gift for avel lover.Printed with fine paper with a gloss coating for luxury and works exactly like a scratch card.Black and copper foil cover make it look more stylish on any wall.</BulletPoint><BulletPoint> copper foil</BulletPoint><BulletPoint>1 * Map</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">32</Length> 
+	 <Width unitOfMeasure="CM">5.5</Width> 
+	 <Height unitOfMeasure="CM">5.5</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>QS_OS0775-3</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>QS_OS0775-3</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>976393031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>#3</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message></AmazonEnvelope>

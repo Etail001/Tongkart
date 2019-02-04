@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8" ?>
+            <AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+            <Header>
+            <DocumentVersion>1.01</DocumentVersion>
+            <MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier>
+            </Header>
+            <MessageType>Price</MessageType><Message>
+                <MessageID>1</MessageID>
+                <Price>
+                <SKU>QS_H10005</SKU> 
+                <StandardPrice currency="INR">715.26</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">650.23</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">858.31</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>2</MessageID>
+                <Price>
+                <SKU>QS_Y7790</SKU> 
+                <StandardPrice currency="INR">732.01</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">665.47</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">878.41</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>3</MessageID>
+                <Price>
+                <SKU>QS_K6587</SKU> 
+                <StandardPrice currency="INR">1056.66</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">960.6</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1268</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>4</MessageID>
+                <Price>
+                <SKU>CB_264463902</SKU> 
+                <StandardPrice currency="INR">27227.58</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">24752.34</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">32673.09</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>5</MessageID>
+                <Price>
+                <SKU>QS_K6186-3</SKU> 
+                <StandardPrice currency="INR">397.49</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">361.35</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">476.99</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>6</MessageID>
+                <Price>
+                <SKU>CB_220195101</SKU> 
+                <StandardPrice currency="INR">1027.76</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">934.33</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1233.32</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>7</MessageID>
+                <Price>
+                <SKU>QS_K6258</SKU> 
+                <StandardPrice currency="INR">445.19</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">404.71</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">534.22</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>8</MessageID>
+                <Price>
+                <SKU>QS_E3809</SKU> 
+                <StandardPrice currency="INR">2320</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">2109.09</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">2784</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>9</MessageID>
+                <Price>
+                <SKU>QS_K6435</SKU> 
+                <StandardPrice currency="INR">1592.09</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1447.36</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1910.51</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>10</MessageID>
+                <Price>
+                <SKU>QS_K961</SKU> 
+                <StandardPrice currency="INR">354.08</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">321.89</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">424.89</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>11</MessageID>
+                <Price>
+                <SKU>QS_K6793-H11</SKU> 
+                <StandardPrice currency="INR">791.58</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">719.62</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">949.9</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>12</MessageID>
+                <Price>
+                <SKU>QS_C119</SKU> 
+                <StandardPrice currency="INR">379.26</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">344.78</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">455.11</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>13</MessageID>
+                <Price>
+                <SKU>QS_E4085</SKU> 
+                <StandardPrice currency="INR">3187.38</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">2897.62</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">3824.86</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>14</MessageID>
+                <Price>
+                <SKU>QS_L1607EU</SKU> 
+                <StandardPrice currency="INR">830</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">754.54</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">996</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>15</MessageID>
+                <Price>
+                <SKU>CB_228757801</SKU> 
+                <StandardPrice currency="INR">1055.56</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">959.6</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1266.68</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>16</MessageID>
+                <Price>
+                <SKU>CB_150756004</SKU> 
+                <StandardPrice currency="INR">2426.8</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">2206.18</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">2912.16</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>17</MessageID>
+                <Price>
+                <SKU>QS_Y6490</SKU> 
+                <StandardPrice currency="INR">1645.78</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1496.16</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1974.93</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>18</MessageID>
+                <Price>
+                <SKU>CB_239432103</SKU> 
+                <StandardPrice currency="INR">1295.97</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1178.16</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1555.17</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>19</MessageID>
+                <Price>
+                <SKU>QS_H17727PU</SKU> 
+                <StandardPrice currency="INR">1426.64</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1296.94</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1711.97</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>20</MessageID>
+                <Price>
+                <SKU>QS_H15983</SKU> 
+                <StandardPrice currency="INR">313.23</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">284.75</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">375.87</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>21</MessageID>
+                <Price>
+                <SKU>QS_V3154</SKU> 
+                <StandardPrice currency="INR">1353.48</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1230.44</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1624.18</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>22</MessageID>
+                <Price>
+                <SKU>QS_K5281</SKU> 
+                <StandardPrice currency="INR">453.59</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">412.36</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">544.31</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>23</MessageID>
+                <Price>
+                <SKU>QS_Y6258B</SKU> 
+                <StandardPrice currency="INR">2762.22</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">2511.11</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">3314.66</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>24</MessageID>
+                <Price>
+                <SKU>CB_184999201</SKU> 
+                <StandardPrice currency="INR">918.94</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">835.4</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1102.73</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>25</MessageID>
+                <Price>
+                <SKU>CB_220027101</SKU> 
+                <StandardPrice currency="INR">1717.51</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1561.37</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">2061.01</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>26</MessageID>
+                <Price>
+                <SKU>CB_168998801</SKU> 
+                <StandardPrice currency="INR">147.82</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">134.38</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">177.39</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>27</MessageID>
+                <Price>
+                <SKU>CB_138258901</SKU> 
+                <StandardPrice currency="INR">1751.38</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1592.16</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">2101.65</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>28</MessageID>
+                <Price>
+                <SKU>QS_H21450</SKU> 
+                <StandardPrice currency="INR">3318.63</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">3016.94</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">3982.36</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>29</MessageID>
+                <Price>
+                <SKU>CB_169085101</SKU> 
+                <StandardPrice currency="INR">4226.57</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">3842.34</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">5071.89</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>30</MessageID>
+                <Price>
+                <SKU>QS_PA4270W</SKU> 
+                <StandardPrice currency="INR">468.86</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">426.24</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">562.63</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>31</MessageID>
+                <Price>
+                <SKU>QS_L0511</SKU> 
+                <StandardPrice currency="INR">370.39</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">336.72</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">444.46</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>32</MessageID>
+                <Price>
+                <SKU>QS_H14736EU</SKU> 
+                <StandardPrice currency="INR">1524.2</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1385.64</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1829.04</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>33</MessageID>
+                <Price>
+                <SKU>QS_S406-UK</SKU> 
+                <StandardPrice currency="INR">453.64</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">412.4</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">544.36</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>34</MessageID>
+                <Price>
+                <SKU>CB_216369001</SKU> 
+                <StandardPrice currency="INR">1947.13</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1770.11</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">2336.55</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>35</MessageID>
+                <Price>
+                <SKU>QS_E1766</SKU> 
+                <StandardPrice currency="INR">1209.26</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1099.33</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1451.11</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>36</MessageID>
+                <Price>
+                <SKU>CB_208126601</SKU> 
+                <StandardPrice currency="INR">1925.13</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1750.12</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">2310.16</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>37</MessageID>
+                <Price>
+                <SKU>CB_233753001</SKU> 
+                <StandardPrice currency="INR">976.57</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">887.79</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1171.88</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>38</MessageID>
+                <Price>
+                <SKU>CB_166319701</SKU> 
+                <StandardPrice currency="INR">682.27</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">620.25</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">818.72</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>39</MessageID>
+                <Price>
+                <SKU>QS_K5607</SKU> 
+                <StandardPrice currency="INR">542.11</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">492.83</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">650.53</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>40</MessageID>
+                <Price>
+                <SKU>CB_174859501</SKU> 
+                <StandardPrice currency="INR">4215.42</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">3832.2</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">5058.5</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>41</MessageID>
+                <Price>
+                <SKU>CB_194745401</SKU> 
+                <StandardPrice currency="INR">1195.25</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1086.59</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1434.29</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>42</MessageID>
+                <Price>
+                <SKU>QS_E1033</SKU> 
+                <StandardPrice currency="INR">444.5</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">404.09</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">533.4</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>43</MessageID>
+                <Price>
+                <SKU>CB_199017502</SKU> 
+                <StandardPrice currency="INR">315.77</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">287.06</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">378.92</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>44</MessageID>
+                <Price>
+                <SKU>CB_215060605</SKU> 
+                <StandardPrice currency="INR">5211.86</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">4738.05</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">6254.23</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>45</MessageID>
+                <Price>
+                <SKU>QS_K5437DBL</SKU> 
+                <StandardPrice currency="INR">993.69</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">903.35</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1192.43</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>46</MessageID>
+                <Price>
+                <SKU>CB_161035001</SKU> 
+                <StandardPrice currency="INR">1315.94</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1196.31</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1579.13</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>47</MessageID>
+                <Price>
+                <SKU>QS_K4504</SKU> 
+                <StandardPrice currency="INR">341.27</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">310.24</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">409.52</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>48</MessageID>
+                <Price>
+                <SKU>QS_H17727BL</SKU> 
+                <StandardPrice currency="INR">1360.19</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1236.53</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1632.22</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>49</MessageID>
+                <Price>
+                <SKU>CB_183570801</SKU> 
+                <StandardPrice currency="INR">1169.88</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1063.53</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1403.86</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>50</MessageID>
+                <Price>
+                <SKU>QS_E1892</SKU> 
+                <StandardPrice currency="INR">690.11</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">627.37</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">828.13</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>51</MessageID>
+                <Price>
+                <SKU>QS_V3779</SKU> 
+                <StandardPrice currency="INR">338.31</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">307.55</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">405.97</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>52</MessageID>
+                <Price>
+                <SKU>CB_178356301</SKU> 
+                <StandardPrice currency="INR">578.02</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">525.47</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">693.62</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>53</MessageID>
+                <Price>
+                <SKU>QS_MT549-1</SKU> 
+                <StandardPrice currency="INR">326.36</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">296.69</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">391.63</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>54</MessageID>
+                <Price>
+                <SKU>CB_174859502</SKU> 
+                <StandardPrice currency="INR">2020.88</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1837.17</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">2425.06</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>55</MessageID>
+                <Price>
+                <SKU>CB_158411101</SKU> 
+                <StandardPrice currency="INR">488.96</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">444.51</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">586.75</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>56</MessageID>
+                <Price>
+                <SKU>CB_211463901</SKU> 
+                <StandardPrice currency="INR">259.29</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">235.71</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">311.14</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>57</MessageID>
+                <Price>
+                <SKU>CB_222783201</SKU> 
+                <StandardPrice currency="INR">2777.12</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">2524.65</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">3332.54</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>58</MessageID>
+                <Price>
+                <SKU>CB_165460401</SKU> 
+                <StandardPrice currency="INR">1153.49</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1048.63</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1384.19</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>59</MessageID>
+                <Price>
+                <SKU>CB_208097802</SKU> 
+                <StandardPrice currency="INR">2268.45</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">2062.23</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">2722.14</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>60</MessageID>
+                <Price>
+                <SKU>QS_MT307-1</SKU> 
+                <StandardPrice currency="INR">547.68</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">497.89</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">657.22</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>61</MessageID>
+                <Price>
+                <SKU>QS_C1191</SKU> 
+                <StandardPrice currency="INR">3846.64</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">3496.95</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">4615.97</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>62</MessageID>
+                <Price>
+                <SKU>CB_163479501</SKU> 
+                <StandardPrice currency="INR">765.88</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">696.26</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">919.06</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>63</MessageID>
+                <Price>
+                <SKU>QS_D2502</SKU> 
+                <StandardPrice currency="INR">1240.07</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1127.33</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1488.08</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>64</MessageID>
+                <Price>
+                <SKU>QS_H17727GR</SKU> 
+                <StandardPrice currency="INR">1426.64</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1296.94</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1711.97</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>65</MessageID>
+                <Price>
+                <SKU>QS_L2292</SKU> 
+                <StandardPrice currency="INR">1027.63</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">934.21</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1233.16</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>66</MessageID>
+                <Price>
+                <SKU>CB_215060603</SKU> 
+                <StandardPrice currency="INR">5211.86</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">4738.05</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">6254.23</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>67</MessageID>
+                <Price>
+                <SKU>CB_193476401</SKU> 
+                <StandardPrice currency="INR">130.91</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">119.01</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">157.09</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>68</MessageID>
+                <Price>
+                <SKU>CB_169993901</SKU> 
+                <StandardPrice currency="INR">1200.02</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1090.92</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1440.02</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>69</MessageID>
+                <Price>
+                <SKU>CB_150756003</SKU> 
+                <StandardPrice currency="INR">2426.8</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">2206.18</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">2912.16</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>70</MessageID>
+                <Price>
+                <SKU>CB_250580401</SKU> 
+                <StandardPrice currency="INR">2550.3</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">2318.45</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">3060.36</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>71</MessageID>
+                <Price>
+                <SKU>QS_V4604G</SKU> 
+                <StandardPrice currency="INR">295.98</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">269.08</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">355.18</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>72</MessageID>
+                <Price>
+                <SKU>QS_E2126-2</SKU> 
+                <StandardPrice currency="INR">286.62</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">260.56</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">343.94</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>73</MessageID>
+                <Price>
+                <SKU>QS_V3475</SKU> 
+                <StandardPrice currency="INR">2493.55</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">2266.86</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">2992.25</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>74</MessageID>
+                <Price>
+                <SKU>CB_160895801</SKU> 
+                <StandardPrice currency="INR">1105.46</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1004.97</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1326.55</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>75</MessageID>
+                <Price>
+                <SKU>QS_E2853B</SKU> 
+                <StandardPrice currency="INR">1384.63</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1258.75</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1661.55</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>76</MessageID>
+                <Price>
+                <SKU>CB_160826401</SKU> 
+                <StandardPrice currency="INR">571.32</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">519.39</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">685.59</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>77</MessageID>
+                <Price>
+                <SKU>CB_150756001</SKU> 
+                <StandardPrice currency="INR">2426.8</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">2206.18</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">2912.16</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>78</MessageID>
+                <Price>
+                <SKU>QS_H21200</SKU> 
+                <StandardPrice currency="INR">362.7</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">329.73</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">435.24</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>79</MessageID>
+                <Price>
+                <SKU>QS_K6003</SKU> 
+                <StandardPrice currency="INR">539.42</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">490.38</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">647.31</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>80</MessageID>
+                <Price>
+                <SKU>CB_224099401</SKU> 
+                <StandardPrice currency="INR">1033.31</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">939.38</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1239.98</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>81</MessageID>
+                <Price>
+                <SKU>QS_E2548</SKU> 
+                <StandardPrice currency="INR">1197.63</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1088.76</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1437.16</MaximumSellerAllowedPrice>
+                </Price>
+                </Message><Message>
+                <MessageID>82</MessageID>
+                <Price>
+                <SKU>CB_189456701</SKU> 
+                <StandardPrice currency="INR">1348.93</StandardPrice>
+                <MinimumSellerAllowedPrice currency="INR">1226.3</MinimumSellerAllowedPrice>
+                <MaximumSellerAllowedPrice currency="INR">1618.72</MaximumSellerAllowedPrice>
+                </Price>
+                </Message></AmazonEnvelope>

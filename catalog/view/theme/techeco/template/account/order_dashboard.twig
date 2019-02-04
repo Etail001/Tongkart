@@ -1,0 +1,419 @@
+{{ header }}
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Tongkart Dashboard</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- MetisMenu CSS -->
+        <link href="../css/metisMenu.min.css" rel="stylesheet">
+
+        <!-- Timeline CSS -->
+        <link href="../css/timeline.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="../css/startmin.css" rel="stylesheet">
+
+        <!-- Morris Charts CSS -->
+        <link href="../css/morris.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+        <div id="wrapper navbar navbar-inverse navbar-fixed-top">
+            <!-- Navigation -->
+                
+                <!-- /.navbar-top-links -->
+
+                <div class="navbar-default sidebar" role="navigation">
+                    <div class="sidebar-nav navbar-collapse" style="margin-top: 62px;">
+                        <ul class="nav" id="side-menu">
+                            
+                            <li>
+                                <a href="{{ dashboard }}"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="{{ catalog }}" id="catalog"><i class="fa fa-bar-chart-o fa-fw"></i> Catalog<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="{{ total }}">Total Products</a>
+                                    </li>
+                                    <!--<li>
+                                        <a href="{{ new }}">New Arrivals</a>
+                                    </li>-->
+                                    <li>
+                                        <a href="{{ listed }}">Listed Products</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ not_listed }}">Error Products</a>
+                                    </li>
+                                    <!--<li>
+                                        <a href="{{ monitor }}">Monitor Status</a>
+                                    </li>-->
+                                </ul>
+                                <!-- /.nav-second-level -->
+                            </li>
+                            <li class="active">
+                                <a href="{{ order_dashboard }}" id="order"><i class="fa fa-bar-chart-o fa-fw"></i>Orders<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="{{ orders_total }}">Total Orders</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ pending }}">Pending</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ awaiting_payment }}">Awaiting Payment</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ processing }}">Processing</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ odr_shipped }}">Shipped</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ cancelled }}">Cancelled</a>
+                                    </li>
+                                </ul>
+                                <!-- /.nav-second-level -->
+                            </li>
+				<li>
+                                <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Listing Updates<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="{{ price }}">Price</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ brand }}">Brand</a>
+                                    </li>
+                                </ul>
+                                <!-- /.nav-second-level -->
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-edit fa-fw"></i>Data Export<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="{{ export_all }}">SKU</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ export_special }}">Special Export</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-edit fa-fw"></i> Settings<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="{{ api }}">API</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ upc }}">UPC Management</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ account }}">Account</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            <div id="page-wrapper" style="min-height: 300px !important;" >
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12" style="text-align: center;" >
+                            <h1 class="page-header">Orders</h1>
+                        </div>
+                        <!-- /.col-lg-12 -->
+                    </div>
+                    <div class="row">
+                            
+                    
+                    <div class="row">
+                    <!-- /.row -->
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <i class="fa fa-tasks fa-5x"></i>
+                                        </div>
+                                        <div class="col-xs-9 text-right">
+                                            <div class="huge">{{ total_order }}</div>
+                                            <div>Total Orders</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="{{ orders_total }}">
+                                    <div class="panel-footer">
+                                        <span class="pull-left">View Details</span>
+                                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="panel panel-orange">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <i class="fa fa-shopping-cart fa-5x"></i>
+                                        </div>
+                                        <div class="col-xs-9 text-right">
+                                            <div class="huge">{{ pending_order }}</div>
+                                            <div>Pending Orders</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="{{ pending }}">
+                                    <div class="panel-footer">
+                                        <span class="pull-left">View Details</span>
+                                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="panel panel-light">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <i class="fa fa-shopping-cart fa-5x"></i>
+                                        </div>
+                                        <div class="col-xs-9 text-right">
+                                            <div class="huge">{{ awaiting_payment_order }}</div>
+                                            <div>Awaiting Payment</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="{{ awaiting_payment }}">
+                                    <div class="panel-footer">
+                                        <span class="pull-left">View Details</span>
+                                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="panel panel-orange">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <i class="fa fa-shopping-cart fa-5x"></i>
+                                        </div>
+                                        <div class="col-xs-9 text-right">
+                                            <div class="huge">{{ processing_order }}</div>
+                                            <div>Processing</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="{{ processing }}">
+                                    <div class="panel-footer">
+                                        <span class="pull-left">View Details</span>
+                                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="panel panel-green">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <i class="fa fa-support fa-5x"></i>
+                                        </div>
+                                        <div class="col-xs-9 text-right">
+                                            <div class="huge">{{ shipped_order }}</div>
+                                            <div>Shipped Orders</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="{{ odr_shipped }}">
+                                    <div class="panel-footer">
+                                        <span class="pull-left">View Details</span>
+                                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!--<div class="col-lg-3 col-md-6">
+                            <div class="panel panel-pink">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <i class="fa fa-support fa-5x"></i>
+                                        </div>
+                                        <div class="col-xs-9 text-right">
+                                            <div class="huge">{{ total_restricted_products }}</div>
+                                            <div>Restricted Products</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <div class="panel-footer">
+                                        <span class="pull-left">View Details</span>
+                                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>-->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="panel panel-red">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <i class="fa fa-support fa-5x"></i>
+                                        </div>
+                                        <div class="col-xs-9 text-right">
+                                            <div class="huge">{{ cancel_order }}</div>
+                                            <div>Cancelled Orders</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="{{ cancelled }}">
+                                    <div class="panel-footer">
+                                        <span class="pull-left">View Details</span>
+                                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                    <!-- /.row -->
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- /#page-wrapper -->
+
+        </div>
+        <!-- /#wrapper -->
+
+        <!-- jQuery -->
+        <script src="../js/jquery.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="../js/bootstrap.min.js"></script>
+
+        <!-- Metis Menu Plugin JavaScript -->
+        <script src="../js/metisMenu.min.js"></script>
+
+        <!-- Morris Charts JavaScript -->
+        <script src="../js/raphael.min.js"></script>
+        <script src="../js/morris.min.js"></script>
+        <script src="../js/morris-data.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="../js/startmin.js"></script>
+
+    </body>
+</html>
+<style>
+    .navbar-inverse{
+        background:none;
+    }
+    
+    .panel-lblue>.panel-heading {
+        color: #fff;
+        background-color: #49e1e3;
+        border-color: #49e1e3;
+    }
+    .panel-lblue{
+        border-color: #49e1e3;
+    }
+    .panel-light>.panel-heading {
+        color: #fff;
+        background-color: #54bbeb;
+        border-color: #54bbeb;
+    }
+    .panel-light{
+        border-color: #54bbeb;
+    }
+    .panel-syellow>.panel-heading {
+        color: #fff;
+        background-color: #d3de2e;
+        border-color: #d3de2e;
+    }
+    .panel-syellow{
+        border-color: #d3de2e;
+    }
+    .panel-payment>.panel-heading {
+        color: #fff;
+        background-color: #54bbeb;
+        border-color: #54bbeb;
+    }
+    .panel-payment{
+        border-color: #54bbeb;
+    }
+    .recharge{
+        display: inline-block;
+    width: 73px;
+    height: 36px;
+    margin-bottom: 10px;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #0ba4db;
+    text-align: center;
+    line-height: 36px;
+    box-shadow: 0px 1px 1px #17c7e5;
+    transition: 0.1s;
+    }
+    .account-details {
+        padding: 20px;
+        min-height: 130px;
+        background-color: #f9f9f9;
+    }
+    ol, ul, li {
+    list-style: none;
+    }
+    li{
+        margin-top: 8px;
+        min-height: 15px;
+    }
+    .account-details ul li span {
+        display: inline-block;
+        float: left;
+    }
+    .account-details ul li i {
+        display: inline-block;
+        float: right;
+        font-style: normal;
+    }
+    .account-details ul {
+    clear: both;
+    margin-top: 10px;
+    font-size: 14px;
+}
+</style>

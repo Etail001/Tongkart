@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGetPacketStatus xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://grandslamexpress.in/">
+  <GetPacketStatus>
+    <AWBNo>925500138</AWBNo>
+    <Msg />
+    <Status>Success</Status>
+    <Time>14-AUG-2018 12:47:30 PM</Time>
+    <ScanType />
+    <Memo>PickUp Information Received</Memo>
+    <Location>CHINA</Location>
+    <PODImage />
+    <Signature />
+  </GetPacketStatus>
+</ArrayOfGetPacketStatus>

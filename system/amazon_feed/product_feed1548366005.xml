@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<AmazonEnvelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+	<Header>
+		<DocumentVersion>1.01</DocumentVersion><MerchantIdentifier>A1LTO87O7AHC09</MerchantIdentifier></Header>
+	<MessageType>Product</MessageType>
+	<PurgeAndReplace>false</PurgeAndReplace><Message>
+		<MessageID>1</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_222179101</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608095787</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-24T21:40:05</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore UltraFire MD-404A 26650 Battery 4-Channel Charger AC 100 - 240V</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Material: ABS Plug: US regulation Compatible: 26650,18650 and other batteries The number of rechargeable batteries: 4 The input voltage: AC 100 - 240V 47 / 63HZ Output voltage: DC 4.2V ± 0.1 percent 1ARechargeable battery type: lithium iron phosphate, lithium ion, nickel hydrogen, nickel cadmium          Type: Charger              Model: MD-404A              Plug: US adapter              Charging Cell Type: Lithium,Lithium Ion,Ni-MH,NiCd              Compatible: 18650,26650              Charging Cell Qty: 4              Input Voltage: AC 100-240V              Output Voltage: DC4.2V              Input Current: 47/63HZ              Output Current: 1A                     0.118             Package weight: 0.147 kg              Product size (L x W x H): 12.00 x 11.00 x 3.00 cm / 4.72 x 4.33 x 1.18 inches              Package size (L x W x H): 12.00 x 15.00 x 7.00 cm / 4.72 x 5.91 x 2.76 inches                    Package Contents: 1 x 4-Channel Charger</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Material: ABS</BulletPoint><BulletPoint>Package Contents: 1 x 4-Channel Charger</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">12</Length> 
+	 <Width unitOfMeasure="CM">15</Width> 
+	 <Height unitOfMeasure="CM">7</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>CB_222179101</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>CB_222179101</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1388867031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <Lighting>
+                        <ProductType>
+				<LightingAccessories>
+				</LightingAccessories>
+                        </ProductType>
+                        </Lighting>
+                        </ProductData>
+		</Product>
+	</Message></AmazonEnvelope>

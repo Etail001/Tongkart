@@ -1,0 +1,514 @@
+<?xml version="1.0" ?>
+<AmazonEnvelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+	<Header>
+		<DocumentVersion>1.01</DocumentVersion><MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier></Header>
+	<MessageType>Product</MessageType>
+	<PurgeAndReplace>false</PurgeAndReplace><Message>
+		<MessageID>1</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_206000302</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096920</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:35:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore 2PCS  SOOCAS X3 Replacement Toothbrush Head</Title>
+				<Brand>Zenuss</Brand> 
+				<Description>Main Features:• Ultrasonic electric toothbrush can effectively remove bacterial plaque, reduce gingiva necrosis • 3D cambered brush appearance fits the radian of your teeth. Small and exquisite brush head is easy to touch the inside of your mouth• Adopting American Dupont Tynex Classic 0.152mm bristle, the brush is approved by FDA and sterilized by UV light• Vacuum package, medical-grade security standard• This type is suitable for people who like smoking or drinking coffee• Suitable for Soocas X3 electric toothbrush          Brand: SOOCAS                     0.060             Package weight: 0.097 kg              Product size (L x W x H): 1.20 x 2.00 x 8.90 cm / 0.47 x 0.79 x 3.5 inches              Package size (L x W x H): 14.00 x 10.20 x 3.80 cm / 5.51 x 4.02 x 1.5 inches                    Package Contents: 2 x Toothbrush Head</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Features:• Ultrasonic electric toothbrush can effectively remove bacterial plaque, reduce gingiva necrosis • 3D cambered brush appearance fits the radian of your teeth. Small and exquisite brush head is easy to touch the inside of your mouth• Adopting American Dupont Tynex Classic 0.152mm bristle, the brush is approved by FDA and sterilized by UV light• Vacuum package, medical-grade security Stand</BulletPoint><BulletPoint>Package Contents: 2 x Toothbrush Head</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">14</Length> 
+	 <Width unitOfMeasure="CM">10.2</Width> 
+	 <Height unitOfMeasure="CM">3.8</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>CB_206000302</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>CB_206000302</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>2454176031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>WHITE</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>2</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_217017701</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096975</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:35:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore SOOCAS X3 Replacement Toothbrush Head Common Cleaning Type 2PCS </Title>
+				<Brand>Zenuss</Brand> 
+				<Description>Description:Everybody loves a bright white smile. Safely enhance your smile every day without giving up the food and drink you love. Now we provide you with the SOOCAS X3 Toothbrush Head to meet your daily tooth cleaning requirements. The Common Cleaning Toothbrush Head featuring the 3D cambered surface which fits your tooth curve, can reach the tooth gap that the manual toothbrush cannot reach. Adopting the American Dupont soft bristles, the rounding bristle will not damage your tooth surface. Every brush head is sterilized by UV light and packed by vacuum package to ensure your safety.Main Features:• Ultrasonic electric toothbrush can effectively remove bacterial plaque, reduce gingiva necrosis • 3D cambered brush appearance fits the radian of your teeth. Small and exquisite brush head is easy to touch the inside of your mouth• Adopting American Dupont Tynex Classic 0.152mm bristle, the brush is approved by FDA and sterilized by UV light• Vacuum package, medical-grade security standard• Suitable for SOOCAS X3 electric toothbrush          Brand: SOOCAS                     0.053             Package weight: 0.089 kg              Product size (L x W x H): 8.20 x 2.00 x 1.50 cm / 3.23 x 0.79 x 0.59 inches              Package size (L x W x H): 10.20 x 14.20 x 3.90 cm / 4.02 x 5.59 x 1.54 inches                    Package Contents: 2 x SOOCAS X3 Toothbrush Head</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Features:• Ultrasonic electric toothbrush can effectively remove bacterial plaque, reduce gingiva necrosis • 3D cambered brush appearance fits the radian of your teeth. Small and exquisite brush head is easy to touch the inside of your mouth• Adopting American Dupont Tynex Classic 0.152mm bristle, the brush is approved by FDA and sterilized by UV light• Vacuum package, medical-grade security Stand</BulletPoint><BulletPoint>Package Contents: 2 x SOOCAS X3 Toothbrush Head</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">10.2</Length> 
+	 <Width unitOfMeasure="CM">14.2</Width> 
+	 <Height unitOfMeasure="CM">3.9</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>CB_217017701</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>CB_217017701</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>2454176031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>BLACK</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>3</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_208126702</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096982</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:35:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Jutek Xiaomi QBKG04LM Aqara Wall Switch Smart Light Control ZigBee Version</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Description:Do you ever think about how many times you turn on / off the lighting controls? Do you ever feel that how convenient it will be if we are able to turn on / off the switch of the single or multiple groups of lights through one click on the cellphone? The Aqara smart light control is not only able to provide multiple control on the lighting system, but also comes with a remote lighting control. The ZiGBee version is the upgraded version of the traditional wall switch. Equipped with the ZigBee wireless telecommunication technology, there is no need of making a change on the old circuit or on the lighting devices. The only thing you have to do will be just replaced the old switch.Main Features:Xiaomi Aqara wall switch ZiGBee version Single key controlWireless connection: ZigBeeCan connect to Aqara smart device or other ZigBee deviceInput: single firewire 220V, 50HzLoad range: no more than 800W / each, minimum: 3W energy saving lamps / 5W LED lights / 16W fluorescent lampsWorking humidity: 5 - 95pct Please download the Mi Home APP in Google Play or Apple StoreBrand: Xiaomi  Type ( Access Control ): Access Control Switch Working Temp.(℃): 0 - 40 Deg.C  Package weight: 0.15 kg  Product size (L x W x H): 8.60 x 8.60 x 1.51 cm / 3.39 x 3.39 x 0.59 inches  Package size (L x W x H): 10.00 x 10.00 x 15.00 cm / 3.94 x 3.94 x 5.91 inches Package Contents: 1 x Xiaomi Aqara Wall Switch ZiGBee Version</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Feature:Xiaomi Aqara wall switch ZiGBee version Single key Control</BulletPoint><BulletPoint>Package content: 1 x Xiaomi Aqara Wall Switch ZiGBee Version</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">10</Length> 
+	 <Width unitOfMeasure="CM">10</Width> 
+	 <Height unitOfMeasure="CM">15</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>CB_208126702</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>CB_208126702</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1388867031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <CE>
+                        <ProductType>
+				<ConsumerElectronics>
+					<Color>MILK WHITE</Color>
+				</ConsumerElectronics>
+                        </ProductType>
+			   <MfgWarrantyDescriptionLabor>Provided by Manufacturer</MfgWarrantyDescriptionLabor>
+                        </CE>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>4</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_V3792B</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096968</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:35:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore S530 Invisible 4g Earphone Bluetooth 4.1 Headphones</Title>
+				<Brand>Jutek</Brand> 
+				<Description>The Bluetooth Stereo Headset comes with Ula-small  And ula-light weight, Bluetooth 4.1 chip and hands-free call with built-in high-performance Speaker And Mic, offering wonderful music and clear communication. Its lightweight and compact portable  is perfectly suitable for office and aveling use.  
+
+Features: 
+Bluetooth 4.1 technology ensures song signal and fast ansmission, and offers high-fidelity stereo music. Compatible with iOS / Android / Windows Smart phones and other Bluetooth-enabled devices.
+The Bluetooth headset with 4g lightweight, super mini  provide you long time wearing comfort, and guarantee 100% stable. Easy to use and custody.
+Built-in rechargeable Lithium battery lasts up to 2 hours of talking time or 2 hours of music playing time and 48 hours of Standby Time on one full charge.
+High-sensitivity microphone grasps the detail of voice, ideal for in-car calling or working use. Multi-point Technology enables you to switch between your business and personal phones.
+Simple operation, easily conol playing / pausing, answering / ending / rejecting an incoming-call and redialing the last number.
+
+Specifications: 
+Bluetooth Version: Bluetooth 4.1
+Supports HSP, HFP, A2DP, AVRCP protocol 
+Operation range: Up to 10 meters 
+High-quality Built-in Rechargeable Li-ion battery
+Talk Time: 2 hours 
+Music Playing Time: 2 hours (The Music Volume will affect the time)
+Standby Time: 48 hours
+Charge Time: 1-2 hours 
+ Black, Taupe, White (Optional) 
+Main item : 2.8 * 1.5 * 1.5cm / 1.10 * 0.59 * 0.59oz
+Main item weight: 4g / 0.15oz
+Package : 13.0 * 9.0 * 1.5cm / 5.12 * 3.54 * 0.59in
+Package weight: 20g / 0.70oz
+
+Package List:
+1 * Bluetooth Stereo Headset
+1 * USB Cable
+1 * User Manual</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint> Bluetooth 4.1 technology ensures song signal and fast ansmission, and offers high-fidelity stereo music. Compatible with iOS / Android / Windows Smart phones and other Bluetooth-enabled devices.The Bluetooth headset with 4g lightweight, super mini  provide you long time wearing comfort, and guarantee 100% stable. Easy to use and custody.Built-in rechargeable Lithium battery lasts up to 2 hours of talking time or 2 hours of music playing time and 48 hours of Standby Time on one full charge.High</BulletPoint><BulletPoint>1 * Bluetooth Stereo Headset1 * USB Cable1 * User Manual</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">3</Length> 
+	 <Width unitOfMeasure="CM">3</Width> 
+	 <Height unitOfMeasure="CM">3</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>QS_V3792B</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>QS_V3792B</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1388878031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <CE>
+                        <ProductType>
+				<ConsumerElectronics>
+					<Color>black</Color>
+				</ConsumerElectronics>
+                        </ProductType>
+			   <MfgWarrantyDescriptionLabor>Provided by Manufacturer</MfgWarrantyDescriptionLabor>
+                        </CE>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>5</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_L1515W</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096913</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:35:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Genssis 5W 24 LEDs USB Powered Eye Protection Clamp Clip Light Table Lamp</Title>
+				<Brand>Zenuss</Brand> 
+				<Description>This eye protection table lamp is stepless dimmable, USB powered, eye-protective and fully-adjustable. With the clamp design base, you can put it right where you need. The comfortable white light bulb with the Smooth Illumination Diffuser will keep eyes sain at bay. It can be used in computer desk, office table, bicycle head etc.
+
+Features:
+STEPLESS DIMMABLE: long press the button to adjust the ightness that is customized for you.
+USB PORT DESIGN: it's powered by USB charger, USB power bank or laptop, so it is convenient when you want to use it.
+EYE-PROTECTIVE: high quality LED bulbs, 500 lumens, flicker-free and anti-glare light without sobes and radiation, it can keep your eyes away from exhaustion.
+CLAMP DESIGN AND FULLY-ADJUSTABLE: the clip range of adjustment screw clamp reach 6cm and song bendy tub enables you to swivel the lamp flexibly and adjust the light position as you need.
+DESK PROTECTION: the rubber in the clamp helps to create friction with the desk, at the same time it prevents any damage from the desk surface.
+APPLICATION AREA: 6cm clip range make it can be used perfectly with music stands, bookshelves, office tables, computer desks, headboards, bicycle heads etc.
+PORTABLE AND ADJUSTABLE LIGHT: excellent for college and university students who needs small footprint lights for reading and studying or wants to ing it with yourself.
+
+Specifications:
+Light  White
+ightness: Stepless dimming
+Luminous flux: 500LM
+LED quantity: 24 pcs
+Input: DV 5V
+Power: Max.5W
+Color temperature: 5000K-5500K
+Lifespan: 35,000 hours
+Material: Aluminum alloy
+Item  White, Black(optional)
+Cable length: 160.0cm / 5.2ft
+Tube length: 25.0cm / 9.8in
+Lamp length: 27.5cm / 10.8in
+Clamp gap width: 6.0cm / 2.3in
+Item weight: 257.0g / 9.0oz
+Package : 37.0 * 15.0 * 8.0cm / 14.5 * 5.9 * 3.1in(L * W * H)
+Package weight: 356.0g / 12.5oz
+
+Package list:
+1 * Clamp Light with USB Cable</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>STEPLESS DIMMABLE: long press the button to adjust the ightness that is customized for you.USB PORT DESIGN: it's powered by USB charger, USB power bank or laptop, so it is convenient when you want to use it.EYE-PROTECTIVE: high quality LED bulbs, 500 lumens, flicker-free and anti-glare light without sobes and radiation, it can keep your eyes away from exhaustion.CLAMP DESIGN AND FULLY-ADJUSTABLE: the clip range of adjustment screw clamp reach 6cm and song bendy tub enables you to swivel the lamp</BulletPoint><BulletPoint> Aluminum alloy</BulletPoint><BulletPoint>1 * Clamp Light with USB Cable</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">37</Length> 
+	 <Width unitOfMeasure="CM">15</Width> 
+	 <Height unitOfMeasure="CM">8</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>QS_L1515W</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>QS_L1515W</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>2454176031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>white</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>6</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_H19254</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096937</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:35:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Genssis Digital LED Mirror Clock 12H/24H Alarm and Snooze Function °C/°F Indoor Thermometer Adjustable LED Luminance</Title>
+				<Brand>Zenuss</Brand> 
+				<Description>This is a great digital clock with mirror function. It can  time in 12H/24H hour format and indoor temperature in °C/°F. The LED luminance is adjusted: dim and ight.  
+
+Features:
+Large LED digits to  time, easy and convenient for reading.
+Indoor thermometer function, temperature range: 0°C~50°C(32°F~122°F).
+Mirror function, can be used as a small mirror.
+Night mode function, the LED  will automatically dim the luminance during the night time.
+2 LED luminance level; 12H/24H hour format for selection.
+With alarm and snooze function.
+Time And temperature switch .
+5 function buttons, easy for operation.
+
+Specifications:
+Temperature Range: 0°C~50°C / 32°F~122°F
+Hour Format: 12H / 24H
+Night Mode Setting: Default Period 18:00-06:00
+Power Supply: 3 * AAA Batteries(NOT Included) or DC 5V
+Product : 138 * 55 * 34mm / 5.4 * 2.16 * 1.34in
+Product Weight: 101g / 3.56oz
+Package : 14.5 * 7.5 * 4.3cm / 5.7 * 2.95 * 1.7in
+Package Weight: 145g / 5.11oz
+
+Note:
+When powered by 3*AAA batteries(not included), press SNZ/LIGHT button, the LED will light on for 5s;
+When plugged with USB cable, the LED light will be on always.
+
+Package List:
+1 * LED Mirror Clock
+1 * USB Cable
+1 * User Manual(English)</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Large LED digits to  time, easy and convenient for reading.Indoor thermometer function, temperature range: 0°C~50°C(32°F~122°F).Mirror function, can be used as a small mirror.Night mode function, the LED  will automatically dim the luminance during the night time.2 LED luminance level; 12H/24H hour format for selection.With alarm and snooze function.Time And temperature switch .5 function buttons, easy for operation.</BulletPoint><BulletPoint>1 * LED Mirror Clock1 * USB Cable1 * User ManualEnglish</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">14.5</Length> 
+	 <Width unitOfMeasure="CM">7.5</Width> 
+	 <Height unitOfMeasure="CM">4.3</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>QS_H19254</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>QS_H19254</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>2454176031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>As On Image</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>7</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_Y7759-2</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096944</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:35:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore Electric Abdominal + Arm Muscle Trainer</Title>
+				<Brand>Jutek</Brand> 
+				<Description>This product is used to sengthen your body muscles and shape your body. If you want to exercise your muscle in a easy way, it is your best choice. What you should do is to fit the pads to your body and it would work. Just keep using it everyday, you will have a nice and handsome body.
+
+Features:
+and new and useful to shape your body.
+Made from superior material, no poison and no harm to your body.
+Help to tone, tighten and sengthen your body muscles in a easy way.
+Very easy to use, just fit the pads to your body and let them exercise your muscles.
+6 modes optional and sength adjustable to help fat burning and muscle growing. 
+Super light, wearable and convenient for you to ing anywhere.
+8 packs of abdominal model design is better for you to exercise.
+Power off automatically after 12 minutes if you forget the time.
+
+Specifications:
+ yellow+black, red+black, pink (optional)
+Type: one for arm, a suit (optional)
+Conoller material: polyurethane (PU)
+Sticker material: silica gel 
+Power supply: 2 * AAA batteries (per conoller) (not included)
+Using mode: A-F (6 modes)
+Frequency: 1~100Hz
+Working current: max.9.8mA
+aining time: 12 minutes (per aining time)
+Fit for: unisex
+Item : 20.5 * 6 * 2.3cm / 8.07 * 2.36 * 0.9in (for arm)
+                19.5 * 19.3 * 2.3cm / 7.68 * 7.6 * 0.9in (for abdominal)
+Package :
+One arm: 20.5 * 6 * 2.3cm / 8.07 * 2.36 * 0.9in
+A suit: 22.8 * 21 * 4.6cm / 8.98 * 8.27 * 1.81in
+Package weight:
+One arm: 60g / 2.1oz
+A suit: 300g / 10.58oz
+
+Note:
+1.Please read the insuctions before use.
+2.If you feel a little flax when do exercise. It is normal and do not worry about it.
+3.The batteries are not included in the package.
+
+Package List:
+3 * Conollers
+1 * Abdominal Muscle Sticker
+2 * Arm Stickers
+1 * User Manual</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>and new and useful to shape your body.Made from superior material, no poison and no harm to your body.Help to tone, tighten and sengthen your body muscles in a easy way.Very easy to use, just fit the pads to your body and let them exercise your muscles.6 modes optional and sength adjustable to help fat burning and muscle growing. Super light, wearable and convenient for you to ing anywhere.8 packs of abdominal model design is better for you to exercise.Power off automatically after 12 minutes i</BulletPoint><BulletPoint> silica gel Power supply: 2 * AAA batteries (per conoller) (not included)Using mode: A</BulletPoint><BulletPoint>3 * Conollers1 * Abdominal Muscle Sticker2 * Arm Stickers1 * User Manual</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">22.8</Length> 
+	 <Width unitOfMeasure="CM">21</Width> 
+	 <Height unitOfMeasure="CM">4.6</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>QS_Y7759-2</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>QS_Y7759-2</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1984444031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <Sports>
+                        <ProductType>SportingGoods</ProductType>
+			   <ItemTypeName>Sports</ItemTypeName>
+                        </Sports>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>8</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_K6793-H4</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096999</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:35:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore 2Pcs Car LED Headlight Bulbs LED Driving Lamp All-in-one Conversion Kit H4 36W 6000LM</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Features:
+This LED headlight bulbs are made of anodized aluminum body, PA66+30% GF Shroud, aluminum PCB, COB, Built-in Turbo Cooling Fan. Smarter and superior performance.
+6000K white light at 6000LM/Set (3000LM/each bulb) per LED bulb without dark spots. Super ight and energy saving.
+All-in-One and simple design LED light bulbs,Supports Plug and Play for smooth installation.
+9V to 36V wide-range voltage is suitable for all Off-road vehicles, ATV, uck, and engineering vehicles, etc.
+
+Specifications:
+Material: aluminum
+Bulb socket: H1/H3/H4/H7/H11/9005/9006(optional)
+Light source: COB
+Wattage: 36W/set, 18W/each
+Color temperature: 6000K/each
+Luminous flux: 6000LM/set, 3000LM/each
+Operating voltage: 9V-36V
+Waterproof rate: IP68
+Cooling principle: fan cooling
+Beam angle: 360°  
+Package : 11.5 * 9 * 5.5cm / 4.5 * 3.5 * 2in  
+Package weight: 150g / 5.5oz  
+
+Package List:
+1 * Pair of Car LED Headlights
+ </Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>This LED headlight bulbs are made of anodized aluminum body, PA66+30% GF Shroud, aluminum PCB, COB, Built-in Turbo Cooling Fan. Smarter and superior performance.6000K white light at 6000LM/Set (3000LM/each bulb) per LED bulb without dark spots. Super ight and energy saving.All-in-One and simple design LED light bulbs,Supports Plug and Play for smooth installation.9V to 36V wide-range voltage is suitable for all Off-road vehicles, ATV, uck, and engineering vehicles, etc.</BulletPoint><BulletPoint> aluminumBulb socket: H1/H3/H4/H7/H11/9005/9006(optional)Light source: COBWattage: 36W/set</BulletPoint><BulletPoint>1 * Pair of Car LED Headlights </BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">11.5</Length> 
+	 <Width unitOfMeasure="CM">9</Width> 
+	 <Height unitOfMeasure="CM">5.5</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>QS_K6793-H4</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>QS_K6793-H4</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1389226031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <AutoAccessory>
+                        <ProductType>
+				<AutoPart>
+				</AutoPart>
+                        </ProductType>
+                        </AutoAccessory>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>9</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_Y6858-2</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096951</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-11T04:35:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore Electric Muscle Stimulator Abdominal Stimulation Muscle Exerciser Training Body Slimming Machine Fat Burning Fitness Massage</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Do you want to exercise your muscle in a easy way? This muscle exerciser can achieve it. All you should do is to fit the pads to your body and it can work automatically. With super light and wearable advantages, you can sengthen your body muscles anywhere anytime.
+
+Features: 
+and new and useful to shape your body.
+Help to tone, tighten and sengthen your body muscles.
+Very easy to use, just fit the pads to your body and let them exercise your muscles.  
+6 modes optional and sength adjustable to help fat burning and muscle growing.
+Super light, wearable and convenient for you to ing anywhere.
+
+Specifications:
+Type: 1, 2, 3 (optional)
+ black
+Conoller material: polyurethane (PU)
+Sticker material: silica gel  
+Power supply: 2 * AAA batteries (per conoller) (not included)
+Working time: 12 minutes (per aining time)
+Input voltage: 3V
+Output: max.9.8mA
+Frequency: 1-100Hz
+Using mode: A-F (6 modes)
+Fit for: unisex
+Conoller : 7.8 * 6 * 2.1cm / 3.07 * 2.36 * 0.83in
+Conoller weight: 58g / 2.04oz
+Package : 23 * 21 * 4.5cm / 9.05 * 8.27 * 1.77in (type 1)
+                      23 * 12 * 5cm / 9.05 * 4.72 * 1.97in (type 2)
+                      23 * 8 * 5cm / 9.05 * 3.15 * 1.97in (type 3)
+Package weight: 450g / 15.87oz (type 1)
+                           223g / 7.87oz (type 2)
+                           115g / 4.06oz (type 3)                       
+
+Note:
+1.Please read the insuctions before use.
+2.The batteries are not included in the package.
+
+Package List:
+3 * Conollers
+1 * Abdominal Muscle Sticker
+2 * Arm Stickers
+1 * User Manual</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint> and new and useful to shape your body.Help to tone, tighten and sengthen your body muscles.Very easy to use, just fit the pads to your body and let them exercise your muscles.  6 modes optional and sength adjustable to help fat burning and muscle growing.Super light, wearable and convenient for you to ing anywhere.</BulletPoint><BulletPoint> silica gel  Power supply: 2 * AAA batteries (per conoller) (not included)Working time: 12 minutes (per aining time)Input voltage: 3V</BulletPoint><BulletPoint>3 * Conollers1 * Abdominal Muscle Sticker2 * Arm Stickers1 * User Manual</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">23</Length> 
+	 <Width unitOfMeasure="CM">12</Width> 
+	 <Height unitOfMeasure="CM">5</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>QS_Y6858-2</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>QS_Y6858-2</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1984444031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <Sports>
+                        <ProductType>SportingGoods</ProductType>
+			   <ItemTypeName>Sports</ItemTypeName>
+                        </Sports>
+                        </ProductData>
+		</Product>
+	</Message></AmazonEnvelope>

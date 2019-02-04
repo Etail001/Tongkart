@@ -1,0 +1,276 @@
+<?xml version="1.0" ?>
+<AmazonEnvelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+	<Header>
+		<DocumentVersion>1.01</DocumentVersion><MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier></Header>
+	<MessageType>Product</MessageType>
+	<PurgeAndReplace>false</PurgeAndReplace><Message>
+		<MessageID>1</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_173275401</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096807</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-10T13:25:03</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore 24W 1800LM 48LEDs LED Ceiling Lamp Octopus Round Light</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Main Features:● Built-in 40 5730SMD LEDs, high brightness and no flicker● Easy to install, plug and use ● Lower maintenance costs. Extremely long life reduces frequency of replacement of bulbs● Energy saving and environment friendly, no pollution, no UV radiation produce● Ideal for use in foyers, corridors, hallways, bedrooms, offices, utility work areasNote: The silk-screen is printed by random. Type: Floodlight Holder: Wired Output Power: 24W Voltage (V): AC 220 Emitter Types: SMD 5730 Total Emitters: 48 Luminous Flux: 1800LM CCT/WaveLength: 6000K Features: Energy Saving,Long Life Expectancy Function: Commercial Lighting,Home Lighting Available Light Color: Cool White 0.062 Package weight: 0.088 kg Product size (L x W x H): 27.00 x 27.00 x 2.50 cm / 10.63 x 10.63 x 0.98 inches Package size (L x W x H): 12.50 x 5.50 x 3.50 cm / 4.92 x 2.17 x 1.38 inches Package Contents: 1 x LED Ceiling Lamp Octopus Round Light</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Features: Energy Saving,Long Life Expectancy</BulletPoint><BulletPoint>Package Conatins : 1 x LED Ceiling Lamp Octopus Round Light</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">12.5</Length> 
+	 <Width unitOfMeasure="CM">5.5</Width> 
+	 <Height unitOfMeasure="CM">3.5</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>CB_173275401</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>CB_173275401</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1388867031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <Lighting>
+                        <ProductType>
+				<LightingAccessories>
+				</LightingAccessories>
+                        </ProductType>
+                        </Lighting>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>2</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_212232401</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096777</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-10T13:25:03</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore Aqara Temperature Humidity Sensor Smart Home Device</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Main Features:The Aqara temperature humidity sensor can monitor the temperature, humidity and atmospheric pressure, and can either then make changes to the environment of sending a notification to your phone via the APP. With the ability of matching with other smart devices such as gateway remote control, smart outlet, versatile controller, etc. this sensor is able to help you create a smart home. What is more, this smart sensor is easy to control the temperature and humidity change by viewing the data according to historical records.Main Features:Wireless connection: ZigBeeReal-time and historical recordsMultiple application: can connect to Aqara smart devices or other ZigBee devicesAutomatically alarm if the temperature, humidity and atmospheric pressure are abnormalDetects the temperature, humidity and atmospheric pressure conditionPowered by a CR2032 button cell ( included )Please download APP Smart Home from the Apple Store or Google PlayTemperature detection range: -20 - 60 Deg.C ( + / - 0.3 Deg.C )Humidity detection range: 0 - 100pct RH ( + / - 0.3pct )Atmospheric pressure detection range: 30 - 110KPa ( + / - 120Pa )Note: due to the different production batches, there are two different types of product package. Random delivery.         Brand: Aqara                      Material: Plastic              Color: Milk White                      0.027             Package weight: 0.051 kg              Product size (L x W x H): 3.60 x 3.60 x 0.90 cm / 1.42 x 1.42 x 0.35 inches              Package size (L x W x H): 7.70 x 11.00 x 2.70 cm / 3.03 x 4.33 x 1.06 inches                      Package Contents: 1 x Aqara Temperature Humidity Sensor, 1 x Chinese User Manual</Description><BulletPoint>100% Brand New and Premium Quality </BulletPoint><BulletPoint>Features:Wireless connection: ZigBeeReal-time and historical recordsMultiple application: can connect to Aqara smart devices or other ZigBee devicesAutomatically alarm if the temperature, humidity and atmospheric pressure are abnormalDetects the temperature, humidity and atmospheric pressure condition</BulletPoint><BulletPoint>Material: Plastic</BulletPoint><BulletPoint>Package content: 1 x Aqara Temperature Humidity Sensor, 1 x Chinese User Manual</BulletPoint><BulletPoint>Tested and Verified By Experts</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">7.7</Length> 
+	 <Width unitOfMeasure="CM">11</Width> 
+	 <Height unitOfMeasure="CM">2.7</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>CB_212232401</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>CB_212232401</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1388867031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <CE>
+                        <ProductType>
+				<ConsumerElectronics>
+					<Color>MILK WHITE</Color>
+				</ConsumerElectronics>
+                        </ProductType>
+			   <MfgWarrantyDescriptionLabor>Provided by Manufacturer</MfgWarrantyDescriptionLabor>
+                        </CE>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>3</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_V3971</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096791</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-10T13:25:03</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore Wireless Bluetooth 4.1 Outdoor Sport Earphone</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Wireless Stereo Bluetooth Headphone is characterized by Advanced Bluetooth 4.1 technology, built-in high-grade Microphone And Speaker, hands-free function and lightweight design. Designed for sports enthusiasts.  
+
+Features:
+Wireless Bluetooth 4.1 ensures ansmitting song signal in high quality and high speed,delivering high-fidelity stereo music.
+With magnetic suction function, and when do not use headphone, you can easily wear the headphone on the neck, do not fall.
+Built-in microphone enables hands-free calls to set free your hands when doing sports. It also supports multi-point technology.
+Easily conol playing / pausing, adjusting the volume, previous / next songs, answering / rejecting / ending calls.
+Ergonomic design guarantees wearing stable and comfortable when exercising, running, climbing and other ouoor sports.
+
+Specifications:
+Bluetooth Version: 4.1                                                              
+Support: HFP, A2DP, AVRCP                                                                                               
+Working Distance Range: 10m                                                    
+Frequenc Responce: 20-20KHz                                     
+Impedance: 32Ω
+Sensitivity: 105dB
+High-quality 3.7V / 60mAh Rechargeable Lithium Battery
+Charge Time: about 1.5 hours                                                              
+Standby Time: about 100 hours                                                             
+Talking Time: 2-4 hours                                                              </Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Wireless Bluetooth 4.1 ensures ansmitting song signal in high quality and high speed,delivering high-fidelity stereo music.With magnetic suction function, and when do not use headphone, you can easily wear the headphone on the neck, do not fall.Built-in microphone enables hands-free calls to set free your hands when doing sports. It also supports multi-point technology.Easily conol playing / pausing, adjusting the volume, previous / next songs, answering / rejecting / ending calls.Ergonomic desi</BulletPoint><BulletPoint>1 * Bluetooth Headset   1 * USB Cable1 * User Manual</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">13.5</Length> 
+	 <Width unitOfMeasure="CM">9.5</Width> 
+	 <Height unitOfMeasure="CM">2</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>QS_V3971</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>QS_V3971</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1388878031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <CE>
+                        <ProductType>
+				<ConsumerElectronics>
+					<Color>black</Color>
+				</ConsumerElectronics>
+                        </ProductType>
+			   <MfgWarrantyDescriptionLabor>Provided by Manufacturer</MfgWarrantyDescriptionLabor>
+                        </CE>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>4</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_K5220</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096784</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-10T13:25:03</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore Car Body Paintless Dent Lifter Repair Tool Puller + 18 Tabs Hail Removal Tool</Title>
+				<Brand>Jutek</Brand> 
+				<Description>    Verdana, Arial, Tahoma; This is a dent puller kit which removes dents from hail, other car doors and more, will not harm the painted surfaces.       Verdana, Arial, Tahoma; 
+       Verdana, Arial, Tahoma; 
+            Verdana, Arial, Tahoma; -:  !important;Features:       Verdana, Arial, Tahoma; 
+    Verdana, Arial, Tahoma; Dent Remover Repair Kit help repair the dents on your car.       Verdana, Arial, Tahoma; 
+    Verdana, Arial, Tahoma; Replacement tabs in different shapes for multiple purposes.       Verdana, Arial, Tahoma; 
+    Verdana, Arial, Tahoma; Use widely for the sheet metal processing of automobile, refrigerator, motorcycle, washing machine, etc.       Verdana, Arial, Tahoma; 
+       Verdana, Arial, Tahoma; 
+            Verdana, Arial, Tahoma; -:  !important;Specifications:       Verdana, Arial, Tahoma; 
+    Verdana, Arial, Tahoma; Material: stainless steel + plastic       Verdana, Arial, Tahoma; 
+    Verdana, Arial, Tahoma; Weight: 580g / 20.5oz       Verdana, Arial, Tahoma; 
+       Verdana, Arial, Tahoma; 
+            Verdana, Arial, Tahoma; -:  !important;Package List:       Verdana, Arial, Tahoma; 
+    Verdana, Arial, Tahoma; 1 * Dent Puller Tool       Verdana, Arial, Tahoma; 
+    Verdana, Arial, Tahoma; 18 * Car Dent Repair Tabs </Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>       Verdana, Arial, Tahoma;     Verdana, Arial, Tahoma; Dent Remover Repair Kit help repair the dents on your car.       Verdana, Arial, Tahoma;     Verdana, Arial, Tahoma; Replacement tabs in different shapes for multiple purposes.       Verdana, Arial, Tahoma;     Verdana, Arial, Tahoma; Use widely for the sheet metal processing of automobile, refrigerator, motorcycle, washing machine, etc.       Verdana, Arial, Tahoma;        Verdana, Arial, Tahoma;             Verdana, Arial, Tahoma; -:  </BulletPoint><BulletPoint> stainless Steel </BulletPoint><BulletPoint>       Verdana Arial Tahoma;     Verdana Arial Tahoma; 1 * Dent Puller Tool       Verdana Arial Tahoma;     Verdana Arial Tahoma; 18 * Car Dent Repair Tabs </BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">20</Length> 
+	 <Width unitOfMeasure="CM">20</Width> 
+	 <Height unitOfMeasure="CM">14</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>QS_K5220</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>QS_K5220</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1389226031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <AutoAccessory>
+                        <ProductType>
+				<AutoPart>
+				</AutoPart>
+                        </ProductType>
+                        </AutoAccessory>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>5</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_L2329</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096814</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-10T13:25:03</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore Solar Powered 90 LED Motion Sensor Wall Light Waterproof Security Lamp</Title>
+				<Brand>Zenuss</Brand> 
+				<Description>The light is charged by sunlight at daytime and work at darkness or night when motion detected, wireless, energy saving and money saving. It is a great solar security light for outdoor patio, garden, deck, yard, drive, outside wall, fence etc.
+
+
+
+
+Features:
+
+Bright 90 LED lights, environmental friendly and have no radiation.
+
+Motion sensor automatically turns the light on/off during the day, and turns on upon sensing movement at night.
+
+Mount the solar wall light on the wall with included screws, no wiring necessary, convenient and safe.
+
+Dust resistant and rated IP44 waterproof, perfect for outdoor using.
+
+A great solar security light for outdoor patio, garden, deck, yard, drive, outside wall, fence etc.
+
+
+
+
+Specifications:
+
+Material: ABS
+
+Battery: 2 * 3.7V, 2200mah Li-ion battery
+
+Light source: 90 pcs LED lights
+
+Switch: off/1/2/3
+
+3 lighting modes: sensor mode, dim mode, all lighting mode
+
+Solar panel:  5.5V, 0.55W
+
+Waterproof: IP44
+
+Solar charging time: ≥8 hours
+
+Sensor distance: 6-8 meters
+
+Item size: 300 * 105 * 50mm / 11.81 * 4.13 * 1.97in
+
+Item weight: 386g / 13.62oz
+
+Package size: 315 * 115 * 57mm / 12.40 * 4.53 * 2.24in
+
+Package weight: 530g / 1.17lb
+
+
+
+
+Package list:
+
+1 * Wall Light
+
+1 * Instruction
+
+1 * Pack of Nails</Description><BulletPoint>100% Brand New Premium Quality</BulletPoint><BulletPoint>ight 90 LED lights, environmental friendly and have no radiation.Motion sensor automatically turns the light on/off during the day, and turns on upon sensing movement at night.Mount the solar wall light on the wall with included screws, no wiring necessary, convenient and safe.Dust resistant and rated IP44 waterproof, perfect for outdoor using.A great solar security light for outdoor patio, garden, deck, yard, drive, outside wall, fence etc.</BulletPoint><BulletPoint>Material: ABS</BulletPoint><BulletPoint>Package Contents:1 * Wall Light1 * Instruction1 * Pack of Nails</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">31.5</Length> 
+	 <Width unitOfMeasure="CM">11.5</Width> 
+	 <Height unitOfMeasure="CM">5.7</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>QS_L2329</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>QS_L2329</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>2454176031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>1</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message></AmazonEnvelope>

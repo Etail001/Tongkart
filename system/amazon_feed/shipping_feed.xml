@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+<Header>
+<DocumentVersion>1.01</DocumentVersion>
+<MerchantIdentifier>A1LTO87O7AHC09</MerchantIdentifier>
+</Header>
+<MessageType>OrderFulfillment</MessageType><Message>
+<MessageID>1</MessageID>
+<OrderFulfillment>
+<AmazonOrderID>407-5959568-7032320</AmazonOrderID>
+<FulfillmentDate>2019-01-28T04:00:05Z</FulfillmentDate>
+<FulfillmentData>
+<CarrierCode>BlueDart</CarrierCode>
+<ShippingMethod>Expedited</ShippingMethod>
+<ShipperTrackingNumber>75438482372</ShipperTrackingNumber>
+</FulfillmentData>
+</OrderFulfillment>
+</Message></AmazonEnvelope>

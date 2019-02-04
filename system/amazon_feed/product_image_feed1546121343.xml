@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+<Header>
+<DocumentVersion>1.01</DocumentVersion>
+<MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier>
+</Header>
+<MessageType>ProductImage</MessageType><Message>
+        <MessageID>1</MessageID>
+        <OperationType>Update</OperationType>
+        <ProductImage>
+        <SKU>CB_113427603</SKU>
+        <ImageType>Main</ImageType><ImageLocation>http://tngimages.s3.amazonaws.com/1534802935.jpg</ImageLocation></ProductImage>
+        </Message><Message>
+                <MessageID>2</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>CB_113427603</SKU>
+                <ImageType>PT1</ImageType><ImageLocation>http://tngimages.s3.amazonaws.com/1534802936.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>3</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>CB_113427603</SKU>
+                <ImageType>PT2</ImageType><ImageLocation>http://tngimages.s3.amazonaws.com/1534802936.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>4</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>CB_113427603</SKU>
+                <ImageType>PT3</ImageType><ImageLocation>http://tngimages.s3.amazonaws.com/1534802937.jpg</ImageLocation></ProductImage>
+                </Message></AmazonEnvelope>

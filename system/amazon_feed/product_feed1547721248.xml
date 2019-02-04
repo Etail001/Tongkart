@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<AmazonEnvelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+	<Header>
+		<DocumentVersion>1.01</DocumentVersion><MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier></Header>
+	<MessageType>Product</MessageType>
+	<PurgeAndReplace>false</PurgeAndReplace><Message>
+		<MessageID>1</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_192029002</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608098092</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-17T10:34:08</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore  SOOCAS X3 Rechargeable Sonic Electric Toothbrush Bluetooth Connectivity</Title>
+				<Brand>Zenuss</Brand> 
+				<Description>Description:Taking care of your oral health is easy with SOOCAS electric toothbrush, it can effectively remove bacterial plaque and reduce gingiva necrosis, very practical and convenient. It is also a thoughtful gift for your parents and friends.Main Features:• Taking care of your oral health is easy with X3 electric toothbrush• This sonic electric toothbrush can effectively remove bacterial plaque and reduce gingiva necrosis • It gives you the new brushing experience• Smart wireless charging: the base can automatically identify the electric brush, very convenient for you to use• Long service time: built-in 1000mAh lithium-ion battery, the charging time is about 16 hours, the usage time is about 25 days• Customized setting: you can set or choose the mode, intensity and brushing time through your phone• Bluetooth connectivity: you can connect the electric brush with your phone by Bluetooth, the APP will show you some information, such as the cleaning degree, the residual electricity, the time for replacing brush head• The whole body is washable: the whole body is IPX7 waterproof level• Fine workmanship: with beautiful and compact appearance, this electric toothbrush also gives you the sense of beauty • Rated voltage: 110 - 240V• Charging time: about 16hNote:• it is needed to bind the toothbrush before using.• No need to connect Bluetooth during using, and you can syc the data after use in the APP. ( it can not work normally when connecting Bluetooth )• Here is the product's English user manual           Brand: SOOCAS              Model: X3               Color: White                     0.623             Package weight: 0.686 kg              Product size (L x W x H): 19.30 x 2.40 x 2.40 cm / 7.6 x 0.94 x 0.94 inches              Package size (L x W x H): 19.70 x 22.50 x 5.40 cm / 7.76 x 8.86 x 2.13 inches                    Package Contents: 1 x X3 SOOCAS Electric Toothbrush, 1 x Common Toothbrush Head, 1 x Charging Base ( CN plug ), 1 x Ch</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Features:• Taking care of your oral health is easy with X3 electric toothbrush• This sonic electric toothbrush can effectively remove bacterial plaque and reduce gingiva necrosis • It gives you the new brushing experience• Smart wireless charging: the base can automatically identify the electric brush, very convenient </BulletPoint><BulletPoint>Package Contents: 1 x X3 SOOCAS Electric Toothbrush, 1 x Common Toothbrush Head, 1 x Charging Base ( CN plug ), 1 x Chinese User Manual, 1 x Chinese Quick Start Guide</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">19.7</Length> 
+	 <Width unitOfMeasure="CM">22.5</Width> 
+	 <Height unitOfMeasure="CM">5.4</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>CB_192029002</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>CB_192029002</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>2454176031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>WHITE</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message></AmazonEnvelope>

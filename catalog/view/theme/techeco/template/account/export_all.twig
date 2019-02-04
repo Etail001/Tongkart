@@ -1,0 +1,116 @@
+{{ header }}
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Tongkart Dashboard</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- MetisMenu CSS -->
+        <link href="../css/metisMenu.min.css" rel="stylesheet">
+
+        <!-- Timeline CSS -->
+        <link href="../css/timeline.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="../css/startmin.css" rel="stylesheet">
+
+        <!-- Morris Charts CSS -->
+        <link href="../css/morris.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+        <div id="wrapper navbar navbar-inverse navbar-fixed-top">
+            <!-- Navigation -->
+                
+                <!-- /.navbar-top-links -->
+
+                {{ common }}
+
+            <div id="page-wrapper" style="min-height: 500px !important;" >
+                <div class="container-fluid">
+                {% if error_warning %}
+                    <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}
+                      <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    </div>
+                    {% endif %}
+                    {% if success %}
+                    <div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> {{ success }}
+                      <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="panel-heading">
+                    <h3 class="panel-title" style="text-align: center;margin-bottom: 42px;font-size: 24px;font-weight: 600;"> {{ text_form }}</h3>
+                  </div>
+                <div class="container-fluid" style ="margin-left: 85px;" >
+                </div>
+                  
+                <div class="container-fluid">
+                    <form action="{{ action_export }}" method="post" enctype="multipart/form-data" id="form-upc_export" class="form-horizontal">
+                        <div class="tab-content">
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="input-file">SKU</label>
+                                    <div class="col-sm-8">
+                                        <textarea name ="skus" rows="8" class="col-sm-8">{{ skus }}</textarea>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class ="pull-left" style="margin-left: 225px;">
+                                <input type="submit" form="form-upc_export" value="Export" class="btn btn-primary" style="padding: 6px 60px;">
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <!-- jQuery -->
+        <script src="../js/jquery.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="../js/bootstrap.min.js"></script>
+
+        <!-- Metis Menu Plugin JavaScript -->
+        <script src="../js/metisMenu.min.js"></script>
+
+        <!-- Morris Charts JavaScript -->
+        <script src="../js/raphael.min.js"></script>
+        <script src="../js/morris.min.js"></script>
+        <script src="../js/morris-data.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="../js/startmin.js"></script>
+
+    </body>
+</html>
+<style>
+    .navbar-inverse{
+        background:none;
+    }
+    .marketplace-text span {
+        color: #ff5c00;
+    }
+</style>
+<script type="text/javascript">
+    $('#catalog').bind('click',function(){
+        window.location = $('#catalog').attr('href');
+    });
+</script>

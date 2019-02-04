@@ -1,0 +1,230 @@
+##
+## PHPExcel
+##
+## Copyright (c) 2006 - 2013 PHPExcel
+##
+## This library is free software; you can redistribute it and/or
+## modify it under the terms of the GNU Lesser General Public
+## License as published by the Free Software Foundation; either
+## version 2.1 of the License, or (at your option) any later version.
+##
+## This library is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+## Lesser General Public License for more details.
+##
+## You should have received a copy of the GNU Lesser General Public
+## License along with this library; if not, write to the Free Software
+## Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+##
+## @category   PHPExcel
+## @package    PHPExcel_Calculation
+## @copyright  Copyright (c) 2006 - 2013 PHPExcel (http://www.codeplex.com/PHPExcel)
+## @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt	LGPL
+## @version    ##VERSION##, ##DATE##
+##
+## Data in this file derived from http://www.piuha.fi/excel-function-name-translation/
+##
+##
+
+
+##
+##	Add-in and Automation functions			Tilføjelsesprogram- og automatiseringsfunktioner
+##
+GETPIVOTDATA		= HENTPIVOTDATA			##	Returnerer data, der er lagret i en pivottabelrapport
+
+
+##
+##	Cube functions					Kubefunktioner
+##
+CUBEKPIMEMBER		= KUBE.KPI.MEDLEM		##	Returnerer navn, egenskab og mål for en KPI-indikator og viser navnet og egenskaben i cellen. En KPI-indikator er en målbar størrelse, f.eks. bruttooverskud pr. måned eller personaleudskiftning pr. kvartal, der bruges til at overvåge en organisations præstationer.
+CUBEMEMBER		= KUBE.MEDLEM			##	Returnerer et medlem eller en tupel fra kubehierarkiet. Bruges til at validere, om et medlem eller en tupel findes i kuben.
+CUBEMEMBERPROPERTY	= KUBEMEDLEM.EGENSKAB		##	Returnerer værdien af en egenskab for et medlem i kuben. Bruges til at validere, om et medlemsnavn findes i kuben, og returnere den angivne egenskab for medlemmet.
+CUBERANKEDMEMBER	= KUBEMEDLEM.RANG		##	Returnerer det n'te eller rangordnede medlem i et sæt. Bruges til at returnere et eller flere elementer i et sæt, f.eks. topsælgere eller de 10 bedste elever.
+CUBESET			= KUBESÆT			##	Definerer et beregnet sæt medlemmer eller tupler ved at sende et sætudtryk til kuben på serveren, som opretter sættet og returnerer det til Microsoft Office Excel.
+CUBESETCOUNT		= KUBESÆT.TÆL			##	Returnerer antallet af elementer i et sæt.
+CUBEVALUE		= KUBEVÆRDI			##	Returnerer en sammenlagt (aggregeret) værdi fra en kube.
+
+
+##
+##	Database functions				Databasefunktioner
+##
+DAVERAGE		= DMIDDEL			##	Returnerer gennemsnittet af markerede databaseposter
+DCOUNT			= DTÆL				##	Tæller de celler, der indeholder tal, i en database
+DCOUNTA			= DTÆLV				##	Tæller udfyldte celler i en database
+DGET			= DHENT				##	Uddrager en enkelt post, der opfylder de angivne kriterier, fra en database
+DMAX			= DMAKS				##	Returnerer den største værdi blandt markerede databaseposter
+DMIN			= DMIN				##	Returnerer den mindste værdi blandt markerede databaseposter
+DPRODUCT		= DPRODUKT			##	Ganger værdierne i et bestemt felt med poster, der opfylder kriterierne i en database
+DSTDEV			= DSTDAFV			##	Beregner et skøn over standardafvigelsen baseret på en stikprøve af markerede databaseposter
+DSTDEVP			= DSTDAFVP			##	Beregner standardafvigelsen baseret på hele populationen af markerede databaseposter
+DSUM			= DSUM				##	Sammenlægger de tal i feltkolonnen i databasen, der opfylder kriterierne
+DVAR			= DVARIANS			##	Beregner varians baseret på en stikprøve af markerede databaseposter
+DVARP			= DVARIANSP			##	Beregner varians baseret på hele populationen af markerede databaseposter
+
+
+##
+##	Date and time functions				Dato- og klokkeslætsfunktioner
+##
+DATE			= DATO				##	Returnerer serienummeret for en bestemt dato
+DATEVALUE		= DATOVÆRDI			##	Konverterer en dato i form af tekst til et serienummer
+DAY			= DAG				##	Konverterer et serienummer til en dag i måneden
+DAYS360			= DAGE360			##	Beregner antallet af dage mellem to datoer på grundlag af et år med 360 dage
+EDATE			= EDATO				##	Returnerer serienummeret for den dato, der ligger det angivne antal måneder før eller efter startdatoen
+EOMONTH			= SLUT.PÅ.MÅNED			##	Returnerer serienummeret på den sidste dag i måneden før eller efter et angivet antal måneder
+HOUR			= TIME				##	Konverterer et serienummer til en time
+MINUTE			= MINUT				##	Konverterer et serienummer til et minut
+MONTH			= MÅNED				##	Konverterer et serienummer til en måned
+NETWORKDAYS		= ANTAL.ARBEJDSDAGE		##	Returnerer antallet af hele arbejdsdage mellem to datoer
+NOW			= NU				##	Returnerer serienummeret for den aktuelle dato eller det aktuelle klokkeslæt
+SECOND			= SEKUND			##	Konverterer et serienummer til et sekund
+TIME			= KLOKKESLÆT			##	Returnerer serienummeret for et bestemt klokkeslæt
+TIMEVALUE		= TIDSVÆRDI			##	Konverterer et klokkeslæt i form af tekst til et serienummer
+TODAY			= IDAG				##	Returnerer serienummeret for dags dato
+WEEKDAY			= UGEDAG			##	Konverterer et serienummer til en ugedag
+WEEKNUM			= UGE.NR			##	Konverterer et serienummer til et tal, der angiver ugenummeret i året
+WORKDAY			= ARBEJDSDAG			##	Returnerer serienummeret for dagen før eller efter det angivne antal arbejdsdage
+YEAR			= ÅR				##	Konverterer et serienummer til et år
+YEARFRAC		= ÅR.BRØK			##	Returnerer årsbrøken, der repræsenterer antallet af hele dage mellem startdato og slutdato
+
+
+##
+##	Engineering functions				Tekniske funktioner
+##
+BESSELI			= BESSELI			##	Returnerer den modificerede Bessel-funktion In(x)
+BESSELJ			= BESSELJ			##	Returnerer Bessel-funktionen Jn(x)
+BESSELK			= BESSELK			##	Returnerer den modificerede Bessel-funktion Kn(x)
+BESSELY			= BESSELY			##	Returnerer Bessel-funktionen Yn(x)
+BIN2DEC			= BIN.TIL.DEC			##	Konverterer et binært tal til et decimaltal
+BIN2HEX			= BIN.TIL.HEX			##	Konverterer et binært tal til et heksadecimalt tal
+BIN2OCT			= BIN.TIL.OKT			##	Konverterer et binært tal til et oktaltal.
+COMPLEX			= KOMPLEKS			##	Konverterer reelle og imaginære koefficienter til et komplekst tal
+CONVERT			= KONVERTER			##	Konverterer et tal fra én måleenhed til en anden
+DEC2BIN			= DEC.TIL.BIN			##	Konverterer et decimaltal til et binært tal
+DEC2HEX			= DEC.TIL.HEX			##	Konverterer et decimaltal til et heksadecimalt tal
+DEC2OCT			= DEC.TIL.OKT			##	Konverterer et decimaltal til et oktaltal
+DELTA			= DELTA				##	Tester, om to værdier er ens
+ERF			= FEJLFUNK			##	Returner fejlfunktionen
+ERFC			= FEJLFUNK.KOMP			##	Returnerer den komplementære fejlfunktion
+GESTEP			= GETRIN			##	Tester, om et tal er større end en grænseværdi
+HEX2BIN			= HEX.TIL.BIN			##	Konverterer et heksadecimalt tal til et binært tal
+HEX2DEC			= HEX.TIL.DEC			##	Konverterer et decimaltal til et heksadecimalt tal
+HEX2OCT			= HEX.TIL.OKT			##	Konverterer et heksadecimalt tal til et oktaltal
+IMABS			= IMAGABS			##	Returnerer den absolutte værdi (modulus) for et komplekst tal
+IMAGINARY		= IMAGINÆR			##	Returnerer den imaginære koefficient for et komplekst tal
+IMARGUMENT		= IMAGARGUMENT			##	Returnerer argumentet theta, en vinkel udtrykt i radianer
+IMCONJUGATE		= IMAGKONJUGERE			##	Returnerer den komplekse konjugation af et komplekst tal
+IMCOS			= IMAGCOS			##	Returnerer et komplekst tals cosinus
+IMDIV			= IMAGDIV			##	Returnerer kvotienten for to komplekse tal
+IMEXP			= IMAGEKSP			##	Returnerer et komplekst tals eksponentialfunktion
+IMLN			= IMAGLN			##	Returnerer et komplekst tals naturlige logaritme
+IMLOG10			= IMAGLOG10			##	Returnerer et komplekst tals sædvanlige logaritme (titalslogaritme)
+IMLOG2			= IMAGLOG2			##	Returnerer et komplekst tals sædvanlige logaritme (totalslogaritme)
+IMPOWER			= IMAGPOTENS			##	Returnerer et komplekst tal opløftet i en heltalspotens
+IMPRODUCT		= IMAGPRODUKT			##	Returnerer produktet af komplekse tal
+IMREAL			= IMAGREELT			##	Returnerer den reelle koefficient for et komplekst tal
+IMSIN			= IMAGSIN			##	Returnerer et komplekst tals sinus
+IMSQRT			= IMAGKVROD			##	Returnerer et komplekst tals kvadratrod
+IMSUB			= IMAGSUB			##	Returnerer forskellen mellem to komplekse tal
+IMSUM			= IMAGSUM			##	Returnerer summen af komplekse tal
+OCT2BIN			= OKT.TIL.BIN			##	Konverterer et oktaltal til et binært tal
+OCT2DEC			= OKT.TIL.DEC			##	Konverterer et oktaltal til et decimaltal
+OCT2HEX			= OKT.TIL.HEX			##	Konverterer et oktaltal til et heksadecimalt tal
+
+
+##
+##	Financial functions				Finansielle funktioner
+##
+ACCRINT			= PÅLØBRENTE			##	Returnerer den påløbne rente for et værdipapir med periodiske renteudbetalinger
+ACCRINTM		= PÅLØBRENTE.UDLØB		##	Returnerer den påløbne rente for et værdipapir, hvor renteudbetalingen finder sted ved papirets udløb
+AMORDEGRC		= AMORDEGRC			##	Returnerer afskrivningsbeløbet for hver regnskabsperiode ved hjælp af en afskrivningskoefficient
+AMORLINC		= AMORLINC			##	Returnerer afskrivningsbeløbet for hver regnskabsperiode
+COUPDAYBS		= KUPONDAGE.SA			##	Returnerer antallet af dage fra starten af kuponperioden til afregningsdatoen
+COUPDAYS		= KUPONDAGE.A			##	Returnerer antallet af dage fra begyndelsen af kuponperioden til afregningsdatoen
+COUPDAYSNC		= KUPONDAGE.ANK			##	Returnerer antallet af dage i den kuponperiode, der indeholder afregningsdatoen
+COUPNCD			= KUPONDAG.NÆSTE		##	Returnerer den næste kupondato efter afregningsdatoen
+COUPNUM			= KUPONBETALINGER		##	Returnerer antallet af kuponudbetalinger mellem afregnings- og udløbsdatoen
+COUPPCD			= KUPONDAG.FORRIGE		##	Returnerer den forrige kupondato før afregningsdatoen
+CUMIPMT			= AKKUM.RENTE			##	Returnerer den akkumulerede rente, der betales på et lån mellem to perioder
+CUMPRINC		= AKKUM.HOVEDSTOL		##	Returnerer den akkumulerede nedbringelse af hovedstol mellem to perioder
+DB			= DB				##	Returnerer afskrivningen på et aktiv i en angivet periode ved anvendelse af saldometoden
+DDB			= DSA				##	Returnerer afskrivningsbeløbet for et aktiv over en bestemt periode ved anvendelse af dobbeltsaldometoden eller en anden afskrivningsmetode, som du angiver
+DISC			= DISKONTO			##	Returnerer et værdipapirs diskonto
+DOLLARDE		= KR.DECIMAL			##	Konverterer en kronepris udtrykt som brøk til en kronepris udtrykt som decimaltal
+DOLLARFR		= KR.BRØK			##	Konverterer en kronepris udtrykt som decimaltal til en kronepris udtrykt som brøk
+DURATION		= VARIGHED			##	Returnerer den årlige løbetid for et værdipapir med periodiske renteudbetalinger
+EFFECT			= EFFEKTIV.RENTE		##	Returnerer den årlige effektive rente
+FV			= FV				##	Returnerer fremtidsværdien af en investering
+FVSCHEDULE		= FVTABEL			##	Returnerer den fremtidige værdi af en hovedstol, når der er tilskrevet rente og rentes rente efter forskellige rentesatser
+INTRATE			= RENTEFOD			##	Returnerer renten på et fuldt ud investeret værdipapir
+IPMT			= R.YDELSE			##	Returnerer renten fra en investering for en given periode
+IRR			= IA				##	Returnerer den interne rente for en række pengestrømme
+ISPMT			= ISPMT				##	Beregner den betalte rente i løbet af en bestemt investeringsperiode
+MDURATION		= MVARIGHED			##	Returnerer Macauleys modificerede løbetid for et værdipapir med en formodet pari på kr. 100
+MIRR			= MIA				##	Returnerer den interne forrentning, hvor positive og negative pengestrømme finansieres til forskellig rente
+NOMINAL			= NOMINEL			##	Returnerer den årlige nominelle rente
+NPER			= NPER				##	Returnerer antallet af perioder for en investering
+NPV			= NUTIDSVÆRDI			##	Returnerer nettonutidsværdien for en investering baseret på en række periodiske pengestrømme og en diskonteringssats
+ODDFPRICE		= ULIGE.KURS.PÅLYDENDE		##	Returnerer kursen pr. kr. 100 nominel værdi for et værdipapir med en ulige (kort eller lang) første periode
+ODDFYIELD		= ULIGE.FØRSTE.AFKAST		##	Returnerer afkastet for et værdipapir med ulige første periode
+ODDLPRICE		= ULIGE.SIDSTE.KURS		##	Returnerer kursen pr. kr. 100 nominel værdi for et værdipapir med ulige sidste periode
+ODDLYIELD		= ULIGE.SIDSTE.AFKAST		##	Returnerer afkastet for et værdipapir med ulige sidste periode
+PMT			= YDELSE			##	Returnerer renten fra en investering for en given periode
+PPMT			= H.YDELSE			##	Returnerer ydelsen på hovedstolen for en investering i en given periode
+PRICE			= KURS				##	Returnerer kursen pr. kr 100 nominel værdi for et værdipapir med periodiske renteudbetalinger
+PRICEDISC		= KURS.DISKONTO			##	Returnerer kursen pr. kr 100 nominel værdi for et diskonteret værdipapir
+PRICEMAT		= KURS.UDLØB			##	Returnerer kursen pr. kr 100 nominel værdi for et værdipapir, hvor renten udbetales ved papirets udløb
+PV			= NV				##	Returnerer den nuværende værdi af en investering
+RATE			= RENTE				##	Returnerer renten i hver periode for en annuitet
+RECEIVED		= MODTAGET.VED.UDLØB		##	Returnerer det beløb, der modtages ved udløbet af et fuldt ud investeret værdipapir
+SLN			= LA				##	Returnerer den lineære afskrivning for et aktiv i en enkelt periode
+SYD			= ÅRSAFSKRIVNING		##	Returnerer den årlige afskrivning på et aktiv i en bestemt periode
+TBILLEQ			= STATSOBLIGATION		##	Returnerer det obligationsækvivalente afkast for en statsobligation
+TBILLPRICE		= STATSOBLIGATION.KURS		##	Returnerer kursen pr. kr 100 nominel værdi for en statsobligation
+TBILLYIELD		= STATSOBLIGATION.AFKAST	##	Returnerer en afkastet på en statsobligation
+VDB			= VSA				##	Returnerer afskrivningen på et aktiv i en angivet periode, herunder delperioder, ved brug af dobbeltsaldometoden
+XIRR			= INTERN.RENTE			##	Returnerer den interne rente for en plan over pengestrømme, der ikke behøver at være periodiske
+XNPV			= NETTO.NUTIDSVÆRDI		##	Returnerer nutidsværdien for en plan over pengestrømme, der ikke behøver at være periodiske
+YIELD			= AFKAST			##	Returnerer afkastet for et værdipapir med periodiske renteudbetalinger
+YIELDDISC		= AFKAST.DISKONTO		##	Returnerer det årlige afkast for et diskonteret værdipapir, f.eks. en statsobligation
+YIELDMAT		= AFKAST.UDLØBSDATO		##	Returnerer det årlige afkast for et værdipapir, hvor renten udbetales ved papirets udløb
+
+
+##
+##	Information functions				Informationsfunktioner
+##
+CELL			= CELLE				##	Returnerer oplysninger om formatering, placering eller indhold af en celle
+ERROR.TYPE		= FEJLTYPE			##	Returnerer et tal, der svarer til en fejltype
+INFO			= INFO				##	Returnerer oplysninger om det aktuelle operativmiljø
+ISBLANK			= ER.TOM			##	Returnerer SAND, hvis værdien er tom
+ISERR			= ER.FJL			##	Returnerer SAND, hvis værdien er en fejlværdi undtagen #I/T
+ISERROR			= ER.FEJL			##	Returnerer SAND, hvis værdien er en fejlværdi
+ISEVEN			= ER.LIGE			##	Returnerer SAND, hvis tallet er lige
+ISLOGICAL		= ER.LOGISK			##	Returnerer SAND, hvis værdien er en logisk værdi
+ISNA			= ER.IKKE.TILGÆNGELIG		##	Returnerer SAND, hvis værdien er fejlværdien #I/T
+ISNONTEXT		= ER.IKKE.TEKST			##	Returnerer SAND, hvis værdien ikke er tekst
+ISNUMBER		= ER.TAL			##	Returnerer SAND, hvis værdien er et tal
+ISODD			= ER.ULIGE			##	Returnerer SAND, hvis tallet er ulige
+ISREF			= ER.REFERENCE			##	Returnerer SAND, hvis værdien er en reference
+ISTEXT			= ER.TEKST			##	Returnerer SAND, hvis værdien er tekst
+N			= TAL				##	Returnerer en værdi konverteret til et tal
+NA			= IKKE.TILGÆNGELIG		##	Returnerer fejlværdien #I/T
+TYPE			= VÆRDITYPE			##	Returnerer et tal, der angiver datatypen for en værdi
+
+
+##
+##	Logical functions				Logiske funktioner
+##
+AND			= OG				##	Returnerer SAND, hvis alle argumenterne er sande
+FALSE			= FALSK				##	Returnerer den logiske værdi FALSK
+IF			= HVIS				##	Angiver en logisk test, der skal udføres
+IFERROR			= HVIS.FEJL			##	Returnerer en værdi, du angiver, hvis en formel evauleres som en fejl. Returnerer i modsat fald resultatet af formlen
+NOT			= IKKE				##	Vender argumentets logik om
+OR			= ELLER				##	Returneret værdien SAND, hvis mindst ét argument er sandt
+TRUE			= SAND				##	Returnerer den logiske værdi SAND
+
+
+##
+##	Lookup and reference functions			Opslags- og referencefunktioner
+##
+ADDRESS			= ADRESSE			##	Returnerer en reference som tekst til en enkelt celle i et

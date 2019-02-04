@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<AmazonEnvelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+	<Header>
+		<DocumentVersion>1.01</DocumentVersion><MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier></Header>
+	<MessageType>Product</MessageType>
+	<PurgeAndReplace>false</PurgeAndReplace><Message>
+		<MessageID>1</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_126364701</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096616</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2018-12-30T17:51:10</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Sample Professional MPF-6 6-Inch Clamp On Microphone Pop Filter Bilayer Recording Spray Guard</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Main Features: MPF-6 Pop Filter is an anti-pop noise protection filter for microphonesDesigned for studio use and other professional vocal recording environmentsEliminates popping sounds caused by the impact of fast moving air on the microphone during recorded speech and singingHelps protect against the accumulation of saliva on the microphone elementStops plosives and protects your micIncludes boom and microphone stand clampSwivel mount for easy positioning: Flexible gooseneck holder          Connection: Others              Type: Wired                    Package size (L x W x H): 31.00 x 16.00 x 3.00 cm / 12.2 x 6.3 x 1.18 inches              Package weight: 0.318 kg              Product size (L x W x H): 30.00 x 15.00 x 2.50 cm / 11.81 x 5.91 x 0.98 inches              Product weight: 0.279 kg                    Package Contents: 1 x Microphone Pop Filter</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Features: MPF-6 Pop Filter is an anti-pop noise protection filter </BulletPoint><BulletPoint>Package Contents: 1 x Microphone Pop Filter</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">31</Length> 
+	 <Width unitOfMeasure="CM">16</Width> 
+	 <Height unitOfMeasure="CM">3</Height></ItemDimensions><MSRP currency="INR">148.62</MSRP>
+<MSRPWithTax currency="INR">148.62</MSRPWithTax><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>CB_126364701</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>CB_126364701</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>976393031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <CE>
+                        <ProductType>
+				<ConsumerElectronics>
+					<Color>BLACK</Color>
+				</ConsumerElectronics>
+                        </ProductType>
+			   <MfgWarrantyDescriptionLabor>Provided by Manufacturer</MfgWarrantyDescriptionLabor>
+                        </CE>
+                        </ProductData>
+		</Product>
+	</Message></AmazonEnvelope>

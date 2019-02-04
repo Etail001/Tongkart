@@ -1,0 +1,23 @@
+{{ text_welcome }}
+
+{% if not approval %}
+{{ text_login }}
+
+{{ login }}
+
+{{ text_service }}
+
+User Id:{{ user_id }}
+
+Password:{{ password }}
+
+{{ text_thanks }}
+{{ store }}
+{% else %}
+{{ text_approval }}
+
+{{ login }}
+
+{{ text_thanks }}
+{{ store }}
+{% endif %}

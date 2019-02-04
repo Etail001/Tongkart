@@ -1,0 +1,37 @@
+{{ header }}{{ column_left }}
+<div id="content">
+<div class="page-header">
+  <div class="container-fluid">
+    <h1>Quark SCM</h1>
+    <ul class="breadcrumb">
+      {% for breadcrumb in breadcrumbs %}
+      <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title"><i class="fa fa-puzzle-piece"></i> Upload Products</h3>
+    </div>
+    <div class="panel-body">
+      <form enctype="multipart/form-data" id="form-upload" action="{{ action }}" method="post">
+        <fieldset> 
+          <legend>Upload CSV File</legend>
+          <div class="form-group required">
+            <input type="file" name="file"/>
+          </div>
+        </fieldset>
+        <fieldset> 
+          <legend>Upload CSV File</legend>
+          <div class="form-group required">
+            <input type="submit" name="upload" value="Upload"/>
+          </div>
+        </fieldset>
+        
+      </form>
+    </div>
+  </div>
+  </div>
+{{ footer }} 

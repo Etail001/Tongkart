@@ -1,0 +1,100 @@
+<div class="navbar-default sidebar" role="navigation">
+                    <div class="sidebar-nav navbar-collapse" style="margin-top: 62px;">
+                        <ul class="nav" id="side-menu">
+                            
+                            <li>
+                                <a href="{{ dashboard }}"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="{{ catalog }}" id="catalog"><i class="fa fa-bar-chart-o fa-fw"></i> Catalog<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="{{ total }}">Total Products</a>
+                                    </li>
+                                    <!--<li>
+                                        <a href="{{ new }}">New Arrivals</a>
+                                    </li>-->
+                                    <li>
+                                        <a href="{{ listed }}">Listed Products</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ not_listed }}">Error Products</a>
+                                    </li>
+                                    <!--<li>
+                                        <a href="{{ monitor }}">Monitor Status</a>
+                                    </li>-->
+                                </ul>
+                                <!-- /.nav-second-level -->
+                            </li>
+                            <li>
+                                <a href="{{ order_dashboard }}" id="order"><i class="fa fa-bar-chart-o fa-fw"></i>Orders<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="{{ orders_total }}">Total Orders</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ pending }}">Pending</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ awaiting_payment }}">Awaiting Payment</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ processing }}">Processing</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ odr_shipped }}">Shipped</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ cancelled }}">Cancelled</a>
+                                    </li>
+                                </ul>
+                                <!-- /.nav-second-level -->
+                            </li>
+							<li>
+                                <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Listing Updates<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="{{ price }}">Price</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ brand }}">Brand</a>
+                                    </li>
+                                </ul>
+                                <!-- /.nav-second-level -->
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-edit fa-fw"></i>Data Export<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="{{ export_all }}">SKU</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ export_special }}">Special Export</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-edit fa-fw"></i> Settings<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="{{ api }}">API</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ upc }}">UPC Management</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ ship }}">Shipping Settings</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ account }}">Account</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    $('#order').bind('click',function(){
+                        window.location = $('#order').attr('href');
+                    });
+                </script>

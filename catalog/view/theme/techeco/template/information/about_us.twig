@@ -1,0 +1,37 @@
+{{ header }}
+<div id="information-contact" class="container">
+  
+  <div class="row">
+    <div id="content" class="{{ class }}">{{ content_top }}
+      <ul class="breadcrumb">
+    {% for breadcrumb in breadcrumbs %}
+    <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+    {% endfor %}
+  </ul>
+      <h2 style="text-align: center;">{{ cheading_title }}</h2>
+      <div class="row" style="margin: 4% 12% 0px 12%;">
+          <div class="col-sm-12 col-xs-12">
+              
+          <div class="col-sm-12 col-lg-12 col-xs-12">
+              <p>TongKart enables and facilitates Indian retailers to source from drop ship wholesalers and manufacturers efficiently and effectively. The founders of TongKart have a combined experience of over 5 years in wholesale, retail inventory logistics management, and B2B platform in India.  What is drop shipping anyway? Well, let's step back a little bit in time. </p>
+          </div>
+          <div class="col-sm-12 col-lg-12 col-xs-12">
+              <p>The ever changing demographics of the online communities offer new opportunities every day: creative marketers step in to take advantage of these new sales and marketing channels. However, due to capital constraints and decreasing products life cycle, in order to stay competitive and profitable, they must find alternative ways to profit without the excess inventory dragging their feet. They need a creative solution to partner with the manufacturers and wholesalers. As a result, a new breed of online business forms: online drop shipping model(ODSM). ODSM enables not only the marketers to thrive, but also the manufacturers and wholesalers to reach the end users whom they could not reach, if not directly, before.</p>
+          </div>
+          <div class="col-sm-10 col-lg-11 col-xs-10">
+              <p>The online drop shipping model is a relatively new form of business technique: search "drop shipping" on Google yields more than 3-million results pages while "online drop shipping" yields just less than 10-thousand results pages. Some other enablers might do well for themselves but their shady anti-counterfeit goods measures shun legitimate drop-shippers and retailers alike. Despite the qualm, the industry evolves as new technology becomes available. Thanks to the advent of the many online B2B (business-to-business) logistics management platforms during the dotcom boom around the year 2000, the workflow of the B2B platforms became the foundation of today's online drop shipping communities.</p>
+          </div>
+          <div class="col-sm-10 col-lg-11 col-xs-10">
+              <p>TongKart's team is here to bring the ODSM communities time-tested, robust platform technology and anti-counterfeit goods know-how to both ends of our partners. International retailers and wholesalers and manufacturers may always find TongKart the perfect one-stop service pit to their next transaction</p>
+          </div>
+      </div>
+      </div>
+    </div>
+</div>
+<style>
+@media (min-width: 1590px) {
+    #content {
+        width: 100%;
+    }
+}
+</style>

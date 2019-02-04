@@ -1,0 +1,275 @@
+@media (min-width:992px){
+    .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+        float: right;
+    }
+}
+@media (min-width:768px){
+    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+        float: right;
+    }
+}
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+    float:right;
+}
+.pull-left{
+    float:right !important;
+}
+.pull-right{
+    float:left !important;
+}
+.list-unstyled {
+    padding-right: 0;
+}
+.text-right{
+    text-align: left;
+}
+.text-left{
+    text-align: right;
+}
+.checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"], .radio input[type="radio"] input[type="radio"]{
+    float: left;
+    left: 0;
+    margin-left: 0;
+}
+.dropdown-menu,#top #form-currency .currency-select, #top #form-language .language-select{
+    text-align: right;
+}
+.checkbox-inline, .radio-inline {
+    padding-right: 20px;
+    padding-left: 0;
+}
+/* topbar */
+#search-by-category .search-container .categories-container .hover-cate p{
+    border-radius: 0 4px 4px 0;
+    background-position: left bottom 7px;
+}
+#text-search{
+    border-radius: 4px 0 0 4px
+}
+.product-thumb .button-group,.product-thumb .caption,.blog-right,#testi .item{
+    direction: rtl;
+}
+#search-by-category .search-container .categories-container{
+    float: right;
+}
+#btn-search-category{
+    margin-right: 10px;
+    margin-left: auto
+}
+.manun li{
+    margin-left: 30px;
+    margin-right: auto !important;
+}
+#search .btn-default{
+    margin-right: 5px;
+    margin-left: auto
+}
+.sbleft {
+    border-right: 1px solid rgba(255,255,255,0.1);
+    border-left: none
+}
+.times ul {
+    margin-right: 25px;
+    padding-right: 25px;
+    margin-left: auto;
+    padding-left: 0
+}
+.webi-post-author .fa-calendar {
+    margin-left: 5px;
+    margin-right: auto
+}
+#cart-total{
+    margin-right: -10px;
+    margin-left: auto !important
+}
+.tab-head .nav-tabs {
+    padding-left: 130px;
+    padding-right: 0
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+    left: 15px;
+    right: auto;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+    left: 70px;
+    right: auto;
+}
+.newsletter .button-submit button{
+    left: 15px;
+    right: auto;
+}
+.sale{
+    left: 15px;
+    right: auto;
+}
+#scroll{
+    left: 20px;
+    right: auto
+}
+#cart .dropdown-menu, #top .dropdown-menu, .myac .dropdown-menu,.alert .close{
+    left: 0;
+    right: auto;
+}
+.alert .close{
+    float: left;
+}
+.thumb_img {
+    padding-left: 10px;
+    padding-right: 0
+}
+#menu li a:hover .enangle {
+    transform: rotate(90deg);
+}
+.left-icon svg{
+    margin-left: 8px;
+    margin-right: auto
+}
+.cartprice{
+    right: 70px;
+    left: auto
+}
+.testimonial img.pull-left {
+    margin-left: 5px;
+    margin-right: auto
+}
+.item-cate.f1 {
+    margin-right: 10px;
+    margin-left: auto
+}
+/* product */
+.checkbox label, .radio label{
+    padding-right: 20px;
+    padding-left: 0;
+}
+.checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"], .radio input[type="radio"] input[type="radio"] {
+    float: right;
+    right: 0;
+    margin-right: 0;
+}
+.radio input[type="radio"], .radio-inline input[type="radio"]{
+    margin-right: -20px;
+    margin-left: auto;
+}
+.zoomWindow {
+    right: 590px;
+    left: auto !important;
+}
+.a2a_default_style a,.a2a_default_style .a2a_counter img, .a2a_default_style .a2a_dd, .a2a_default_style .a2a_svg{
+    float: right !important;
+}
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close{
+    left: -6px;
+    right: auto;
+    text-align: left !important;
+}
+.select-input::after{
+    left: 10px;
+    right: auto;
+}
+.product-list .rating{
+    text-align: right;
+}
+#accordion .panel-title i{
+    float: left;
+}
+.search-page .select-input::after {
+    left: 25px;
+    right: auto;
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+@media (min-width: 768px){
+    #menu .dropdown-menu {
+        right: 100%;
+        left: auto;
+    }
+    .product-list .image{
+        float: right;
+    }
+}
+@media (max-width: 767px){
+    .catfilter .panel-heading button{
+        left: 15px;
+        right: auto
+    }
+    #cart-total{
+        left: -4px;
+        right: auto !important;
+    }
+    .staticb{
+        left: 15px;
+        right: auto
+    }
+    .mobilemenu,.sidenav{
+        right: 0;
+        left: auto;
+    }
+    .middle-footer .btn{
+        left: 0;
+        right: auto;
+    }
+    footer h5 .toggle.collapsed::after,footer h5 .toggle::after{
+        float: left;
+    }
+    .sidenav,.deliveryinfo ul,#special .rating,.tab-head .nav-tabs{
+        text-align: right;
+    }
+    .tab-head .nav-tabs{
+        padding: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .proreview a{
+        font-size: 12px;
+    }
+    .manun li {
+        margin-left: 12px;
+        margin-right: auto !important;
+    }
+    .gtouch{
+        display: none
+    }
+}
+@media (max-width: 991px){
+    #cat_tab ul{
+        text-align: right;
+    }
+    #cat_tab ul{
+        padding: 0
+    }
+    .manun li {
+        margin-left: 15px;
+        margin-right: auto !important;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1589px){
+    .times ul {
+        margin-right: 2px;
+        padding-right: 2px;
+        margin-left: auto;
+        padding-left: 0;
+    }
+    .manun li {
+        margin-left: 12px;
+        margin-right: auto;
+    }
+    .gtouch{
+        display: none
+    }
+}
+@media (max-width: 599px){
+    .catb{
+        left: 0;
+        right: auto
+    }
+}

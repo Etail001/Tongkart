@@ -1,0 +1,48 @@
+  <div class="logo-slider">
+    <h1 class="lefthead">brands</h1>
+    {% set temp = 0 %}
+{% set setCol = 3 %}
+  <div id="carousel{{ module }}" class="owl-carousel owl-theme">
+    {% for banner in banners %}
+    {% set temp = temp + 1 %}
+
+        {% if temp % setCol == 1 %}
+            <div class="multi-row">
+        {% endif %}
+      <div class="text-center">
+        {% if banner.link %}
+        <a href="{{ banner.link }}">
+          <img src="{{ banner.image }}" alt="{{ banner.title }}" class="img-responsive center-block" />
+        </a>
+        {% else %}
+        <img src="{{ banner.image }}" alt="{{ banner.title }}" class="img-responsive center-block" />{% endif %}
+      </div>
+         {% if temp % setCol == 0 %}
+            </div>
+        {% endif %}
+      {% endfor %}
+        {% if products|length % setCol != 0 %}
+    <!-- <h1>hii</h1> -->
+        </div>
+    {% endif %}
+  </div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+    $("#carousel{{ module }}").owlCarousel({
+    itemsCustom : [
+    [0, 2],
+    [600, 2],
+    [768, 2],
+    [992, 2],
+    [1200, 2],
+    [1410, 2]
+    ],
+      autoPlay: false,
+      loop: false,
+      navigationText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+      navigation : true,
+      pagination:false
+    });
+    });
+</script>

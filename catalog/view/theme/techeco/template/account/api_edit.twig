@@ -1,0 +1,234 @@
+{{ header }}
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Tongkart Dashboard</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- MetisMenu CSS -->
+        <link href="../css/metisMenu.min.css" rel="stylesheet">
+
+        <!-- Timeline CSS -->
+        <link href="../css/timeline.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="../css/startmin.css" rel="stylesheet">
+
+        <!-- Morris Charts CSS -->
+        <link href="../css/morris.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+        <div id="wrapper navbar navbar-inverse navbar-fixed-top">
+            <!-- Navigation -->
+                
+                <!-- /.navbar-top-links -->
+
+                {{ common }}
+
+            <div id="page-wrapper" style="min-height: 500px !important;" >
+                <div class="container-fluid">
+                {% if error_warning %}
+                    <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}
+                      <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    </div>
+                    {% endif %}
+                    {% if success %}
+                    <div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> {{ success }}
+                      <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="panel-heading">
+                    <h3 class="panel-title" style="text-align: center;margin-bottom: 42px;font-size: 24px;font-weight: 600;"> {{ text_form }}</h3>
+                    <div class="clear">
+                  </div>
+                  <div class ="pull-right" style="margin-right: 220px;">
+                      <button class="btn btn-success"><a href="{{ back }}" style="color: white;">Back</a></button>
+                  </div>
+                  </div>
+                  
+                  
+                <div class="container-fluid" style="margin-top: 40px;">
+                    <div class="row">
+                        <form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-connection" class="form-horizontal">
+                            <div class="tab-content">
+                                <div class="form-group">
+                                <label class="col-sm-2 control-label" for="input-meta-title">{{ entry_meta_title }}</label>
+                                <div class="col-sm-8">
+                                  <input type="text" name="meta_title" value="{{ meta_title }}" placeholder="{{ entry_meta_title }}" id="input-meta-title" class="form-control" />
+                                  {% if error_meta_title %}
+                                  <div class="text-danger">{{ error_meta_title }}</div>
+                                  {% endif %}
+                                </div>
+                              </div>
+                                <div class="form-group">
+                                <label class="col-sm-2 control-label" for="input-meta-title-token">{{ entry_meta_title_token }}</label>
+                                <div class="col-sm-8">
+                                  <input type="text" name="meta_title_token" value="{{ meta_title_token }}" placeholder="{{ entry_meta_title_token }}" id="input-meta-title-token" class="form-control" />
+                                  {% if error_meta_title_token %}
+                                  <div class="text-danger">{{ error_meta_title_token }}</div>
+                                  {% endif %}
+                                </div>
+                              </div>
+                            </div>
+                        </form>
+                        <div class ="pull-left" style="margin-left: 225px;">
+                            <button id="test-connection" class="btn btn-success">Test Connection</button>
+                        </div>
+                        <div class ="pull-right" style="margin-right: 220px;">
+                            <input type="submit" form="form-connection" value="Save" class="btn btn-primary" style="padding: 6px 60px;">
+                        </div>
+                        <div class="clear">
+                        </div>
+                        <div class="container-fluid" style="margin-top: 80px;padding: 0% 16%;">
+                        <div class="marketplace-text">
+                            To fill in the required fields above, please follow these steps:
+                            <ol>
+                                <li>Log in to your Amazon Seller Central and navigate to Settings &gt; User Permissions</li>
+                                <li>Click the yellow button <span>Authorize a Developer</span> on the button</li>
+                                <li>Fill our <span>Developer's Name (GenoCyte Storefront)</span> and <span>Developer ID (1150-6446-6431)</span> into the appropriate fields.</li>
+                                <li>Get back here and fill in the above fields with given values.</li>
+                                    
+                            </ol>
+                            <br><br>Note that: Once your connection is done, you confirm that you give us access to synchronize data to your Amazon account.
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="alertip" class="layerBodyBg" style="z-index: 99999; display: none;">
+            <div id="clicklayerid" class="click-layer  close-alert" style="top: 48%; width: 480px; left: 600px; margin-left: 0px; display: block;">
+                <div class="click-close-title">
+                    <div class="col-md-12 text-center" style="padding:0;">
+                        <strong style="font-size:18px;color:#333333;"><!-- Title --></strong>
+                        <span onclick="alertConfirm()" class="click-close" style="position:absolute;right:15px;"><svg xmlns="https://www.w3.org/2000/svg" style="display:none;"><defs><g id="close-btn"><path id="svg_1" d="m10,0a10,10 0 1 0 10,10a10,10 0 0 0 -10,-10zm0,18.3a8.3,8.3 0 0 1 -8.3,-8.3a8.3,8.3 0 0 1 8.3,-8.3a8.3,8.3 0 0 1 8.3,8.3a8.3,8.3 0 0 1 -8.3,8.3zm1.2,-8.3l2.3,-2.3a0.8,0.8 0 0 0 -1.2,-1.2l-2.3,2.3l-2.3,-2.3a0.8,0.8 0 0 0 -1.2,1.2l2.3,2.3l-2.3,2.3a0.8,0.8 0 0 0 0,1.2c0.2,0.2 0.3,0.2 0.7,0.2s0.5,0 0.7,-0.2l2.1,-2.3l2.3,2.3c0.2,0.2 0.3,0.2 0.7,0.2s0.5,0 0.7,-0.2a0.8,0.8 0 0 0 0,-1.2l-2.5,-2.3z"></path></g></defs></svg><svg id="VdialogClose" class="close-btn"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close-btn"></use></svg></span>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center" id="message-account">
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery -->
+        <script src="../js/jquery.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="../js/bootstrap.min.js"></script>
+
+        <!-- Metis Menu Plugin JavaScript -->
+        <script src="../js/metisMenu.min.js"></script>
+
+        <!-- Morris Charts JavaScript -->
+        <script src="../js/raphael.min.js"></script>
+        <script src="../js/morris.min.js"></script>
+        <script src="../js/morris-data.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="../js/startmin.js"></script>
+
+    </body>
+</html>
+<style>
+    .navbar-inverse{
+        background:none;
+    }
+    .marketplace-text span {
+        color: #ff5c00;
+    }
+    .layerBodyBg {
+    width: 100%;
+    height: 1800px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #000000;
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+}
+.click-layer {
+    display: none;
+    width: 30%;
+    height: auto;
+    position: fixed;
+    left: 52%;
+    top: 38%;
+    margin-left: -200px;
+    margin-top: -100px;
+    box-shadow: 0 0 3px 3px #868686;
+    background: #fff;
+    padding: 0 0 20px 0;
+    border-radius: 12px !important;
+    z-index: 1;
+    padding: 15px 0 45px 0;
+}
+.click-close-title {
+    line-height: 40px;
+    height: 40px;
+}
+.click-close {
+    text-align: right;
+    cursor: pointer;
+    color: #ccc;
+}
+.close-alert svg.close-btn {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    fill: #79959b;
+}
+</style>
+<script type="text/javascript">
+    function alertConfirm(){
+        $('#alertip').css('display','none');
+    }
+    $('#test-connection').bind('click',function(){
+        var id = $('#input-meta-title').val();
+        var token = $('#input-meta-title-token').val();
+        $.ajax({
+                url: 'index.php?route=amazon/amazon_front/test&id='+id+'&token='+token,
+                success: function(json) {
+                    if(json == 'success'){
+                        $('#message-account').text('Connected succesfully, save and start listing');
+                    } else{
+                        $('#message-account').text(json);
+                    }
+                    $('#alertip').css('display','block');
+                    
+                }
+        });
+        
+    });
+</script>
+<script type="text/javascript">
+    $('#catalog').bind('click',function(){
+        window.location = $('#catalog').attr('href');
+    });
+</script>

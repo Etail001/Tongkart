@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<AmazonEnvelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+	<Header>
+		<DocumentVersion>1.01</DocumentVersion><MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier></Header>
+	<MessageType>Product</MessageType>
+	<PurgeAndReplace>false</PurgeAndReplace><Message>
+		<MessageID>1</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_V2968</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608098108</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-17T10:40:01</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Jutek BM800 Condenser Microphone Studio Sound Recording Broadcasting with Shock Mount 3.5mm Audio Cable Sponge Microphone</Title>
+				<Brand>Jutek</Brand> 
+				<Description>This professional condenser microphone adopts the exacting complete eleconic circuit conol and gold-plate diaphragm capsule. The microphone is with a good cardioid polar pickup pattern, high output, low noise and the accurate reproduction of even the most subtle sound. It;s perfectly suitable for studios, recording studios, oadcasting, stage performance. 
+
+Features:
+[Clear and Acute Voice]
+This professional adopts the exacting complete eleconic circuit conol and gold-plate diaphragm capsule. The microphone is with a good cardioid polar pickup pattern, high output, low noise and the accurate reproduction of even the most subtle sound.
+[Shock Mount And Sponge Microphone] 
+It effectively prevents shaking when recording. And Sponge Microphone greatly isolate airflow noise and prevent splashing.
+[Metal Mesh]
+Adopting metal mesh, it makes sure voice pickup effect. At the same time, it provide better recording effect and drop resistance. 
+[High Quality Audio Line] 
+Adopting high quality corrosion built-in three stitches, the audio line has stable frequency and clear sound quality. It requires 48V phantom power or external sound card to achieve the clear and high sound output.
+[Applicable Occasion]
+Professional condenser microphone is perfectly suitable for studios, recording studios, oadcasting, stage performance. It;s suitable for laptop or desktop computers with 3.5mm audio jack.
+
+Specification:
+Polar Pattern: Uni-directional 
+Frequency Response: 20Hz-20kHz
+Sensitivity: -34Db +-2Db (0Db1V/Pa at 1kHz)
+Output Impedance: 150ohm +-30% (at 1kHz)
+Loading Impedance: >1000ohm
+Equivalent Noise Level: 16dBA
+Max.SPL: 130Db (at 1kHz1% T.H.D)
+S/N Ratio: 78Db
+Elecical Current: 3mA
+Main Item : Approx. 15.7 * 4.8 * 4.8cm / 6.18 * 1.89 * 1.89in
+Main Item Weight: Approx. 205g / 7.21oz
+Package : Approx. 20.8 * 14.7 * 6cm / 8.19 * 5.79 * 2.36in
+Package Weight: Approx. 513g / 18.08oz
+
+Note:
+1.This Microphone requires 48V phantom power(when used with Amplifier</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>[Clear and Acute Voice]This professional adopts the exacting complete eleconic circuit conol and gold-plate diaphragm capsule. The microphone is with a good cardioid polar pickup pattern, high output, low noise and the accurate reproduction of even the most subtle sound.[Shock Mount And Sponge Microphone] It effectively prevents shaking when recording. And Sponge Microphone greatly isolate airflow noise and prevent splashing.[Metal Mesh]Adopting metal mesh, it makes sure voice pickup effect. At t</BulletPoint><BulletPoint>1 * Microphone1 * Shock Mount 1 * Audio Cable1 * Sponge Microphone 1 * User Manual </BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">20.8</Length> 
+	 <Width unitOfMeasure="CM">14.7</Width> 
+	 <Height unitOfMeasure="CM">6</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>QS_V2968</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>QS_V2968</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1388878031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <CE>
+                        <ProductType>
+				<ConsumerElectronics>
+					<Color>As On Image</Color>
+				</ConsumerElectronics>
+                        </ProductType>
+			   <MfgWarrantyDescriptionLabor>Provided by Manufacturer</MfgWarrantyDescriptionLabor>
+                        </CE>
+                        </ProductData>
+		</Product>
+	</Message></AmazonEnvelope>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+<Header>
+<DocumentVersion>1.01</DocumentVersion>
+<MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier>
+</Header>
+<MessageType>ProductImage</MessageType><Message>
+        <MessageID>1</MessageID>
+        <OperationType>Update</OperationType>
+        <ProductImage>
+        <SKU>QS_OS0775-3</SKU>
+        <ImageType>Main</ImageType><ImageLocation>fx.quarkscm.com/product/xy/2000/2000/p/gu1/O/3/OS0775-3/OS0775-3-1-a9d0-Bim5.jpg</ImageLocation></ProductImage>
+        </Message><Message>
+                <MessageID>2</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>QS_OS0775-3</SKU>
+                <ImageType>PT1</ImageType><ImageLocation>fx.quarkscm.com/product/xy/2000/2000/p/gu1/O/3/OS0775-3/OS0775-3-1-a9d0-zUqj.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>3</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>QS_OS0775-3</SKU>
+                <ImageType>PT2</ImageType><ImageLocation>fx.quarkscm.com/product/xy/2000/2000/p/gu1/O/3/OS0775-3/OS0775-3-1-a9d0-9gFp.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>4</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>QS_OS0775-3</SKU>
+                <ImageType>PT3</ImageType><ImageLocation>fx.quarkscm.com/product/xy/2000/2000/p/gu1/O/3/OS0775-3/OS0775-3-1-a9d0-FS8r.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>5</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>QS_OS0775-3</SKU>
+                <ImageType>PT4</ImageType><ImageLocation>fx.quarkscm.com/product/xy/2000/2000/p/gu1/O/3/OS0775-3/OS0775-3-1-a9d0-Lvbm.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>6</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>QS_OS0775-3</SKU>
+                <ImageType>PT5</ImageType><ImageLocation>fx.quarkscm.com/product/xy/2000/2000/p/gu1/O/3/OS0775-3/OS0775-3-1-a9d0-q567.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>7</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>QS_OS0775-3</SKU>
+                <ImageType>PT6</ImageType><ImageLocation>fx.quarkscm.com/product/xy/2000/2000/p/gu1/O/3/OS0775-3/OS0775-3-1-a9d0-6916.jpg</ImageLocation></ProductImage>
+                </Message><Message>
+                <MessageID>8</MessageID>
+                <OperationType>Update</OperationType>
+                <ProductImage>
+                <SKU>QS_OS0775-3</SKU>
+                <ImageType>PT7</ImageType><ImageLocation>fx.quarkscm.com/product/xy/2000/2000/p/gu1/O/3/OS0775-3/OS0775-3-1-a9d0-Bim5.jpg</ImageLocation></ProductImage>
+                </Message></AmazonEnvelope>

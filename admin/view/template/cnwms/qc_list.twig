@@ -1,0 +1,280 @@
+{{ header }}{{ column_left }}
+<div id="content">
+  <div class="page-header">
+    <div class="container-fluid">
+      <h1>Upload QC Status</h1>
+      <ul class="breadcrumb">
+        {% for breadcrumb in breadcrumbs %}
+        <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="container-fluid"> 	  
+  
+	<div id="errorD" class="alert alert-danger" style="display:none">
+      <i class="fa fa-exclamation-circle">
+      </i> 
+      <?php echo @$error_warning; ?>
+      <button type="button" class="close" data-dismiss="alert">&times;
+      </button>
+    </div>
+    {% if success %}
+    <div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> {{ success }}
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+    </div>
+    {% endif %}
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-exchange"></i> Upload QC Status</h3>
+      </div>
+      <div class="panel-body">
+           <form action="{{ action }}" enctype="multipart/form-data" method="POST" >
+					<div class="col-md-4">
+						<div class="form-group row">
+							<input id="file" multiple class="form-control" type="file" onchange="checkfile(this);" name="myFile" required="true">
+						</div>  
+					</div>
+					<div class="col-md-1">
+						<div class="form-group row">
+							<input type="submit" id="change4" class="btn btn-primary pull-right"  style="margin-left:10px;" value="Upload">
+						</div>  
+					</div>
+					</form>
+         
+    </div>
+  </div>
+ 
+  <script type="text/javascript">
+	   function uploadInvoice(){
+		 var x = document.getElementById("file").value;
+		 var num_of_images = $("#file")[0].files.length;
+        if(x == null || x == "")
+        {
+			var c = "Please select qc csv file to upload";
+			$('#errorD').html(c);
+			$('#errorD').show();
+			$('#errorD').fadeOut(3000);
+			return false;
+		}else if(num_of_images >16)
+        {
+			var c = "Please Upload Maximum 15 Invoice File at once!";
+			$('#errorD').html(c);
+			$('#errorD').show();
+			$('#errorD').fadeOut(3000);
+			return false;
+		}
+		$('#overlay').show();
+		$('.loader').show();
+	  $.ajax({
+			url: 'index.php?route=cnwms/cnwms/import&token={{ user_token }}',
+			type: 'post',
+			data: new FormData($('#form-upload1')[0]),
+			cache: false,
+			contentType: false,
+			processData: false,
+			beforeSend: function() {
+            $('#change4').button('loading');
+          }
+          ,
+          complete: function(ddata) {
+			$('#change4').button('reset');
+			$('#overlay').hide();
+			$('.loader').hide();
+            $('#getdata').html(ddata.responseText);
+            console.log(ddata.responseText);
+          },
+		  error: function(xhr, ajaxOptions, thrownError) {
+			//alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+		  }
+		});
+  }
+  	   function uploadInvoicedump(){
+	    var x = document.getElementById("file1").value;		 
+        if(x == null || x == "")
+        {
+			var c = "Please select invoice excel file to upload";
+			$('#errorD').html(c);
+			$('#errorD').show();
+			$('#errorD').fadeOut(3000);
+			return false;
+		}
+		$('#overlay').show();
+		$('.loader').show();
+	  $.ajax({
+			url: '<?php echo HTTP_SERVER ?>index.php?route=cha/invoiceboe/uploadInvoicedump&token=<?php echo @$token; ?>',
+			type: 'post',
+			data: new FormData($('#form-upload5')[0]),
+			cache: false,
+			contentType: false,
+			processData: false,
+			beforeSend: function() {
+            $('#change5').button('loading');
+          }
+          ,
+          complete: function(ddata) {
+			$('#change5').button('reset');
+			$('#overlay').hide();
+			$('.loader').hide();
+            $('#getdata').html(ddata.responseText);
+            console.log(ddata.responseText);
+          },
+		  error: function(xhr, ajaxOptions, thrownError) {
+			//alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+		  }
+		});
+  }
+function updatePod(){
+  $('#overlay').show();
+	  $('.loader').show();
+	  $.ajax({
+			url: '<?php echo HTTP_SERVER ?>index.php?route=cha/invoiceboe/upload&token=<?php echo @$token; ?>',
+			type: 'post',
+			 dataType : "json",
+			data: new FormData($('#form-upload')[0]),
+			cache: false,
+			contentType: false,
+			processData: false,
+			success: function(json) {
+				console.log(json.status);
+				if(json.success)
+				{
+					//alert(json.success);
+				$('#successD').show().html(json.success);
+				$('#change').attr('onclick','update');
+				$('#change').remove();
+				$('#overlay').hide();
+				 $('.loader').hide();
+				 $('#getdet').show().html();
+				$('#edBt').html('<input type="button" onclick="upda()" id="edit" class="btn btn-primary pull-right" ng-disabled="userForm.$invalid" style="margin-left:10px;" value="Update">');
+		        }
+		        else
+		        {
+					$('#errorD').show().html(json.error);
+				}
+		  },
+		  error: function(xhr, ajaxOptions, thrownError) {
+			//alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+		  }
+		});
+  }
+  function upda(){
+	  $('#overlay').show();
+	  $('.loader').show();
+	  $.ajax({
+			url: '<?php echo HTTP_SERVER ?>index.php?route=cha/invoiceboe/updateBoe&token=<?php echo @$token; ?>',
+			type: 'post',
+			 dataType : "json",
+			data: new FormData($('#form-upload')[0]),
+			cache: false,
+			contentType: false,
+			processData: false,
+			success: function(json) {
+				console.log(json.status);
+				if(json.success)
+				{
+				$('#successD').show().html(json.success);
+				$('#change').attr('onclick','update');
+				$('#change').remove();
+				$('#overlay').hide();
+				 $('.loader').hide();
+				 $('#getdet').html(htmlText);
+				$('#edBt').html('<input type="button" onclick="upda()" id="edit" class="btn btn-primary pull-right" ng-disabled="userForm.$invalid" style="margin-left:10px;" value="Update">');
+		        }
+		        else
+		        {
+					$('#errorD').show().html(json.error);
+				}
+		  },
+		  error: function(xhr, ajaxOptions, thrownError) {
+			//alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+		  }
+		});
+  }
+</script>
+</div>
+	<script>
+	$(function(){
+		$( "#awbnumber" ).autocomplete({
+			source: '<?php echo HTTP_SERVER ?>index.php?route=cha/invoiceboe/search&token=<?php echo @$token; ?>'
+		});
+	});
+	</script>
+<?php echo $footer; ?> 
+<style>
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    position:absolute;
+    top:50%;
+    left:50%;
+    z-index:99;
+    display: none; /* Hidden by default */
+}
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+     background-color: rgba(0,0,0,0.5);
+    z-index: 9; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+</style>
+<style>
+    body {padding: 0; margin: 0;}
+    .green{color: green;}
+    .red{color: red;}
+  </style>
+<script type="text/javascript">
+	function errorAct()
+  {
+	if( $(".mmsgg").find(".errornoAct"))
+	{
+		alert('found');
+	}
+	else
+	{
+		alert('not found');
+	}
+  }
+    function validateAWB(){
+      var awb_number = $('#awbnumber').val();
+      if (awb_number == '') {
+        $("#availability").html(""); 
+      }
+      else{
+        $.ajax({
+			dataType : "json",
+          url: "<?php echo HTTP_SERVER ?>index.php?route=cha/invoiceboe/validateAWB&awbid="+awb_number+"&token=<?php echo @$token; ?>"
+        }).done(function( data ) {
+          $("#availability").html(data.msg);
+           //alert(data.msgV);
+         if(data.msgV > 1)
+         {
+			$('#change1').attr('type', ''); 
+			return false;
+		 }
+		 else
+		 {
+			 $('#change1').attr('type', 'submit');
+			 return true;
+		 }
+        });   
+      } 
+    }
+</script>
+</div>
+{{ footer }} 

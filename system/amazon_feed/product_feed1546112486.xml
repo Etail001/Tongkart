@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<AmazonEnvelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+	<Header>
+		<DocumentVersion>1.01</DocumentVersion><MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier></Header>
+	<MessageType>Product</MessageType>
+	<PurgeAndReplace>false</PurgeAndReplace><Message>
+		<MessageID>1</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_113427603</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096609</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2018-12-29T19:41:26</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Jutek EACH G2000 Gaming Headset with Hidden Mic for Computers Game</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Description:EACH G2000 is a professional gaming headset for computer game players. Features 50mm super big driver unit, delivers clear sound and deep bass. LED lights are designed with cool light effect on the ear cups, making it look more fashionable and stunning. Smart line-in volume control allows you to make adjustments freely and get more focused on the game. Hidden microphone design, more comfortable in case you do not need microphone.  Main Features:• Cool light effect gaming headset, perfect for playing games and listening to music• Soft cushion head-pad and ear-pad, as well as adjustable length hinges guarantee hours of gaming comfort• Flexible microphone for exact positioning, and mic with great sensitivity at picking up sounds, your partner can hear your words clearly• One button mute key function• Little smart in-line sound control for sound and Mic          Brand: EACH              Color: Blue,Orange,Red              Function: Microphone,Noise Cancelling,Voice control              Model: G2000              Type: Over-ear              Wearing type: Headband                    Application: Computer,Portable Media Player              Compatible with: Computer              Connecting interface: 3.5mm,USB              Connectivity: Wired              Driver unit: 50mm              Frequency response: 20~20KHz              Impedance: 32ohms              Microphone dimension: 6.0 x 5.0 mm              Microphone impedance : 2.2KΩ              Plug Type: Full-sized,USB                    Package size (L x W x H): 23.20 x 20.60 x 11.50 cm / 9.13 x 8.11 x 4.53 inches              Package weight: 0.595 kg              Product size (L x W x H): 18.50 x 19.00 x 10.50 cm / 7.28 x 7.48 x 4.13 inches                    Package Contents: 1 x Gaming Headset</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Features:• Cool light effect gaming headset, perfect </BulletPoint><BulletPoint>Package Contents: 1 x Gaming Headset</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">23.2</Length> 
+	 <Width unitOfMeasure="CM">20.6</Width> 
+	 <Height unitOfMeasure="CM">11.5</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>CB_113427603</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>CB_113427603</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1388867031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <CE>
+                        <ProductType>
+				<ConsumerElectronics>
+					<Color>ORANGE</Color>
+				</ConsumerElectronics>
+                        </ProductType>
+			   <MfgWarrantyDescriptionLabor>Provided by Manufacturer</MfgWarrantyDescriptionLabor>
+                        </CE>
+                        </ProductData>
+		</Product>
+	</Message></AmazonEnvelope>

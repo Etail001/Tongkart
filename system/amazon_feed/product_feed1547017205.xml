@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<AmazonEnvelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+	<Header>
+		<DocumentVersion>1.01</DocumentVersion><MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier></Header>
+	<MessageType>Product</MessageType>
+	<PurgeAndReplace>false</PurgeAndReplace><Message>
+		<MessageID>1</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_217027701</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096753</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-09T07:00:05</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Sample Original Xiaomi Smart Home Aqara Human Motion Sensor Security Device</Title>
+				<Brand>Zenuss</Brand> 
+				<Description>Main Features:Work with other Xiaomi smart devicesIntelligent induction: when somebody goes through, the night light will turn on automaticallySense the lightness and dark of your roomNotice function: sent alert to you through the APPZigBee wireless connectionBuilt-in 1pc CR2450 cell batteryDetection distance: 7mDetection angle: 170 degreeWorking temperature: -10 - 45 Deg.CWorking humidity: 0 - 95pct RH          Material: Plastic                     0.043             Package weight: 0.079 kg              Product size (L x W x H): 3.00 x 3.00 x 3.30 cm / 1.18 x 1.18 x 1.3 inches              Package size (L x W x H): 10.00 x 6.60 x 3.30 cm / 3.94 x 2.6 x 1.3 inches                    Package Contents: 1 x Xiaomi Smart Home Aqara Human Motion Sensor (with Holder)</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Features:Work with other Xiaomi smart devicesIntelligent induction: when somebody goes through, the night light will turn on automaticallySense the lightness and dark of your roomNotice </BulletPoint><BulletPoint>Material: Plastic</BulletPoint><BulletPoint>Package Contents: 1 x Xiaomi Smart Home Aqara Human Motion Sensor (with Holder)</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">10</Length> 
+	 <Width unitOfMeasure="CM">6.6</Width> 
+	 <Height unitOfMeasure="CM">3.3</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>CB_217027701</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>CB_217027701</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>2454176031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>WHITE</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>2</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_W3508</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096746</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-09T07:00:05</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Sample 28Pcs/14Pair 3D Teeth Whitening Strips Teeth Dental Whitening Double Elastic Gel Strips Dental Tools Teeth Strips Whitening Product</Title>
+				<Brand>Segolike</Brand> 
+				<Description>Teeth whitening, show your dazzling smile to the world!
+
+Features:
+Whitening effect
+Effective to remove tea stain, coffee stain, pigment teeth, dental plaque. Teeth whitening, reduce tooth dirt, enhance oral hygiene, reduce oral diseases.
+Tooth whitening conast card 
+With a tooth whitening conast card in side, easy to witness tooth whitening process at home.
+More functions
+After teeth whitening, use mouth spray. It can make you fresh eath.
+One upper and one lower
+Teeth whitening sip designed to fit the engineering shape of the upper and lower tooth rows.
+Highly elasticity and viscosity gelatinous
+Adopts the advanced particle technology that can produce a highly elasticity and viscosity gelatinous.
+
+Specifications:
+Item Type: Teeth Whitening Sips
+ White
+Function: Teeth Whitening
+Material: Gel
+Quantity: 14 Pcs
+Item : 12 * 5.5cm / 4.7 * 2.2in (L * W)
+Package : 12 * 6.5 * 1.5cm / 4.8 * 2.5 * 0.6in
+Package Weight: 49g / 1.7oz
+
+Package List:
+14 * Teeth Whitening Sips
+1 * Teeth Shade Guide
+1 * User Manual</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Whitening effectEffective to remove tea stain, coffee stain, pigment teeth, dental plaque. Teeth whitening, reduce tooth dirt, enhance oral hygiene, reduce oral diseases.Tooth whitening conast card With a tooth whitening conast card in side, easy to witness tooth whitening process at home.More functionsAfter teeth whitening, use mouth spray. It can make you fresh eath.One upper and one lowerTeeth whitening sip designed to fit the engineering shape of the upper and lower tooth rows.Highly elastic</BulletPoint><BulletPoint> Gel</BulletPoint><BulletPoint>14 * Teeth Whitening Sips1 * Teeth Shade Guide1 * User Manual</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">12</Length> 
+	 <Width unitOfMeasure="CM">6.5</Width> 
+	 <Height unitOfMeasure="CM">1.5</Height></ItemDimensions><Manufacturer>Segolike</Manufacturer>
+                            <MfrPartNumber>QS_W3508</MfrPartNumber>
+				<SearchTerms>Segolike</SearchTerms>
+				<SearchTerms>QS_W3508</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1350385031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <Beauty>
+                        <ProductType>
+				<BeautyMisc>
+				</BeautyMisc>
+                        </ProductType>
+                        </Beauty>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>3</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_K923</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096760</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-09T07:00:05</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Sample 4*3 LED 12V Car Auto Interior Atmosphere Lights Decoration Lamp Blue</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Features:
+4in1 atmosphere lights, each light includes 3 blue LED, perfect for car/auto interior decoration, offering you a exotic and romantic atmosphere.
+Each light has 2 meters long cable.
+All the LED lights are 360 degree adjustable.
+ON-OFF switch on the cigarette lighter.
+Double-side adhesive tape available for easy installation.
+
+Specifications:
+Light color: Blue
+LED qty: 12
+Voltage: 12V DC
+Item size: Approx. 6*1.5cm / 2.4*0.6in
+Package size: 20*18*3cm / 7.9*7.1*1.2in
+Package weight: 152g / 5.36oz
+
+Package Includes:
+4 * Atmosphere Lights</Description><BulletPoint>100% Brand New Premium Quality</BulletPoint><BulletPoint>4in1 atmosphere lights, each light includes 3 blue LED, perfect for car/auto interior decoration, offering you a exotic and romantic atmosphere.Each light has 2 meters long cable.All the LED lights are 360 degree adjustable.ON-OFF switch on the cigarette lighter.Double-side adhesive tape available for easy installation.</BulletPoint><BulletPoint>Package Contents:4 * Atmosphere Lights</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">23.1</Length> 
+	 <Width unitOfMeasure="CM">17.6</Width> 
+	 <Height unitOfMeasure="CM">6</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>QS_K923</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>QS_K923</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1389226031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <AutoAccessory>
+                        <ProductType>
+				<AutoPart>
+				</AutoPart>
+                        </ProductType>
+                        </AutoAccessory>
+                        </ProductData>
+		</Product>
+	</Message></AmazonEnvelope>

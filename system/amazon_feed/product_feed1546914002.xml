@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<AmazonEnvelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+	<Header>
+		<DocumentVersion>1.01</DocumentVersion><MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier></Header>
+	<MessageType>Product</MessageType>
+	<PurgeAndReplace>false</PurgeAndReplace><Message>
+		<MessageID>1</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_H21700-2</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096708</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-08T02:20:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Sample 100PCS Dollar Bill Souvenir Banknote Commemorative Banknotes</Title>
+				<Brand>Zenuss</Brand> 
+				<Description>This is copy mobey fake money almost real bills  play money is aining novelty notes gift very good long distance photography tv mv props, bank staff practice, children's toys are very suitable.
+
+Features:
+Each bill with duplex print on for a more authentic and practical appearance.
+Printed on high grade paper and ink.
+Feel realistic in hands.
+Suitable for shooting the film and television works.
+Great for teaching the concept of money in the classroom or at home. 
+
+Specifications:
+Type: 2 optional
+Quantity: 100pcs
+Package weight: 80g / 2.82oz
+Package : 160 * 70 * 30mm / 6.30 * 2.76 * 1.18in
+
+Note:
+ These Bills Are Very Real But Are For Entertainment Purposes Only And Dollar Bills Are Not A Real Currency. It's just a performing props. This is not in circulation.
+Due to the difference between different monitors, the picture may not reflect the actual color of the item.
+
+Package List:
+100 * Fake Dollars</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Each bill with duplex print on for a more authentic and practical appearance.Printed on high grade paper and ink.Feel realistic in hands.Suitable for shooting the film and television works.Great for teaching the concept of money in the classroom or at home. </BulletPoint><BulletPoint>100 * Fake Dollars</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">16</Length> 
+	 <Width unitOfMeasure="CM">7</Width> 
+	 <Height unitOfMeasure="CM">3</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>QS_H21700-2</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>QS_H21700-2</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>2454176031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>#2</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>2</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_H10126</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608096715</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-08T02:20:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Sample 90~250V 10A Digital Temperature Controller Thermocouple -50~110 Celsius Degree with Sensor</Title>
+				<Brand>Zenuss</Brand> 
+				<Description>Features:
+A mini temperature conoller.
+With large and clear LED  for better readability.
+Wide temperature measuring range.
+Heating and cooling conol.
+Temperature caliation function.
+Delay protection function.
+All parameters can be set to default setting after short circuit.
+Can be used for domestic freezer, water tanks, refrigerator, indusial chiller, boiler, steamer, indusial equipments and other temperature-conolled systems.
+
+Specifications:
+Working voltage: 90~250V±10%
+Rated current: 10A
+Power consumption: ≤3W
+Measurement range: -50~110 Celsius degree
+Measurement precision: 0.1 Celsius degree
+Measurement error: ±0.3 Celsius degree
+Conol precision: 0.1 Celsius degree
+Working temperature:‐20~70 Celsius degree
+Temperature sensor: NTC 25 Celsius degree10K B3435
+Item : 8.5*7.5*3.5cm / 3.4*3*1.4in
+Item weight: 93g / 3oz
+Package : 11*8.5*4.3cm / 4.3*3.4*1.7in
+Package weight: Approx. 125g / 4.4oz
+
+Package Includes:
+1 * Temperature Conoller
+1 * Temperature Sensor
+1 * Insuction Manual</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>A mini temperature conoller.With large and clear LED  for better readability.Wide temperature measuring range.Heating and cooling conol.Temperature caliation function.Delay protection function.All parameters can be set to default setting after short circuit.Can be used for domestic freezer, water tanks, refrigerator, indusial chiller, boiler, steamer, indusial equipments and other temperature-conolled systems.</BulletPoint><BulletPoint>1 * Temperature Conoller1 * Temperature Sensor1 * Insuction Manual</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">11</Length> 
+	 <Width unitOfMeasure="CM">8.5</Width> 
+	 <Height unitOfMeasure="CM">4.2</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>QS_H10126</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>QS_H10126</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1388867031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>As On Image</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message></AmazonEnvelope>

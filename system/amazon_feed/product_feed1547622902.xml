@@ -1,0 +1,436 @@
+<?xml version="1.0" ?>
+<AmazonEnvelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+	<Header>
+		<DocumentVersion>1.01</DocumentVersion><MerchantIdentifier>A2AM3CEZ115KAC</MerchantIdentifier></Header>
+	<MessageType>Product</MessageType>
+	<PurgeAndReplace>false</PurgeAndReplace><Message>
+		<MessageID>1</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_250703601</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608097033</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-16T07:15:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore Waterproofing Anti Slippery and Antifouling Pet Pads</Title>
+				<Brand>Zenuss</Brand> 
+				<Description>Waterproof    Leak proof   security                For: Dogs              Material: Polyester,PVC              Functions: Waterproof              Season: All seasons              Color: Black                     1.055             Package weight: 1.118 kg              Product size (L x W x H): 150.00 x 130.00 x 38.00 cm / 59.06 x 51.18 x 14.96 inches              Package size (L x W x H): 40.00 x 30.00 x 3.00 cm / 15.75 x 11.81 x 1.18 inches                    Package Contents: 1 x Pet Pad</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Material: Polyester</BulletPoint><BulletPoint>Package Contents: 1 x Pet Pad</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">40</Length> 
+	 <Width unitOfMeasure="CM">30</Width> 
+	 <Height unitOfMeasure="CM">3</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>CB_250703601</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>CB_250703601</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>2454176031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>BLACK</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>2</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_188914202</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608097057</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-16T07:15:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore Qi Wireless Charger Pad + Charging Adapter Module for Android</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Features:- The wireless charger is in simple design and compatibles with any mobile phone with QI standard.- Just lay down and charge, efficient and simple.- Compact size and lightweight for easy carrying, the perfect accessory for daily use.- Comes with the receiver, ideal wireless charging set.- Input: DC 5V 1.5A- Output: 5V 1A- Charging distance: 2 - 5mm- Charging efficiency: more than 76 percent- Diameter: 69mm- Thickness: 9mm 0.077   Package weight: 0.104 kg    Product Size(L x W x H): 7.00 x 7.00 x 0.90 cm / 2.76 x 2.76 x 0.35 inches    Package Size(L x W x H): 12.50 x 12.50 x 2.00 cm / 4.92 x 4.92 x 0.79 inches  Package Contents: 1 x Qi Wireless Charger Pad, 1 x Wireless Charging Receiver</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Feature:- The wireless Charger</BulletPoint><BulletPoint>Package contents: 1 x Qi Wireless Charger Pad, 1 x Wireless Charging Receiver</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">12.5</Length> 
+	 <Width unitOfMeasure="CM">12.5</Width> 
+	 <Height unitOfMeasure="CM">2</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>CB_188914202</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>CB_188914202</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1388867031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <CE>
+                        <ProductType>
+				<PhoneAccessory>
+				</PhoneAccessory>
+                        </ProductType>
+			   <MfgWarrantyDescriptionLabor>Provided by Manufacturer</MfgWarrantyDescriptionLabor>
+                        </CE>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>3</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_190682001</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608097071</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-16T07:15:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore Color Changing Silicone Cat Night Light Bedside Lamp</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Description:Say hello to the Kitten, an adorable night lamp. It stays by your side and brings brightness, warmth and happiness to you. There are two ways to interact with Kitten. You can change the light color by tapping on the Kitten or you can poke this little ball when you are upset. Touch it, feel it, and have fun with it!Main Features:● Adorable kitten night lamp, lightweight and portable● Handheld size and standing design for flexible placement● Bouncy design helps to get rid of your bad mood● 7 colors changeable, tap to switch colors as you like● Built-in 1200mAh Li-ion battery supports up to 15 hours lighting● Made by BPA-free washable silicone that gives a pleasantly soft touch 
+            Type: Night Light              Feature: Rechargeable              Optional Color: White              Material: ABS + Silicone                         Numbers of LED: 8              Optional Light Color: RGB              Power Supply: Battery              Battery Type: Built-in 1200mAh Li-ion battery              Input Voltage: DC 5V                         0.315             Package weight: 0.356 kg              Product size (L x W x H): 15.30 x 12.20 x 12.20 cm / 6.02 x 4.8 x 4.8 inches              Package size (L x W x H): 16.30 x 13.20 x 13.20 cm / 6.42 x 5.2 x 5.2 inches                         Package Contents: 1 x LED Night Light, 1 x USB Cable</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Features: Rechargeable              Optional </BulletPoint><BulletPoint>Material: ABS</BulletPoint><BulletPoint>Package Content: 1 x LED Night Light, 1 x USB Cable</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">16.3</Length> 
+	 <Width unitOfMeasure="CM">13.2</Width> 
+	 <Height unitOfMeasure="CM">13.2</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>CB_190682001</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>CB_190682001</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1388867031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <Lighting>
+                        <ProductType>
+				<LightingAccessories>
+				</LightingAccessories>
+                        </ProductType>
+                        </Lighting>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>4</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>CB_202761202</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608097088</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-16T07:15:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Jutek Original Xiaomi Mi LYEJ02LM Bluetooth Headset Built-in Mic Multifunctional On-cord Control</Title>
+				<Brand>Jutek</Brand> 
+				<Description>Original Xiaomi Mi LYEJ02LM Bluetooth Headset, Updated Configuration, Updated ExperienceMain Features:Multifunctional on-cord control: support volume adjustment, song switch, calls controlBluetooth 4.1 technology: provides the quick and stable sound transmissionLightweight: only 6.5g, just like wearing nothingBuilt-in mic for hands-free callsCVC noise canceling for high-definition calls and musicSupport connect with two devices simultaneouslyCome with 3 pairs earbud tips, meets different people's needs 
+            Brand: Xiaomi              Color: Black,White              Function: Answering Phone,Bluetooth,Microphone,Multi connection function,Song Switching,Voice control              Material: ABS              Model: LYEJ02LM              Type: In-Ear              Wearing type: In-Ear                         Charging Time.: 2 hours              Compatible with: Mobile phone              Connecting interface: Micro USB              Connectivity: Wireless              Frequency response: 20Hz - 40KHz              Driver type: Dynamic              Impedance: 32ohms              Music Time: 3 hours              Sensitivity: 98 dB (S.P.L at 1KHz)              Standby time: 70 - 100 hours              Talk time: 3 hours                         Bluetooth chip: CSR8610              Bluetooth distance: W/O obstacles 10m              Bluetooth mode: Hands free              Bluetooth protocol: A2DP,AVRCP,HFP,HSP              Bluetooth Version: V4.1                         Battery Capacity(mAh): 50mAh Li-ion battery                         Package size (L x W x H): 10.00 x 9.50 x 4.00 cm / 3.94 x 3.74 x 1.57 inches              Package weight: 0.068 kg              Product size (L x W x H): 5.60 x 1.00 x 0.80 cm / 2.2 x 0.39 x 0.31 inches              Product weight: 0.043 kg                         Package Contents: 1 x Xiaomi Mi LYEJ02LM Bluetooth Headset, 1 x USB Charge Cable, 3 x Pair of Earbud Tips, 1 x Chinese User Manual</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Material: ABS</BulletPoint><BulletPoint>Package content: 1 x Xiaomi Mi LYEJ02LM Bluetooth Headset, 1 x USB Charge Cable, 3 x Pair of Earbud Tips, 1 x Chinese User Manual</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">10</Length> 
+	 <Width unitOfMeasure="CM">9.5</Width> 
+	 <Height unitOfMeasure="CM">4</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>CB_202761202</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>CB_202761202</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1388867031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <CE>
+                        <ProductType>
+				<ConsumerElectronics>
+					<Color>WHITE</Color>
+				</ConsumerElectronics>
+                        </ProductType>
+			   <MfgWarrantyDescriptionLabor>Provided by Manufacturer</MfgWarrantyDescriptionLabor>
+                        </CE>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>5</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_W3508</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608097019</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-16T07:15:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore 28Pcs/14Pair 3D Teeth Whitening Strips Teeth Dental Whitening Double Elastic Gel Strips Dental Tools Teeth Strips Whitening Product</Title>
+				<Brand>Segolike</Brand> 
+				<Description>Teeth whitening, show your dazzling smile to the world!
+
+Features:
+Whitening effect
+Effective to remove tea stain, coffee stain, pigment teeth, dental plaque. Teeth whitening, reduce tooth dirt, enhance oral hygiene, reduce oral diseases.
+Tooth whitening conast card 
+With a tooth whitening conast card in side, easy to witness tooth whitening process at home.
+More functions
+After teeth whitening, use mouth spray. It can make you fresh eath.
+One upper and one lower
+Teeth whitening sip designed to fit the engineering shape of the upper and lower tooth rows.
+Highly elasticity and viscosity gelatinous
+Adopts the advanced particle technology that can produce a highly elasticity and viscosity gelatinous.
+
+Specifications:
+Item Type: Teeth Whitening Sips
+ White
+Function: Teeth Whitening
+Material: Gel
+Quantity: 14 Pcs
+Item : 12 * 5.5cm / 4.7 * 2.2in (L * W)
+Package : 12 * 6.5 * 1.5cm / 4.8 * 2.5 * 0.6in
+Package Weight: 49g / 1.7oz
+
+Package List:
+14 * Teeth Whitening Sips
+1 * Teeth Shade Guide
+1 * User Manual</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Whitening effectEffective to remove tea stain, coffee stain, pigment teeth, dental plaque. Teeth whitening, reduce tooth dirt, enhance oral hygiene, reduce oral diseases.Tooth whitening conast card With a tooth whitening conast card in side, easy to witness tooth whitening process at home.More functionsAfter teeth whitening, use mouth spray. It can make you fresh eath.One upper and one lowerTeeth whitening sip designed to fit the engineering shape of the upper and lower tooth rows.Highly elastic</BulletPoint><BulletPoint> Gel</BulletPoint><BulletPoint>14 * Teeth Whitening Sips1 * Teeth Shade Guide1 * User Manual</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">12</Length> 
+	 <Width unitOfMeasure="CM">6.5</Width> 
+	 <Height unitOfMeasure="CM">1.5</Height></ItemDimensions><Manufacturer>Segolike</Manufacturer>
+                            <MfrPartNumber>QS_W3508</MfrPartNumber>
+				<SearchTerms>Segolike</SearchTerms>
+				<SearchTerms>QS_W3508</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1350385031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <Beauty>
+                        <ProductType>
+				<BeautyMisc>
+				</BeautyMisc>
+                        </ProductType>
+                        </Beauty>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>6</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_E2450</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608097040</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-16T07:15:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore KKmoon Children Underground Metal Detector Gold Detectors Treasure Hunter Tracker Seeker Metal Circuit Detector</Title>
+				<Brand>Zenuss</Brand> 
+				<Description>Need to find gold And silver jewelry, coins and other metal in the ground? y this one. With this powerful and versatile metal detector, you can hunt for coins, relics, jewelry, gold and silver everywhere. It is also widely used in detecting aluminum, copper and rare metals and anywhere that hidden metal needs to be detected. 
+
+Features:
+Widely Use - Perfect for finding metal objects and anywhere that hidden metal needs to be detected. 
+Designed to Find Metal - Search gold And silver jewelry, coins and other metal in the ground.
+Adjustable Height of Metal Detector - Adjust the detector’s length for comfortable use.
+Detection Indication - Audio alert and pointer indicate the detection of metal.
+Headphone Jack - Provided for headphone connection. Both stereo or mono headphone can be used.
+Volume Conol - Adjust the output volume of the loud speaker or headphone.
+Waterproof Search Coil - You can use the metal detector in the shallow water.
+
+Specifications:
+and Name: KKmoon
+ Black
+Material: ABS Plastic + Aluminum 
+Sensitivity: Min. 130mm / 5.12 (Test Coin: US Φ 25)
+Detect Objects: Metal(Iron nail, iron covering, aluminum ring, small aluminum product, coins, gold, onze, silver)
+Detection Mode: All Metal, Discrimination 
+Operating Frequency: 5KHZ 
+Power Supply: 6 x 1.5V AA Alkaline Batteries (Not Included)
+Operating Current: Standby 10mA(LCD with backlit color 80mA)
+                               Max 70mA(LCD with backlit color 150mA)
+Operating Voltage Range: 9V
+Detection Indication: Mechanical Pointer Mode, Audio Mode
+Conol: Power Switch
+Sensitivity: Adjustable 
+Detection Depth: 10-30cm / 3.94-11.81inch
+Volume: Adjustable
+Adjustable Height of Detector: 78-107cm / 30.71-42.12inch
+Application: Testing metal foreign body of raw materials, fuel and food, Detection of underground pipeline And line, Archaeology, Exploration, Found buried easures of gold, silver and metal artifacts, The acquisition of scrap metal indusy, Customs and</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>Widely Use - Perfect for finding metal objects and anywhere that hidden metal needs to be detected. Designed to Find Metal - Search gold And silver jewelry, coins and other metal in the ground.Adjustable Height of Metal Detector - Adjust the detector’s length for comfortable use.Detection Indication - Audio alert and pointer indicate the detection of metal.Headphone Jack - Provided for headphone connection. Both stereo or mono headphone can be used.Volume Conol - Adjust the output volume of the</BulletPoint><BulletPoint>Materialss</BulletPoint><BulletPoint>1 * Metal Detector Main Unit1 * Armrest1 * Connecting Rod  1 * Search Coil1 * Search Coil Knob1 * User Manual</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">54</Length> 
+	 <Width unitOfMeasure="CM">22</Width> 
+	 <Height unitOfMeasure="CM">11</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>QS_E2450</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>QS_E2450</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1388867031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>As On Image</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>7</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_Y5386</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608097026</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-16T07:15:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore Spinning Type Outdoor Combat Tourniquet Medical Emergency First Aid Kits Tactical Equipment Quick Release Buckle Stop Bleed Stanch Strap Bands</Title>
+				<Brand>Jutek</Brand> 
+				<Description>When confronting with accidental aasions or cut, this spinning-type tourniquet in first aid can do you a great favor. With a fixed buckle, a rod, and an adhesive tape, it is an efficient tourniquet for stanching. Buy one, it is perfectly suitable for ouoor survival, camping, hiking or any emergency situation.
+ 
+Features:
+High-quality and long-lasting.
+Flexible and spinning type tourniquet.
+Space-saving and easy to store, binding them in a circle in your emergency box or backpack.
+Convenient and practical to use, single hand operation.
+Fast and rapid tourniquet for saving your life.
+With a fixed buckle and a rod, fastening to stop bleeding quickly.
+With an adhesive tape, it can be stuck.
+Reusable, can be used again after disinfection.
+Suitable for ouoor survival, camping, hiking or any emergency situation.
+A nice gift for your friends, lover and families.
+ 
+Specifications:
+Material: Nylon
+ Black
+Setched length: 95cm / 37.4in
+Item : 16 * 5 * 4cm / 6.3 * 1.97 * 1.57in
+Item weight: 60g / 2.12oz
+Package : 18 * 7 * 5cm / 7.09 * 2.76 * 1.97in
+Package weight: 70g / 2.47oz
+ 
+Package list:
+1 * Tourniquet</Description><BulletPoint>100% Brand New and High Quality Premium</BulletPoint><BulletPoint>High-quality and long-lasting.Flexible and spinning type tourniquet.Space-saving and easy to store, binding them in a circle in your emergency box or backpack.Convenient and practical to use, single hand operation.Fast and rapid tourniquet for saving your life.With a fixed buckle and a rod, fastening to stop bleeding quickly.With an adhesive tape, it can be stuck.Reusable, can be used again after disinfection.Suitable for ouoor survival, camping, hiking or any emergency situation.A nice gift for</BulletPoint><BulletPoint> Nylon Setched length: 95cm / 37</BulletPoint><BulletPoint>1 * Tourniquet</BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">18</Length> 
+	 <Width unitOfMeasure="CM">7</Width> 
+	 <Height unitOfMeasure="CM">5</Height></ItemDimensions><Manufacturer>Jutek</Manufacturer>
+                            <MfrPartNumber>QS_Y5386</MfrPartNumber>
+				<SearchTerms>Jutek</SearchTerms>
+				<SearchTerms>QS_Y5386</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1984444031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <Sports>
+                        <ProductType>SportingGoods</ProductType>
+			   <ItemTypeName>Sports</ItemTypeName>
+                        </Sports>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>8</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_C5894B</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608097095</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-16T07:15:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>JutekStore 2.5-inch SATA SSD / HDD USB 3.0 External Interface USB 3.0 5Gbps Micro Interface 2.5-inch SATA Interface Hard Box SSD / HDD</Title>
+				<Brand>Zenuss</Brand> 
+				<Description>This is a 2.5-inch SATA interface hard drive SSD / HDD, USB 3.0 fast transfer speed up to 5 Gbps and easy to carry. It protects your hard drive and valuable data applications. Its support systems include windows 2000 / XP / 7 / 8 / 10 / MAC 9.1 and above / Linux.
+ 
+Features:
+Multiple Security Module: It can prevent over current, over voltage, overheating, electric leakage, short circuit and clutter effectively so that data transmission be safer.
+Compatibility: It supports all 2.5 inch 7mm-9.5mm SATA HDD / SSD Up to 2TB. It is compatible with Windows 2000 / XP / 7 / 8 / 10, Lunix, Mac 9.1 and above.
+USB3.0 Micro Interface: You can enjoy high-speed data transfer at speeds of up to 5Gpbs, which are faster than traditional USB.
+Data Cable: Support data cables to stabilize the power supply for the hard disk and give full play to the high-speed performance of USB3.0.
+
+Specification:
+Material: ABS + Covered rubber oil
+Color: Black
+External interface: USB 3.0
+Fits HDD size: 2.5inch SATA HDD / SSD
+Transfer speed: USB 3.0 5Gbps
+Support HDD capacity: Up to 2TB
+Support system: Windows 2000 / xp / 7 / 8 / 10 / MAC 9.1 and above / linux
+Product indicator: Blue
+Item size: Approx. 12.5 * 7.9 * 1.3cm / 4.92 * 3.1 * 0.5in(L * W * H)
+Item weight: Approx. 78g / 2.75oz
+Package size: Approx. 14.4 * 8.4 * 3.2cm / 5.66 * 3.3 * 1.25in(L * W * H)
+Package weight: Approx. 114g / 4.02oz
+
+Package list:
+1 * USB 3.0 2.5 HDD / SSD Enclosure 
+1 * USB 3.0 Data Cable </Description><BulletPoint>100% Brand New Premium Quality</BulletPoint><BulletPoint>Multiple Security Module: It can prevent over current, over voltage, overheating, electric leakage, short circuit and clutter effectively so that data transmission be safer.Compatibility: It supports all 2.5 inch 7mm-9.5mm SATA HDD / SSD Up to 2TB. It is compatible with Windows 2000 / XP / 7 / 8 / 10, Lunix, Mac 9.1 and above.USB3.0 Micro Interface: You can enjoy high-speed data transfer at speeds of up to 5Gpbs, which are faster than traditional USB.Data Cable: Support data cables to stabilize</BulletPoint><BulletPoint>Material: ABS</BulletPoint><BulletPoint>Package Contents:1 * USB 3.0 2.5 HDD / SSD Enclosure 1 * USB 3.0 Data Cable </BulletPoint><BulletPoint>Tested and Verified By Experets</BulletPoint><ItemDimensions><Length unitOfMeasure="CM">14.4</Length> 
+	 <Width unitOfMeasure="CM">8.4</Width> 
+	 <Height unitOfMeasure="CM">3.2</Height></ItemDimensions><Manufacturer>Zenuss</Manufacturer>
+                            <MfrPartNumber>QS_C5894B</MfrPartNumber>
+				<SearchTerms>Zenuss</SearchTerms>
+				<SearchTerms>QS_C5894B</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>976393031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <HomeImprovement>
+                        <ProductType>
+				<Tools>
+                                <Color>black</Color>
+                           </Tools>
+                        </ProductType>
+                        </HomeImprovement>
+                        </ProductData>
+		</Product>
+	</Message><Message>
+		<MessageID>9</MessageID>
+		<OperationType>Update</OperationType>
+		<Product>
+			<SKU>QS_F1628EU</SKU>
+			<StandardProductID>
+                <Type>UPC</Type>
+                <Value>8903608097064</Value>
+            </StandardProductID>
+			<ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+			<LaunchDate>2019-01-16T07:15:02</LaunchDate>
+			<Condition>
+				<ConditionType>New</ConditionType>
+			</Condition>
+			<DescriptionData>
+				<Title>Backgammon NES Mini Video Game Console Built-in 620 Classic Games - Two Buttons Version</Title>
+				<Brand>Backgammon</Brand> 
+				<Description></Description><ItemDimensions><Length unitOfMeasure="CM">19.5</Length> 
+	 <Width unitOfMeasure="CM">14</Width> 
+	 <Height unitOfMeasure="CM">7.5</Height></ItemDimensions><Manufacturer>Backgammon</Manufacturer>
+                            <MfrPartNumber>QS_F1628EU</MfrPartNumber>
+				<SearchTerms>Backgammon</SearchTerms>
+				<SearchTerms>QS_F1628EU</SearchTerms>
+				<ItemType>Product</ItemType>
+				<TargetAudience>Male</TargetAudience>
+				<IsGiftWrapAvailable>false</IsGiftWrapAvailable>
+				<IsGiftMessageAvailable>false</IsGiftMessageAvailable><RecommendedBrowseNode>1350381031</RecommendedBrowseNode></DescriptionData><ProductData>
+                        <Toys>
+                        <ProductType>
+				<ToysAndGames>
+				<Color>As On Image</Color>
+				</ToysAndGames>
+                        </ProductType>
+			   <AgeRecommendation>
+          			<MinimumManufacturerAgeRecommended unitOfMeasure="years">15</MinimumManufacturerAgeRecommended>
+         		   </AgeRecommendation>
+                        </Toys>
+                        </ProductData>
+		</Product>
+	</Message></AmazonEnvelope>
